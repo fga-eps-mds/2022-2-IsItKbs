@@ -6,7 +6,7 @@
 
 > 2022-2-Squad 03 MDS - Detecção de Keyboard Smashing com um pacote python
 
-##  Sumário
+##  📑Sumário
   * [Sumário](#sumário)
   * [Visão Geral](#visão-geral)
   * [Diretórios](#diretórios)
@@ -16,13 +16,13 @@
   * [Licensa](#licensa)
 
 
-##  Visão Geral
+##  🔎Visão Geral
 <li>Qual o objetivo desse software?</li>
 Desenvolver um pacote python fazendo uso de técnicas de machine learning para identificar keyboard smashing.
 <li>O que é keyboard smashing?</li>
 Keyboard smashing é a entrada ilógica e desordenada de dados, que acaba por comprometer a análise textual por sistemas de software.
 
-## Diretórios
+## 📁Diretórios
 <p>/estudos <- Projetos e scripts pequenos para treino da equipe.<p>
 <p>/assets <- Arquivos utilizados para design visual das páginas do projeto.<p>
 <p>/data <- Bases de dados utilizadas no treinamento do algoritmo.<p>  
@@ -31,10 +31,10 @@ Keyboard smashing é a entrada ilógica e desordenada de dados, que acaba por co
 <p>/src <- Scripts para o funcionamento do projeto.<p>
 
 
-##  Funcionalidades
+##  ⚙Funcionalidades
 <li>Função que dada uma entrada textual retorne se é um caso de keyboard smashing ou não, inicialmente para a língua inglesa, mas posteriormente temos o interesse de extender para o português.</li>
 
-##  Exemplos
+##  📋Exemplos
 <li>yyyyyy</li>
 É keyboard smashing.
 <li>aslkhfg</li>
@@ -42,7 +42,7 @@ Keyboard smashing é a entrada ilógica e desordenada de dados, que acaba por co
 <li>maxxon</li>
 Não é keyboard smashing.
 
-##  Contribuidores
+##  👨‍💻Contribuidores
 [Arthur de Melo](https://github.com/arthurmlv)
 
 [Arthur Grandão](https://github.com/arthurgrandao)
@@ -58,6 +58,6 @@ Não é keyboard smashing.
 [Sidney Fernando](https://github.com/nando3d3)
 
 
-##  Licensa
+##  ©Licensa
 
 This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) ©
