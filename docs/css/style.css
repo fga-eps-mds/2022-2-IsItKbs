@@ -255,7 +255,7 @@ button {
      height: 100%;
      top: 0;
      left: 0;
-     background-color: #070101;
+     background-color: #000000;
      overflow-x: hidden;
      transition: 0.5s;
      padding-top: 60px;
@@ -289,6 +289,19 @@ button {
      border: none;
 }
 
+.sidepanel .openbtn{
+     background-color: transparent;
+     color: white;
+     padding: 0px;
+}
+
+.panelTitle h3 {
+     font-size: 30px;
+     margin-left: 0px;
+     color: #fcc10e;
+     background-color: rgb(28, 27, 27);
+     padding: 20px;
+}
 
 /*-- marker-end sidebar  navigation--*/
 
@@ -303,15 +316,16 @@ button {
 .header {
      width: 100%;
      padding: 30px 30px;
-     background: transparent;
-     position: absolute;
+     height: 15%;
+     background: #03cafc1d;
+     position: fixed;
      z-index: 999;
 }
 
 .logo {
      text-align: center;
      margin-top: -33px !important;
-     max-width: 200px;
+     max-width: 100px;
      padding: 15px 0 28px 0;
      margin: 0 auto;
 }
@@ -364,7 +378,7 @@ button {
 }
 
 .text-bg .read_more {
-     margin-top: 90px !important;
+     margin-top: 70px !important;
      color: #1a1a1a !important;
      font-weight: 500;
      display: block;
@@ -458,7 +472,7 @@ button {
 /** about section **/
 
 .about {
-     padding: 130px 0 0px 0;
+     padding: 50px 0 0px 0;
      background-color: #fdfdfd;
 }
 
@@ -501,6 +515,11 @@ button {
      color: #1a1a1a;
      font-weight: 500;
      margin-top: 44px;
+}
+
+.about .roadmap{
+     width: 90%;
+     padding-top: 20px;
 }
 
 
@@ -688,7 +707,7 @@ button {
 .social_box {
      background: #fff;
      margin: -67px 20px 0px 20px;
-     z-index: 999;
+     z-index: 900;
      position: relative;
      padding: 23px 0;
 }

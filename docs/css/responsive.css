@@ -15,7 +15,7 @@
     .text-bg h1 {
         font-size: 76px;
         line-height: 72px;
-        letter-spacing: 60px;
+        letter-spacing: 12px;
     }
     .we_do .we_box h3 {
         font-size: 19px;
@@ -35,7 +35,7 @@
     }
     .text-bg h1 {
         font-size: 58px;
-        letter-spacing: 43px;
+        letter-spacing: 12px;
         line-height: 44px;
     }
     .text-bg span {
@@ -90,7 +90,7 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .text-bg h1 {
         font-size: 48px;
-        letter-spacing: 35px;
+        letter-spacing: 12px;
         line-height: 51px;
     }
     .text-bg span {
