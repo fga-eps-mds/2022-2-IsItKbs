@@ -1,7 +1,7 @@
 # ![Detecting Keyboard Smashing](https://github.com/fga-eps-mds/2022-2-Squad03/blob/devel/assets/title.png)
 
 <div align="center">
-    <img src="https://github.com/fga-eps-mds/2022-2-Squad03/blob/devel/assets/ks_logo.png"></img>
+    <img src="https://github.com/fga-eps-mds/2022-2-Squad03/blob/devel/assets/ks_logo.png" width="250"></img>
 </div>
 
 > 2022-2-Squad 03 MDS - Detecção de Keyboard Smashing com um pacote python
