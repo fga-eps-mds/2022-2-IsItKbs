@@ -264,7 +264,7 @@ button {
 .sidepanel a {
      padding: 8px 8px 8px 32px;
      text-decoration: none;
-     font-size: 18px;
+     font-size: 20px;
      color: #fff;
      display: block;
      transition: 0.3s;
@@ -293,6 +293,10 @@ button {
      background-color: transparent;
      color: white;
      padding: 0px;
+}
+
+.sidepanel button:hover{
+     color: #fcc10e !important;
 }
 
 .panelTitle h3 {
@@ -501,13 +505,13 @@ button {
 }
 
 .about .titlepage p {
-     border: #000 solid 1px;
+     /* border: #000 solid 1px; */
      padding: 30px 20px;
      color: #2a2a2c;
      font-size: 17px;
      line-height: 32px;
      font-weight: 400;
-     margin-top: 20px;
+     margin-top: 0px;
 }
 
 .about .read_more {
@@ -517,9 +521,13 @@ button {
      margin-top: 44px;
 }
 
-.about .roadmap{
-     width: 90%;
-     padding-top: 20px;
+.about .roadmap iframe{
+     width: 100%;
+     height: 500px;
+     border: none;
+     margin-top: 20px;
+     border: none;
+     
 }
 
 
