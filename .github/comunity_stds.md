@@ -1,4 +1,4 @@
-**como contribuir para softwares open source:**
+# **como contribuir para softwares open source:**
 
 ## Por que contribuir para softwares open source?
 softwares open source servem para criar um ambiente de aprendizado diverso, em que é possível aprender , ensinar e criar experiência em qualquer habilidade.
@@ -6,7 +6,7 @@ softwares open source servem para criar um ambiente de aprendizado diverso, em q
 ## Como contribuir
 existem diversas formas de contribuir para um software open source, seja no código , documentação , organização , design, entre outros
 
-**Orientação para a criação de um novo projeto open source**
+# **Orientação para a criação de um novo projeto open source**
 cada comunidade open source é diferente , porém a maioria possui a seguinte divisão organizacional, e possuem os seguintes tipos de pessoa :
 * autor (quem criou o projeto)
 * administrador ( aqueles que possuem propriedade administrativa do projeto)
@@ -26,13 +26,13 @@ por fim , projetos open source usam as seguintes ferramentas para organizar a di
 * Pull requests: onde as pessoas discutem e revisam as mudanças que estão em progresso
 * fóruns de discussão : alguns projetos utilizam canais de tópicos de conversa para facilitar a comunicação de pedidos e dificuldades.
 
-**Como tornar o seu projeto open source atrativo para a comunidade contribuir:**
+## **Como tornar o seu projeto open source atrativo para a comunidade contribuir:**
 
-- [ ] possuir as características de um software open source (readme , license, entre outros)
-- [ ] possuir commits consistentes e não muito espaçados entre si
-- [ ] possuir issues abertas e sendo geridas ou discutidas com frequência
-- [ ] possuir pull requests que também são geridos , discutidos e realizados com frequência
-- [ ] possuir discussões amigáveis e pessoas disponíveis a ajudar
+- [x] possuir as características de um software open source (readme , license, entre outros)
+- [x] possuir commits consistentes e não muito espaçados entre si
+- [x] possuir issues abertas e sendo geridas ou discutidas com frequência
+- [x] possuir pull requests que também são geridos , discutidos e realizados com frequência
+- [x] possuir discussões amigáveis e pessoas disponíveis a ajudar
 
 ## Como realizar contribuições
 Antes de criar uma issue ou pull request , é necessário:
@@ -41,7 +41,7 @@ Antes de criar uma issue ou pull request , é necessário:
 * olhar o README , as issues abertas e fechadas, e outros canais de comunicação da comunidade
 * checar o arquivo CONTRIBUTING para ver se é necessário algo específico antes de criar uma issue ou pull request
 
-**Abrindo uma issue**
+# **Abrindo uma issue**
 é necessario abrir uma issue nas seguintes situações:
 
 * Relatar um erro que você não consegue resolver sozinho
@@ -54,7 +54,7 @@ Antes de criar uma issue ou pull request , é necessário:
 * se uma issue foi aberta muito tempo atrás , é possível que ela esteja sendo resolvida em outro lugar  ou já tenha sido resolvida, então é necessário comentar nela para pedir confirmação antes de começar a trabalhar
 * se você abriu uma issue e descobriu como resolver ela depois , comente na issue e feche ela depois , para que outros possam saber que elá já foi realizada.
 
-**Abrindo um pull request**
+# **Abrindo um pull request**
 
 é necessário abrir um pull request nas seguintes situações:
 
