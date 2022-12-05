@@ -1,10 +1,10 @@
 # **como contribuir para softwares open source:**
 
 ## Por que contribuir para softwares open source?
-softwares open source servem para criar um ambiente de aprendizado diverso, em que é possível aprender , ensinar e criar experiência em qualquer habilidade.
+Softwares open source servem para criar um ambiente de aprendizado diverso, em que é possível aprender , ensinar e criar experiência em qualquer habilidade.
 
 ## Como contribuir
-existem diversas formas de contribuir para um software open source, seja no código , documentação , organização , design, entre outros
+Existem diversas formas de contribuir para um software open source, seja no código , documentação , organização , design, entre outros
 
 # **Orientação para a criação de um novo projeto open source**
 cada comunidade open source é diferente , porém a maioria possui a seguinte divisão organizacional, e possuem os seguintes tipos de pessoa :
@@ -13,14 +13,15 @@ cada comunidade open source é diferente , porém a maioria possui a seguinte di
 * mantenedores (responsáveis por administrar a visão e aspectos organizacionais do projeto)
 * contribuidores (qualquer um que contribui ou contribuiu para o projeto
 * membros da comunidade (aqueles que usam o projeto, apresentam opiniões e discutem)
-além disso , um projeto deve possuir as documentações necessárias , que são listadas no nivel superior de um repositório, como:
+
+Além disso , um projeto deve possuir as documentações necessárias , que são listadas no nivel superior de um repositório, como:
 
 * Licença: licença de open source , como MIT, apache , GPL, entre outros
 * README: readme é o manual de instruções para novos membros da comunidade do projeto, que deve explicar pq o projeto é útil e como começar
 * CONTRIBUTING : enquanto o readme serve para ensinar as pessoas como utilizar o projeto , o contributing serve para ensinar as pessoas como contribuir pro projeto, explicando quais contribuições são necessárias e como o processo de contribuição funciona 
 * CODE_OF_CONDUCT: o código de conduta são as regras para o comportamento dos participantes e serve para auxiliar na criação de um ambiente amigável e acolhedor
 
-por fim , projetos open source usam as seguintes ferramentas para organizar a discussão :
+Por fim , projetos open source usam as seguintes ferramentas para organizar a discussão :
 
 * Issue tracker: onde as pessoas discutem tarefas e problemas relacionadas ao projeto
 * Pull requests: onde as pessoas discutem e revisam as mudanças que estão em progresso
@@ -42,7 +43,7 @@ Antes de criar uma issue ou pull request , é necessário:
 * checar o arquivo CONTRIBUTING para ver se é necessário algo específico antes de criar uma issue ou pull request
 
 # **Abrindo uma issue**
-é necessario abrir uma issue nas seguintes situações:
+É necessario abrir uma issue nas seguintes situações:
 
 * Relatar um erro que você não consegue resolver sozinho
 * discutir um tópico ou idéia de alto nível (visão da comunidade , políticas da comunidade, entre outros)
@@ -56,12 +57,12 @@ Antes de criar uma issue ou pull request , é necessário:
 
 # **Abrindo um pull request**
 
-é necessário abrir um pull request nas seguintes situações:
+É necessário abrir um pull request nas seguintes situações:
 
 * enviar correções triviais (um link quebrado , um erro simples e óbvio, entre outros)
 * começar a trabalhar em uma contribuição que já foi pedida ou discutida através de uma issue
 
-vale destacar que um pull request não precisa representar um trabalho finalizado. geralmente é melhor abrir um pull request no começo do desenvolvimento , para outros oferecerem feedback no seu progresso. Para isso , basta abrir ele como "draft" ou marcar ele como "WIP" (trabalho em progresso). é sempre possível adicionar commits depois
+Vale destacar que um pull request não precisa representar um trabalho finalizado. geralmente é melhor abrir um pull request no começo do desenvolvimento , para outros oferecerem feedback no seu progresso. Para isso , basta abrir ele como "draft" ou marcar ele como "WIP" (trabalho em progresso). é sempre possível adicionar commits depois
 
 ## Como abrir um pull request
 * clone o repositório localmente, realize um pull para manter no estado atual do repositório
