@@ -29,5 +29,5 @@ print('Acc:', training_data_accuracy)
 
 import pickle
 
-pickle.dump(model, open("model/logistic-reg.pkl", 'wb'))
+pickle.dump(model, open("models/logistic-reg.pkl", 'wb'))
 
