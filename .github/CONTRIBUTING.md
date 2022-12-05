@@ -4,43 +4,22 @@
 Softwares open source servem para criar um ambiente de aprendizado diverso, em que é possível aprender , ensinar e criar experiência em qualquer habilidade.
 
 ## Como contribuir
-Existem diversas formas de contribuir para um software open source, seja no código , documentação , organização , design, entre outros
+Existem diversas formas de contribuir para um software open source, seja no código , documentação , organização , design, entre outros. para contribuir para o nosso projeto, primeiramente leia o código de conduta encontrado  [aqui](https://github.com/fga-eps-mds/2022-2-Squad03/blob/community_std/CODE_OF_CONDUCT.md)
 
-# **Orientação para a criação de um novo projeto open source**
-cada comunidade open source é diferente , porém a maioria possui a seguinte divisão organizacional, e possuem os seguintes tipos de pessoa :
-* autor (quem criou o projeto)
-* administrador ( aqueles que possuem propriedade administrativa do projeto)
-* mantenedores (responsáveis por administrar a visão e aspectos organizacionais do projeto)
-* contribuidores (qualquer um que contribui ou contribuiu para o projeto
-* membros da comunidade (aqueles que usam o projeto, apresentam opiniões e discutem)
 
-Além disso , um projeto deve possuir as documentações necessárias , que são listadas no nivel superior de um repositório, como:
 
-* Licença: licença de open source , como MIT, apache , GPL, entre outros
-* README: readme é o manual de instruções para novos membros da comunidade do projeto, que deve explicar pq o projeto é útil e como começar
-* CONTRIBUTING : enquanto o readme serve para ensinar as pessoas como utilizar o projeto , o contributing serve para ensinar as pessoas como contribuir pro projeto, explicando quais contribuições são necessárias e como o processo de contribuição funciona 
-* CODE_OF_CONDUCT: o código de conduta são as regras para o comportamento dos participantes e serve para auxiliar na criação de um ambiente amigável e acolhedor
-
-Por fim , projetos open source usam as seguintes ferramentas para organizar a discussão :
+no nosso projeto são utilizadas as seguintes ferramentas para desenvolvimento do projeto:
 
 * Issue tracker: onde as pessoas discutem tarefas e problemas relacionadas ao projeto
 * Pull requests: onde as pessoas discutem e revisam as mudanças que estão em progresso
-* fóruns de discussão : alguns projetos utilizam canais de tópicos de conversa para facilitar a comunicação de pedidos e dificuldades.
 
-## **Como tornar o seu projeto open source atrativo para a comunidade contribuir:**
 
-- [x] possuir as características de um software open source (readme , license, entre outros)
-- [x] possuir commits consistentes e não muito espaçados entre si
-- [x] possuir issues abertas e sendo geridas ou discutidas com frequência
-- [x] possuir pull requests que também são geridos , discutidos e realizados com frequência
-- [x] possuir discussões amigáveis e pessoas disponíveis a ajudar
+## Como utilizar as ferramentas de contribuição
 
-## Como realizar contribuições
 Antes de criar uma issue ou pull request , é necessário:
 
 * comunicar  suas inteções e suas ideias de forma efetiva, mostrando o que deseja fazer, o contexto por trás da idéia , e a utilidade dela para o projeto
-* olhar o README , as issues abertas e fechadas, e outros canais de comunicação da comunidade
-* checar o arquivo CONTRIBUTING para ver se é necessário algo específico antes de criar uma issue ou pull request
+* olhar o README encontrado [aqui](https://github.com/fga-eps-mds/2022-2-Squad03/blob/main/README.md) , as [issues](https://github.com/fga-eps-mds/2022-2-Squad03/issues) abertas e fechadas, e outros canais de comunicação da comunidade
 
 # **Abrindo uma issue**
 É necessario abrir uma issue nas seguintes situações:
@@ -48,6 +27,8 @@ Antes de criar uma issue ou pull request , é necessário:
 * Relatar um erro que você não consegue resolver sozinho
 * discutir um tópico ou idéia de alto nível (visão da comunidade , políticas da comunidade, entre outros)
 * propor uma nova feature ou uma ideia de projeto
+
+para criar uma issue de acordo com o padrão do projeto , olhe o template das issues encontrado [aqui](https://github.com/fga-eps-mds/2022-2-Squad03/blob/devel/.github/ISSUE_TEMPLATE.md)
 
 ## Comunicando corretamente nas issues:
 
@@ -71,4 +52,7 @@ Vale destacar que um pull request não precisa representar um trabalho finalizad
 * se seu pull request for relacionado a  HTML/CSS, inclua imagens de antes e depois para comparação 
 * teste suas modificações para não realizar mudanças prejudiciais ao projeto
 * contribua com o estilo do projeto da melhor forma possível , com os padrões e parâmetros já existentes
+
+para criar um pull request , utilize o [template de pull request](https://github.com/fga-eps-mds/2022-2-Squad03/blob/devel/.github/PULL_REQUEST_TEMPLATE.md) do projeto
+
 
