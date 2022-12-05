@@ -24,3 +24,10 @@ X_train_prediction = model.predict(X_train)
 training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
 
 print('Acc:', training_data_accuracy)
+
+## Compressing Model
+
+import pickle
+
+pickle.dump(model, open("model/logistic-reg.pkl", 'wb'))
+
