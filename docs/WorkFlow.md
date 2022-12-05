@@ -2,8 +2,10 @@
 
 **Workflows — também chamados de fluxos de trabalho — são a maneira como as pessoas realizam o trabalho e podem ser ilustradas como uma série de etapas que precisam ser concluídas sequencialmente em um diagrama ou lista de verificação.**
 
-![WorkFlow](docs\images\WorkFlow.png)
 
+
+<img src="images/WorkFlow.png" width=100%>
+    <center>Visão geral do WorkFlow de ML</center>
 
 
 
@@ -18,7 +20,7 @@
   - [Modelo Selecionado:](#modelo-selecionado)
   - [Treinamento do Modelo:](#treinamento-do-modelo)
   - [Avaliação dos Resultados do Modelo:](#avaliação-dos-resultados-do-modelo)
-  - [Definição das Funções de KeyBoard Smashing:](#definição-das-funções-de-keyboard-smashing:)
+  - [Definição das Funções de KeyBoard Smashing:](#definição-das-funções-de-keyboard-smashing)
   - [Empacotamento:](#empacotamento)
 
 ## Coleta de base de dados :
@@ -59,4 +61,4 @@ Ao analisarmos os resultados discutiremos sobre o modelo escolhido, seus resulta
 Criação das funções necessárias para detectar KeyBoard Smashing com algoritmos treinados.
 
 ##Empacotamento:
-Após a definição das funções precisamos empacotar para que outros usuários possam utilizar nosso pacote em outras bases de dados e cumpra seu dever de detectar KeyBoard Smashing de acordo com as funções que o usuário utilizar
+Após a definição das funções precisamos empacotar para que outros usuários possam utilizar nosso pacote em outras bases de dados e cumpra seu dever de detectar KeyBoard Smashing de acordo com as funções que o usuário utilizar.
