@@ -36,25 +36,24 @@
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
       <!-- end loader -->
-      <div id="mySidepanel" class="sidepanel">
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
-         <a href="index.html">Home</a>
-         <a href="#about"><button class="openbtn" onclick="openNav2()">Projeto</button> </a>
-         <a href="#team">Equipe</a>
-         <!-- <a href="#team">Our Team</a>
-         <a href="#testimonial">Testimonial</a>
-         <a href="#contact">Contact Us</a> -->
-      </div>
-      <div id="projetoSidepanel" class="sidepanel">
-         <div class="panelTitle">
-            <h3>Projeto</h3>
-         </div>
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
-         <a href="projeto/roadmap.html">Roadmap</a>
-         <!-- <a href="#team">Our Team</a>
-         <a href="#testimonial">Testimonial</a>
-         <a href="#contact">Contact Us</a> -->
-      </div>
+      <div class="painelLateral">
+         <div id="mySidepanel" class="sidepanel">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
+             <a href="../index.html">Home</a>
+             <a href="#about"><button class="openbtn" onclick="openNav2()">Projeto</button> </a>
+             <a href="../index.html">Equipe</a>
+          </div>
+          <div id="projetoSidepanel" class="sidepanel">
+             <div class="panelTitle">
+                <h3>Projeto</h3>
+             </div>
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+             <a href="../projeto/usermap_story.html">User Story Map</a>
+             <a href="../projeto/workflow.html">WorkFlow</a>
+             <a href="../projeto/roadmap.html">Roadmap</a>
+             <a href="../projeto/contribution_guide.html">Guia de Contribuição</a>
+          </div>
+       </div>
       <!-- header -->
       <header>
          <!-- header inner -->
@@ -62,22 +61,17 @@
             <div class="container-fluid">
                <div class="row">
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                     <!-- <div class="sea_icon d_none ">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                     </div> -->
+                     <div class="sea_icon d_none ">
+                        <button class="openbtn" onclick="openNav()"><img src="../images/menu_icon.png" alt="#"/> </button>
+                     </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              <a href="../index.html"><img src="../images/logo.png" alt="#" /></a>
                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                     <div class="right_bottun">
-                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button> 
                      </div>
                   </div>
                </div>
@@ -148,12 +142,12 @@
                   </div>
                </div> -->
             </div>
-            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <!-- <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
             </a>
             <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
             <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </a>
+            </a> -->
          </div>
       </section>
       <!-- end banner -->
