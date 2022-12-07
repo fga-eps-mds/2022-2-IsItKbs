@@ -1,30 +1,72 @@
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import BernoulliNB
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+import pickle
+import numpy as np
 import pandas as pd
-## Reading files:
 
-dataset = pd.read_pickle("data/processed/database.pkl")
-dataY = pd.read_pickle("data/processed/dataY.pkl")
+## Reading and filtering data:
+
+txt = ""
+with open("data/raw/mashing.txt", "r", encoding="utf-8") as g:
+    txt = g.read()
+
+sentences = txt.split("\n")
+for i in range(len(sentences)):
+    sentences[i] = sentences[i].strip()
+
+sentences = [x for x in sentences if x != ""]
+
+texto = ""
+with open("C:/Users/arthu/Desktop/MDS/2022-2-Squad03/data/raw/large-2014.txt", "r", encoding="utf-8") as k:
+    texto = k.read()
+    
+texto = texto.replace("?",".")
+texto = texto.replace("!",".")
+texto = texto.replace("»","")
+texto = texto.replace("«","")
+texto = texto.replace(":","")
+texto = texto.replace(";","")
+texto = texto.replace("...",".")
+texto = texto.replace("…",".")
+texto = texto.replace("\n",".")
+texto = texto.replace("  "," ")
+texto = texto.replace("\"","")
+texto = texto.replace("„","")
+texto = texto.replace("eKGWB", "")
+texto = texto.replace("Studia Nietzscheana (2014), www.nietzschesource.org/SN/large-2014.","")
+sentencas = texto.split(" ")
+for i in range(len(sentencas)):
+    sentencas[i] = sentencas[i].strip()
+      
+sentencas = [x for x in sentencas if x != ""]
 
 ## Splitting into training and testing data:
-reshaped_dataset = dataset
 
-bigram_vectorizer = CountVectorizer(ngram_range=(2, 2),
-                            lowercase=True,
-                            analyzer='char',
-                            strip_accents="unicode")
-bigram_vectorizer.fit(reshaped_dataset)
-X = bigram_vectorizer.transform(reshaped_dataset)
+X = np.array(sentences + sentencas)
+Y = np.array(['Y']*len(sentences) + ['N']*len(sentencas))
+df = pd.DataFrame({'sentence':X,'mashing':Y})
+df.to_csv("C:/Users/arthu/Desktop/MDS/2022-2-Squad03/data/processed/dataframe.csv")  ##saving the filtered data as csv
 
-
-X_train, X_test, Y_train, Y_test = train_test_split(X, dataY, test_size=0.3, stratify=dataY, random_state=12)
+from sklearn.model_selection import train_test_split
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33, random_state=2)
 
 ## Training the model:
 
-model = BernoulliNB(binarize = True)
-model.fit(X_train, Y_train)
-print(model)
+from sklearn.linear_model import LogisticRegression
+
+vectorizer = TfidfVectorizer(ngram_range=(1, 4),
+                            lowercase=True,
+                            analyzer='char', binary=True,
+                            strip_accents="unicode")
+vectorizer.fit(X_train)
+model = LogisticRegression()
+
+model.fit(vectorizer.transform(X_train),Y_train)
+
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+Y_pred = model.predict(vectorizer.transform(X_test))
+
+confusion_matrix(Y_test, Y_pred)
 
 ##  Accuracy score:
 
@@ -32,7 +74,7 @@ from sklearn.metrics import accuracy_score
 
 Y_pred = model.predict(X_test)
 
-acc = accuracy_score(Y_test, Y_pred) ##0.97
+acc = accuracy_score(Y_test, Y_pred) ##0.985
 print('Acc:', acc)
 
 ## Evaluating the model with new metrics
@@ -59,5 +101,10 @@ print('Acc:', score3)
 
 import pickle
 
-pickle.dump(model, open("models/bernoulli.sav", 'wb'))
+pickle.dump(model, open("models/logistic-reg.sav", 'wb'))
+
+## Input in case you want to test it:
+#input_data = [(input(""))]
+#pred = model.predict(vectorizer.transform([x[0] for x in input_data]))
+#print(pred)
 
