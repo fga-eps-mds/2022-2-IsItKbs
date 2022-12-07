@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Guia de Contribuição - is it KBS?</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="../icon/icon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div class="painelLateral">
+         <div id="mySidepanel" class="sidepanel">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
+             <a href="../index.html">Home</a>
+             <a href="#about"><button class="openbtn" onclick="openNav2()">Projeto</button> </a>
+             <a href="../index.html">Equipe</a>
+          </div>
+          <div id="projetoSidepanel" class="sidepanel">
+             <div class="panelTitle">
+                <h3>Projeto</h3>
+             </div>
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+             <a href="../projeto/usermap_story.html">User Story Map</a>
+             <a href="../projeto/workflow.html">WorkFlow</a>
+             <a href="../projeto/roadmap.html">Roadmap</a>
+             <a href="../projeto/contribution_guide.html">Guia de Contribuição</a>
+          </div>
+       </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                     <div class="sea_icon d_none ">
+                        <button class="openbtn" onclick="openNav()"><img src="../images/menu_icon.png" alt="#"/> </button>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="../index.html"><img src="../images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- about section -->
+      <div id="about" class="about" style="padding-top: 150px;">
+         
+            <div class="container">
+               <div class="titlepage">
+                    <h2>Guia de Contribuição</h2>
+                    <p>Esse guia visa apresentar os padrões da comunidade do GitHub, que são uma lista de documentação que outros desenvolvedores possam colaborar com o projeto de forma padronizada.</p>
+               </div>
+               <div class="project">
+                    <h3>Por que contribuir para softwares open source?</h3>
+                    <hr>
+                    <p>
+                        Softwares open source servem para criar um ambiente de aprendizado diverso, em que é possível aprender , ensinar e criar experiência em qualquer habilidade.
+                    </p>
+                    <h3>Como contribuir</h3>
+                    <hr>
+                    <p>
+                        Existem diversas formas de contribuir para um software open source, seja no código , documentação , organização , design, entre outros. para contribuir para o nosso projeto, primeiramente leia o código de conduta encontrado <a href="https://github.com/fga-eps-mds/2022-2-Squad03/blob/community_std/CODE_OF_CONDUCT.md">aqui</a>. <br> No nosso projeto são utilizadas as seguintes ferramentas para desenvolvimento do projeto:
+                        <u>
+                            <li><span style="font-weight: bold;">Issue tracker</span> : onde as pessoas discutem tarefas e problemas relacionadas ao projeto</li>
+                            <li><span style="font-weight: bold;">Pull requests</span>: onde as pessoas discutem e revisam as mudanças que estão em progresso</li>
+                        </u>
+                    </p>
+                    <h3>Como utilizar as ferramentes de contribuição</h3>
+                    <hr>
+                    <p>
+                        Antes de criar uma issue ou pull request é necessário:
+                        <u>
+                            <li>comunicar suas inteções e suas ideias de forma efetiva, mostrando o que deseja fazer, o contexto por trás da idéia , e a utilidade dela para o projeto</li>
+                            <li>
+                                olhar o <a href="https://github.com/fga-eps-mds/2022-2-Squad03/blob/main/README.md">README</a>, as issues abertas e fechadas e outros canais de comunicação da comunidade
+                            </li>
+                        </u>
+                    </p>
+                    <h3>Abrindo uma issue</h3>
+                    <hr>
+                    <p>É necessário abrir uma issue nas seguintes situações:
+                        <u>
+                            <li>Relatar um erro que você não consegue resolver sozinho</li>
+                            <li>Discutir um tópico ou idéia de alto nível (visão da comunidade , políticas da comunidade, entre outros)</li>
+                            <li>Propor uma nova feature ou uma ideia de projeto</li>
+                        </u>
+                        <a href="https://github.com/fga-eps-mds/2022-2-Squad03/blob/devel/.github/ISSUE_TEMPLATE.md" style="padding-left:20px;">ISSUE TEMPLATE</a>
+                    </p>
+                    <h4>Comunicação correta em uma issue</h4>
+                    <p>
+                        <u>
+                            <li>No caso de uma issue que deseja resolver , comente na issue para que outros possam saber que está trabalhando nela</li>
+                            <li>Se uma issue foi aberta há muito tempo é possível que ela esteja sendo resolvida em outro lugar ou já tenha sido resolvida, então é necessário comentar nela para pedir confirmação antes de começar a trabalhar</li>
+                            <li>Se você abriu uma issue e posteriormente descobriu como resolvê-la, comente na issue e feche-a, para que outros possam saber que elá já foi realizada.</li>
+                        </u>
+                    </p>
+                    <h3>Abrindo um pull request</h3>
+                    <hr>
+                    <p>É necessário abrir um pull request nas seguintes situações:
+                        <u>
+                            <li>Enviar correções triviais (um link quebrado , um erro simples e óbvio, entre outros)</li>
+                            <li>Começar a trabalhar em uma contribuição que já foi pedida ou discutida através de uma issue</li>
+                        </u>
+                    </p>
+                    <p>
+                        Vale destacar que um pull request não precisa representar um trabalho finalizado. Geralmente é melhor abrir um pull request no começo do desenvolvimento, para outros oferecerem feedback no seu progresso. Para isso, basta abrir ele como "draft" ou marcar ele como "WIP" (trabalho em progresso). É sempre possível adicionar commits depois
+                    </p>
+                    <h4>Como abrir um pull request</h4>
+                    <u>
+                        <li>clone o repositório localmente, realize um git pull para manter no estado atual do repositório</li>
+                        <li>crie uma branch para suas modificações</li>
+                        <li>referencie alguma issue relevante ou documentação auxiliar para seu pull request (como por exemplo "fechando #21")</li>
+                        <li>se seu pull request for relacionado a HTML/CSS, inclua imagens de antes e depois para comparação</li>
+                        <li>teste suas modificações para não realizar mudanças prejudiciais ao projeto</li>
+                        <li>contribua com o estilo do projeto da melhor forma possível , com os padrões e parâmetros já existentes</li>
+                    </u>
+                    <a href="https://github.com/fga-eps-mds/2022-2-Squad03/blob/devel/.github/PULL_REQUEST_TEMPLATE.md" style="padding-left:20px;">PULL REQUEST TEMPLATE</a>
+               </div>
+               
+            </div>
+      </div>
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../js/custom.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidepanel").style.width = "250px";
+         }
+         
+         function openNav2() {
+           document.getElementById("projetoSidepanel").style.width = "250px";
+         }
+         function closeNav(parent) {
+            var spots = ["mySidePanel", "projetoSidepanel"]
+            document.getElementById(parent.id).style.width = "0";
+         }
+         // function closeNav() {
+         //    var spots = ['mySidePanel', 'projetoSidepanel']
+         //    document.getElementById("mySidePanel").style.width = "0";
+         //    for (var spot in spots){
+         //     document.getElementById(spot).style.width = "0";
+         //    }
+         //    document.getElementById("mySidePanel").style.width = "0";
+         // }
+      </script>
+   </body>
+</html>

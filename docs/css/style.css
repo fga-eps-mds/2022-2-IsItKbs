@@ -124,7 +124,7 @@ li,
 ol {
      margin: 0px;
      padding: 0px;
-     list-style: none;
+     /* list-style: none; */
 }
 
 p {
@@ -362,6 +362,10 @@ button {
      /* text-transform: uppercase; */
      letter-spacing: 0px;
      text-align: center;
+     text-shadow:   -1px -1px 0px rgb(0, 0, 0), 
+                    -1px 1px 0px rgb(0, 0, 0),                    
+                    1px -1px 0px rgb(0, 0, 0),                  
+                    7px 0px 0px rgb(0, 0, 0);
 }
 
 .text-bg span {
@@ -371,6 +375,10 @@ button {
      line-height: 60px;
      text-transform: uppercase;
      letter-spacing: 50px;
+     text-shadow:   -2px -2px 0px rgb(0, 0, 0), 
+                    -2px 2px 0px rgb(0, 0, 0),                    
+                    2px -2px 0px rgb(0, 0, 0),                  
+                    7px 0px 0px rgb(0, 0, 0);
 }
 
 .text-bg ul.social_team {
@@ -844,23 +852,6 @@ ul.social_team li a {
      opacity: 1;
 }
 
-ul.location_form li {
-     font-size: 17px;
-     color: #fff;
-     text-align: left;
-     margin-top: 35px;
-     line-height: 26px;
-     display: inline-block;
-     padding-right: 10px;
-}
-
-ul.location_form li a {
-     font-size: 30px;
-     color: #fff;
-     line-height: 30px;
-     padding-right: 9px;
-}
-
 .main_form ul.social_icon li a:hover {
      background-color: #fcc10e;
 }
@@ -993,28 +984,6 @@ ul.location_form li a {
      padding-right: 60px;
 }
 
-ul.location_icon {
-     font-family: 'Open Sans', sans-serif;
-     text-align: center;
-}
-
-ul.location_icon li {
-     font-size: 17px;
-     color: #fff;
-     text-align: left;
-     padding: 9px 0px;
-     display: flex;
-     align-items: center;
-     line-height: 26px;
-}
-
-ul.location_icon li a {
-     font-size: 30px;
-     color: #fff;
-     line-height: 30px;
-     padding-right: 20px;
-}
-
 .news_form {
      text-align: left;
      margin-top: 15px;
@@ -1097,3 +1066,58 @@ ul.social_icon li a:hover {
 /** end footer **/
 
 
+/** guia de contribuição **/
+
+.project h3, h4{
+     color: #000;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.project h4 {
+     font-size: 20px;
+}
+
+.project p{
+     padding: 30px 20px;
+     padding-top: 0;
+     color: #2a2a2c;
+     font-size: 17px;
+     line-height: 32px;
+     font-weight: 400;
+     margin-top: 0px;
+}
+
+.project a {
+     color:#00a8f0
+}
+
+.project u, li {
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     font-size: 17px;
+}
+
+.project li {
+     margin-left: 50px;
+}
+
+/* User Map Story */
+
+.usermap_image {
+     text-align: center;
+}
+
+#list_1{
+     color: #03cafc;
+}
+
+.list_2{
+     padding-left: 30px;
+     list-style-type: circle;
+}
+
+.list_3{
+     padding-left: 60px;
+     list-style-type: square;
+}

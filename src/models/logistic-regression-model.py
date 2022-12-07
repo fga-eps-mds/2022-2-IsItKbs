@@ -108,3 +108,12 @@ pickle.dump(model, open("models/logistic-reg.sav", 'wb'))
 #pred = model.predict(vectorizer.transform([x[0] for x in input_data]))
 #print(pred)
 
+print('Acc:', training_data_accuracy)
+
+## Compressing Model
+
+import pickle
+
+pickle.dump(model, open("models/logistic-reg.pkl", 'wb'))
+
+
