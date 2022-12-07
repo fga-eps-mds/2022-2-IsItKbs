@@ -16,7 +16,7 @@ for i in range(len(sentences)):
 sentences = [x for x in sentences if x != ""]
 
 texto = ""
-with open("C:/Users/arthu/Desktop/MDS/2022-2-Squad03/data/raw/large-2014.txt", "r", encoding="utf-8") as k:
+with open("data/raw/large-2014.txt", "r", encoding="utf-8") as k:
     texto = k.read()
     
 texto = texto.replace("?",".")
@@ -44,7 +44,7 @@ sentencas = [x for x in sentencas if x != ""]
 X = np.array(sentences + sentencas)
 Y = np.array(['Y']*len(sentences) + ['N']*len(sentencas))
 df = pd.DataFrame({'sentence':X,'mashing':Y})
-df.to_csv("C:/Users/arthu/Desktop/MDS/2022-2-Squad03/data/processed/dataframe.csv")  ##saving the filtered data as csv
+df.to_csv("data/processed/dataframe.csv")  ##saving the filtered data as csv
 
 from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33, random_state=2)
