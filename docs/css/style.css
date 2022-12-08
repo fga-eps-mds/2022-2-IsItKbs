@@ -249,7 +249,9 @@ button {
 /*-- sidebar  navigation--*/
 
 .sidepanel {
-     width: 0;
+     display: block;
+     width: 250px;
+     margin-left: -251px;
      position: fixed;
      z-index: 9999;
      height: 100%;
@@ -272,6 +274,8 @@ button {
 
 .sidepanel a:hover {
      color: #fcc10e;
+     background-color: #312a00;
+     transition:  0.5s;
 }
 
 .sidepanel .closebtn {
@@ -279,6 +283,7 @@ button {
      top: 0;
      right: 25px;
      font-size: 36px;
+     background-color: transparent !important; 
 }
 
 .openbtn {
@@ -297,6 +302,10 @@ button {
 
 .sidepanel button:hover{
      color: #fcc10e !important;
+}
+
+.sidepanel span{
+     margin-left: 110px;
 }
 
 .panelTitle h3 {
@@ -321,7 +330,7 @@ button {
      width: 100%;
      padding: 30px 30px;
      height: 15%;
-     background: #03cafc1d;
+     background: #03cafc84;
      position: fixed;
      z-index: 999;
 }
@@ -1068,14 +1077,20 @@ ul.social_icon li a:hover {
 
 /** guia de contribuição **/
 
-.project h3, h4{
+.project h2, h3, h4{
      color: #000;
      font-size: 25px;
      font-weight: bold;
+     margin-top: 30px;
+}
+
+.project h2 {
+     font-size: 30px;
 }
 
 .project h4 {
      font-size: 20px;
+     margin-top: 0px;
 }
 
 .project p{
@@ -1102,22 +1117,41 @@ ul.social_icon li a:hover {
      margin-left: 50px;
 }
 
+.project span {
+     font-weight: bold;
+}
+
+.project th, td{
+     padding: 5px 15px;
+     color: black;
+}
+
 /* User Map Story */
 
 .usermap_image {
      text-align: center;
 }
 
+.legenda {
+     margin-left: 50px;
+     margin-bottom: 20px;
+}
+
 #list_1{
      color: #03cafc;
+     margin-bottom: 20px;
 }
 
 .list_2{
      padding-left: 30px;
      list-style-type: circle;
+     margin-bottom: 20px;
 }
 
 .list_3{
      padding-left: 60px;
      list-style-type: square;
+     margin-bottom: 10px;
 }
+
+/* Metodologia e Comunicação */
