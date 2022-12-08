@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Metodologia e Comunicação - is it KBS?</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="../icon/icon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div class="painelLateral">
+         <div id="mySidepanel" class="sidepanel">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
+             <a href="../index.html">Home</a>
+             <a href="#about" onclick="openNav2()">Projeto<span class="options_sidebar">&gt;</span></a>
+             <a href="#team" onclick="openNav3()">Equipe<span class="options_sidebar">&gt;</span></a>
+             <a href="../projeto/conduct_code.html">Código de conduta</a>
+          </div>
+          <div id="projetoSidepanel" class="sidepanel">
+             <div class="panelTitle">
+                <h3>Projeto</h3>
+             </div>
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+             <a href="../projeto/usermap_story.html">Mapeamento da história de usuário</a>
+             <a href="../projeto/workflow.html">WorkFlow</a>
+             <a href="../projeto/roadmap.html">Roadmap</a>
+             <a href="../projeto/contribution_guide.html">Guia de Contribuição</a>
+          </div>
+          <div id="equipeSidepanel" class="sidepanel">
+            <div class="panelTitle">
+               <h3>Equipe</h3>
+            </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+            <a href="metodologia_comunicacao.html">Metodologia e Comunicação</a>
+         </div>
+       </div>
+      
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                     <div class="sea_icon d_none ">
+                        <button class="openbtn" onclick="openNav()"><img src="../images/menu_icon.png" alt="#"/> </button>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="../index.html"><img src="../images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- about section -->
+      <div id="about" class="about" style="padding-top: 150px;">
+         
+            <div class="container">
+               <div class="titlepage">
+                    <h2>Metodologia e Comunicação</h2>
+               </div>
+               <div class="project">
+                    <hr>
+                    <div>
+                        <h2>Metodologias</h2>
+                    <p>A metodologia do projeto define quais são as estratégias e práticas para planejar e executar as etapas que o compõem. Para o desenvolvimento deste projeto as metodologias escolhidas foram o Scrum e o Kanban</p>
+                    <h3>SCRUM</h3>
+                    <p>O método Scrum pode ser definido com um conjunto de boas práticas para que um projeto,no qual não se conhece todas as etapas, seja desenvolvido. O projeto é divido em ciclos (no nosso caso, semanais) que são as <span>sprints</span>. As sprints são um conjunto de atividade (<span>Sprint Backlog</span>) para ser executada nesse determinado tempo.</p>
+                    <h4>Equipe Scrum</h4>
+                    <u>
+                        <li><span>Product Owner</span>: responsável por direcionar o projeto conforme a necessidade das pessoas interessadas.</li>
+                        <li><span>Scrum Master</span>: responsável por guiar a equipe durante as sprints.</li>
+                        <li><span>Time de Desenvolvimento</span>: Equipe responsável pelo desenvolvimento do que foi planejados nas sprints.</li>
+                    </u>
+                    <h4>Eventos</h4>
+                    <u>
+                        <li><span>Sprint</span>: Ciclo de uma semana do projeto que busca desenvolver o projeto na prática, não apenas teoricamente, por meio das tarefas estabelecidas na <span>reunião de planning</span>. O progresso é analisado na <span>reunião de review</span>.</li>
+                        <li><span>Status</span>: As status são reuniões curtas (aproximadamente 15 minutos) entre uma reunião de planning e uma reunião de review para analisar o andamento da sprint em questão.</li>
+                    </u>
+                    <h3>KANBAN</h3>
+                    <p>O Kanban é um quadro de sinalização que visa controlar os fluxos de atividades do projeto por meio de "cartões". Em nosso projeto, a ferramenta <span>ZenHub</span> foi utilizada para essa finalidade. </p>
+                    </div>
+                    <!-- Comunicação -->
+                    <div class="back_communication">
+                        <div class="communication">
+                            <h2>Comunicação</h2>
+                            <hr>
+                            <p>O desenvolvimento de um projeto em grupo exige que todos os participantes tenham ciência do objetivo final, quais são os passos para atingi-lo e como está o progresso em determinada etapa. Posto isso, o plano de comunicação do nosso grupo visa cinco canais de comunicação online:
+                                <table border="1">
+                                    <thead>
+                                        <tr>
+                                            <th>Canal de comunicação</th>
+                                            <th>Utilização</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Microsoft Teams</td>
+                                            <td>Reuniões de planning, review e status</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Whatsapp</td>
+                                            <td>Comunicação rápida entre a equipe de desenvolvimento</td>
+                                        </tr>
+                                        <tr>
+                                            <td>GitHub</td>
+                                            <td>Plataforma de hospedagem de código-fonte e documentação versão</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ZenHub</td>
+                                            <td>Gerencimento e documentação de épicos e features</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Discord</td>
+                                            <td>Reunião entre poucos membros da equipe para pareamentos pontuais</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+                            <h2>Reuniões</h2>
+                            <p>O desenvolvimento desse projeto é parte da graduação de todos os participantes, portanto na primeira semana foi feito um quadro com horários disponíveis dos membros, a fim de que encontrar o melhor horário para as reuniões. Os horários escolhidos para reuniões pré-agendadas foram:
+                            <u>
+                                <li>Planning: Domingo às 20h</li>
+                                <li>Review: Sexta às 20h</li>
+                                <li>Status: Quarta ou Quinta às 20h</li>
+                            </u>
+                            </p>
+                            <h3>Quadro de disponilidade</h3>
+                            <div class="roadmap">
+                                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1CRPu9CgnIVm2X2H8BiGDCP7mxXHQG1kCFbA0Kj79wfKGi-o3WqtF3hrjf52qww/pubhtml?widget=true&amp;headers=false"></iframe>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+               
+            </div>
+      </div>
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../js/custom.js"></script>
+      <script src="../js/sidepanel.js"></script>
+   </body>
+</html>
