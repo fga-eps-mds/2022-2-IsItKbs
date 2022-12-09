@@ -53,11 +53,23 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33, random
 ## Training the model:
 
 from sklearn.linear_model import LogisticRegression
+from sklearn.feature_extraction.text import CountVectorizer, HashingVectorizer
 
-vectorizer = TfidfVectorizer(ngram_range=(1, 4),
-                            lowercase=True,
-                            analyzer='char', binary=True,
-                            strip_accents="unicode")
+# vectorizer = TfidfVectorizer(ngram_range=(1, 4),
+#                             lowercase=True,
+#                             analyzer='char', binary=True,
+#                             strip_accents="unicode")
+# vectorizer = CountVectorizer (ngram_range=(1,4),
+#                               lowercase = True,
+#                               analyzer = 'char_wb',
+#                               binary = False,
+#                               strip_accents = "unicode")
+vectorizer = HashingVectorizer (ngram_range=(1,4),
+                              lowercase = True,
+                              analyzer = 'char',
+                              binary = True,
+                              strip_accents = "unicode")
+vectorizer.fit(X_train)
 vectorizer.fit(X_train)
 model = LogisticRegression()
 
@@ -71,50 +83,50 @@ confusion_matrix(Y_test, Y_pred)
 
 ##  Accuracy score:
 
-from sklearn.metrics import accuracy_score
+# from sklearn.metrics import accuracy_score
 
-Y_pred = model.predict(X_test)
+# Y_pred = model.predict(X_test)
 
-acc = accuracy_score(Y_test, Y_pred) ##0.985
-print('Acc:', acc)
+# acc = accuracy_score(Y_test, Y_pred) ##0.985
+# print('Acc:', acc)
 
-## Evaluating the model with new metrics
+# ## Evaluating the model with new metrics
 
-from sklearn.metrics import balanced_accuracy_score
+# from sklearn.metrics import balanced_accuracy_score
 
-score1 = balanced_accuracy_score(Y_test, Y_pred)
+# score1 = balanced_accuracy_score(Y_test, Y_pred)
 
-print('Acc:', score1)
+# print('Acc:', score1)
 
-from sklearn.metrics import f1_score
+# from sklearn.metrics import f1_score
 
-score2 = f1_score(Y_test, Y_pred, labels=None, pos_label='0', average='binary', sample_weight=None, zero_division='warn')
+# score2 = f1_score(Y_test, Y_pred, labels=None, pos_label='0', average='binary', sample_weight=None, zero_division='warn')
 
-print('Acc:', score2)
+# print('Acc:', score2)
 
-from sklearn.metrics import recall_score
+# from sklearn.metrics import recall_score
 
-score3 = recall_score(Y_test, Y_pred, labels=None, pos_label='0', average='binary', sample_weight=None, zero_division='warn')
+# score3 = recall_score(Y_test, Y_pred, labels=None, pos_label='0', average='binary', sample_weight=None, zero_division='warn')
 
-print('Acc:', score3)
-
-## Compressing Model
-
-import pickle
-
-pickle.dump(model, open("models/logistic-reg.sav", 'wb'))
-
-## Input in case you want to test it:
-#input_data = [(input(""))]
-#pred = model.predict(vectorizer.transform([x[0] for x in input_data]))
-#print(pred)
-
-print('Acc:', training_data_accuracy)
+# print('Acc:', score3)
 
 ## Compressing Model
 
-import pickle
+# import pickle
 
-pickle.dump(model, open("models/logistic-reg.pkl", 'wb'))
+# pickle.dump(model, open("models/logistic-reg.sav", 'wb'))
+
+# Input in case you want to test it:
+input_data = [(input(""))]
+pred = model.predict(vectorizer.transform([x[0] for x in input_data]))
+print(pred)
+
+# print('Acc:', acc)
+
+## Compressing Model
+
+# import pickle
+
+# pickle.dump(model, open("models/logistic-reg.pkl", 'wb'))
 
 
