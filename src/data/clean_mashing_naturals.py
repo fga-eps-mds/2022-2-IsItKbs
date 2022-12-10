@@ -26,5 +26,5 @@ naturals = list(filter(lambda token: token not in string.punctuation and token.i
 #Logo após ambas são exportadas como .csv
 X0 = pd.Series(naturals)
 X1 = pd.Series(mashings)
-X0.to_csv(".\\data\\interim\\naturals.csv")
-X1.to_csv(".\\data\\interim\\mashings.csv")
+X0.to_csv(".\\data\\interim\\naturals.csv", index = False)
+X1.to_csv(".\\data\\interim\\mashings.csv", index = False)
