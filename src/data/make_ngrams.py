@@ -29,5 +29,5 @@ mashbigrams = mashbigrams[:len(natbigrams)]
 mashdf = pd.DataFrame({'strings':mashbigrams + natbigrams, 'mashing': [1] * len(mashbigrams) + [0] * len(natbigrams)})
 X = mashdf['strings']
 Y = mashdf['mashing']
-X.to_csv(".\\data\\processed\\ngrams_features.csv", index = False)
+X.to_csv(".\\data\\interim\\ngrams_features.csv", index = False)
 Y.to_csv(".\\data\\processed\\ngrams_target.csv", index = False)
