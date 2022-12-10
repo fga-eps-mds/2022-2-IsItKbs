@@ -2,13 +2,10 @@ import pandas as pd
 from nltk import everygrams
 
 with open (".\\data\\interim\\naturals.csv", "r", encoding="utf-8") as file0:
-    X0 = pd.read_csv(file0).squeeze(1)
+    X0 = pd.read_csv(file0, keep_default_na=False).squeeze(1)
 
 with open (".\\data\\interim\\mashings.csv", "r", encoding="utf-8") as file1:
-    X1 = pd.read_csv(file1).squeeze(1)
-
-#Remoção dos valores vazios no dataframe
-X1.dropna(inplace = True)
+    X1 = pd.read_csv(file1, keep_default_na=False).squeeze(1)
 
 #Percorre as palavras naturais e transforma em ngramas
 natbigrams = []
