@@ -20,11 +20,11 @@
   - [📑 Sumário](#sumário)
   - [🔎 Visão Geral](#visão-geral)
   - [📁 Diretórios](#diretórios)
+  - [📝 Guia de instalação](#guia-de-instalação)
   - [⚙ Funcionalidades](#funcionalidades)
   - [📋 Exemplos](#exemplos)
   - [👨‍💻 Contribuidores](#contribuidores)
   - [© Licença](#licença)
-  - [📝 Guia de instalação](#guia-de-instalação)
 
 <br><br>
 ##  🔎Visão Geral
@@ -57,7 +57,7 @@ Ex.:
 
 <br>
 
-## 📝 Guia de instalação
+## 📝Guia de instalação
 <li>Necessário python 3 e pip.</li>
 <li>Faça a instalação do nosso pacote com o pip no seu terminal python (as demais bibliotecas necessárias são instaladas  automáticamente com o comando abaixo):</li>
 
