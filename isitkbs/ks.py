@@ -9,7 +9,20 @@ trained_model = pickle.load(open(modelpath, 'rb'))
 vectorizer = pickle.load(open(vectpath, 'rb'))
 
 
-def is_kbs(input_data, analyzer='word', model='randomForest'):
+def is_kbs(
+    input_data, 
+    analyzer='word', 
+    model='randomForest'):
+    """ 
+    Parâmetros:
+    input_data: dado de entrada representada por uma string
+    analyzer:
+        'word': análise de uma palavra (retorna positivo(1) ou negativo (0) se é keyboard smashing)
+        'phrases': retorna quais são os keyboardsmashing de uma frase de entrada
+    model: modelo de ML utilizado
+        randomForest
+
+    """
     if (model == 'randomForest'):
         if (analyzer == 'word'):
             if (len(input_data) == 1):
