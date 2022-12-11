@@ -123,3 +123,141 @@ enforcement ladder](https://github.com/mozilla/diversity).
 Para obter respostas a perguntas comuns sobre este código de conduta, consulte FAQ em
 https://www.contributor-covenant.org/faq. Traduções disponíveis em
 https://www.contributor-covenant.org/translations.
+
+
+
+
+
+# Employee Code of Conduct Pact
+
+## Our Commitment
+
+We, as members, collaborators and leaders, are committed to making our
+community a harassment-free experience for everyone regardless of age, body
+size, visible or invisible disability, ethnicity, sexual characteristics, gender
+identity and expression, experience, schooling, socioeconomic status,
+nationality, personal appearance, race, religion or sexual identity
+and guidance.
+
+We are committed to acting and interacting in a way that contributes to an open, 
+welcoming, healthy and inclusive community.
+
+## Our Standards
+
+Examples of behaviour that contribute to a positive environment for our
+community include:
+
+* Show empathy and kindness to others
+* Be respectful with different opinions, views and experiences
+* Give and accept constructive feedback
+* Accept responsibility and apologize to those affected by our mistakes,
+  and learn from experience
+* Focus on what is best not only for us as individuals, but for the
+  community in general
+
+
+Examples of unacceptable behavior include:
+
+* The use of sexualized language or images, and sexual attention of any kind
+* Troll, insults or derogatory comments and personal or political attacks
+* Public or private harassment
+* Publish other people's private information, such as physical address or email address, 
+  without your explicit permission
+* Other conduct that may reasonably be considered inappropriate in a
+  professional configuration
+
+## Execution Responsibilities
+
+Community leaders are responsible for clarifying and enforceing our standards of
+acceptable behaviour and will take appropriate and fair corrective measures in
+response to any behavior they deem inappropriate, threatening, offensive,
+or harmful.
+
+Community leaders have the right and responsibility to remove, edit, or reject
+comments, commits, code, wiki edits, issues, and other contributions that are not 
+aligned with this Code of Conduct and shall communicate the reasons for moderating actions 
+when appropriate.
+
+
+## Scope
+
+This Code of Conduct applies in all community spaces and also when
+an individual is officially representing the community in public spaces.
+Example of representation of our community includes: acting as a nominee or
+representative at an online or offline event.
+
+## Execution
+
+Cases of abusive, harassing or unacceptable behaviour may be
+reported to community law enforcement leaders in
+@G16C.
+All complaints will be reviewed and investigated quickly and fairly.
+
+All community leaders are required to respect the privacy and safety of the witness
+of any incident.
+
+
+## Execution Guidelines
+
+Community leaders will follow these Community Impact Guidelines to determine
+the consequences of any action they consider to violate this Code of Conduct:
+
+### 1. Correction
+
+**Impact on the Community**: Use of inappropriate language or other behavior considered
+unprofessional or unwanted in the community.
+
+**Consequence**: A private written warning from community leaders providing
+clarity on the nature of the breach and an explanation of why the
+behavior is inappropriate. A public apology may be requested.
+
+
+### 2. Notification
+
+**Impact on the Community**: A violation through a single incident or series
+of shares.
+
+**Consequence**: A warning with consequences for recurring behavior. No
+interaction with the people involved, including unsolicited interaction with
+those who apply the Code of Conduct, is permitted for a specified period of time. 
+
+This includes avoiding interactions in community spaces as well as external channels
+like social media. Violating these terms may lead to a
+permanent ban.
+
+
+### 3. Temporary Ban
+
+**Impact on the Community**: A serious violation of community standards, including
+continuous inappropriate behavior.
+
+**Consequence**: A temporary ban on any type of interaction or communication 
+community for a specified period of time. No public interaction
+private with the persons involved, including unsolicited interaction
+with those who apply the Code of Conduct, is permitted during this period.
+Violating these terms may lead to a permanent ban.
+
+
+### 4. Permanent Ban
+
+**Impact on the Community**: Demonstrating a recurring violation of standards
+community, including sustained inappropriate behavior, harassment of a
+aggression or depreciation of classes of individuals.
+
+**Consequence**: A permanent ban on any type of public interaction within
+the community.
+
+
+## Font
+This Code of Conduct is adapted from the [Covenant Contributor][homepage],
+version 2.0, available at
+https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+
+The Community Impact Guidelines were inspired by [Mozilla's code of conduct
+enforcement ladder](https://github.com/mozilla/diversity).
+
+[homepage]: https://www.contributor-covenant.org
+
+For answers to common questions about this code of conduct, see FAQ at
+https://www.contributor-covenant.org/faq. Translations available at
+https://www.contributor-covenant.org/translations.
