@@ -128,7 +128,7 @@ https://www.contributor-covenant.org/translations.
 
 
 
-# Employee Code of Conduct Pact
+# c=Contributor Code of Conduct Pact
 
 ## Our Commitment
 
