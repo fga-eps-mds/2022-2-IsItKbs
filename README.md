@@ -32,6 +32,7 @@
   - [👨‍💻Contribuidores](#contribuidores)
   - [©Licença](#licença)
 
+
 <br><br>
 ##  🔎Visão Geral
 <li>Qual o objetivo desse software?</li>
@@ -63,7 +64,7 @@ Ex.:
 
 <br>
 
-## 📝 Guia de instalação
+## 📝Guia de instalação
 <li>Necessário python 3 e pip.</li>
 <li>Faça a instalação do nosso pacote com o pip no seu terminal python (as demais bibliotecas necessárias são instaladas  automáticamente com o comando abaixo):</li>
 
