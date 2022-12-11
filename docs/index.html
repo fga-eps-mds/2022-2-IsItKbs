@@ -36,25 +36,41 @@
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
       <!-- end loader -->
-      <div id="mySidepanel" class="sidepanel">
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
-         <a href="index.html">Home</a>
-         <a href="#about"><button class="openbtn" onclick="openNav2()">Projeto</button> </a>
-         <a href="#team">Equipe</a>
-         <!-- <a href="#team">Our Team</a>
-         <a href="#testimonial">Testimonial</a>
-         <a href="#contact">Contact Us</a> -->
-      </div>
-      <div id="projetoSidepanel" class="sidepanel">
-         <div class="panelTitle">
-            <h3>Projeto</h3>
+      <div class="painelLateral">
+         <div id="mySidepanel" class="sidepanel">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
+             <a href="index.html">Home</a>
+
+             <a href="#about" onclick="openNav2()">Projeto<span class="options_sidebar">&gt;</span></a>
+             <a href="#team" onclick="openNav3()">Equipe<span class="options_sidebar">&gt;</span></a>
+             <a href="projeto/conduct_code.html">Código de conduta</a>
+
+             <a href="#about"><button class="openbtn" onclick="openNav2()">Projeto</button> </a>
+             <a href="index.html">Equipe</a>
+
+          </div>
+          <div id="projetoSidepanel" class="sidepanel">
+             <div class="panelTitle">
+                <h3>Projeto</h3>
+             </div>
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+
+             <a href="projeto/usermap_story.html">Mapeamento da história de usuário</a>
+
+             <a href="projeto/usermap_story.html">User Story Map</a>
+
+             <a href="projeto/workflow.html">WorkFlow</a>
+             <a href="projeto/roadmap.html">Roadmap</a>
+             <a href="projeto/contribution_guide.html">Guia de Contribuição</a>
+          </div>
+          <div id="equipeSidepanel" class="sidepanel">
+            <div class="panelTitle">
+               <h3>Equipe</h3>
+            </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+            <a href="projeto/metodologia_comunicacao.html">Metodologia e Comunicação</a>
          </div>
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
-         <a href="projeto/roadmap.html">Roadmap</a>
-         <!-- <a href="#team">Our Team</a>
-         <a href="#testimonial">Testimonial</a>
-         <a href="#contact">Contact Us</a> -->
-      </div>
+       </div>
       <!-- header -->
       <header>
          <!-- header inner -->
@@ -62,9 +78,9 @@
             <div class="container-fluid">
                <div class="row">
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                     <!-- <div class="sea_icon d_none ">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                     </div> -->
+                     <div class="sea_icon d_none ">
+                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button>
+                     </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
                      <div class="full">
@@ -73,11 +89,6 @@
                               <a href="index.html"><img src="images/logo.png" alt="#" /></a>
                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                     <div class="right_bottun">
-                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button> 
                      </div>
                   </div>
                </div>
@@ -148,12 +159,12 @@
                   </div>
                </div> -->
             </div>
-            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <!-- <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
             </a>
             <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
             <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </a>
+            </a> -->
          </div>
       </section>
       <!-- end banner -->
@@ -201,7 +212,7 @@
                   <div class="row">
                      <div class="col-md-4">
                         <div class="team_box">
-                           <figure><img src="images/team_img3.jpg" alt="#"/></figure>
+                           <figure><img src="images/arthur m.jpg" alt="#"/></figure>
                            <div class="social_box">
                               <ul class="social_team">
                                  <li><a href="https://github.com/arthurmlv"><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -559,26 +570,7 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <script>
-         function openNav(parent) {
-           document.getElementById("mySidepanel").style.width = "250px";
-         }
-         
-         function openNav2() {
-           document.getElementById("projetoSidepanel").style.width = "250px";
-         }
-         function closeNav(parent) {
-            document.getElementById(parent.id).style.width = "0";
-         }
-         // function closeNav() {
-         //    var spots = ['mySidePanel', 'projetoSidepanel']
-         //    document.getElementById("mySidePanel").style.width = "0";
-         //    for (var spot in spots){
-         //     document.getElementById(spot).style.width = "0";
-         //    }
-         //    document.getElementById("mySidePanel").style.width = "0";
-         // }
-      </script>
+      <script src="js/sidepanel.js"></script>
       <script>
          // This example adds a marker to indicate the position of Bondi Beach in Sydney,
          // Australia.

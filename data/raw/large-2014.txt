@@ -1,0 +1,1616 @@
+Stamina is the energy you use to perform various actions such as attack, block, parry, roll or sprint, so stamina is an extremely important element of combat. Stamina regenerates when you stop using these actions. That makes escaping and regaining a very important part of the combat system. If you have your shield raised to block, your stamina is regenerated slower. So keep your shield down when it's safe to do so. When you run out of stamina, you can't use the actions listed above plus you can't switch weapons (even though it doesn't normally cost stamina to do so). It is also possible to temporarily have negative stamina if you activate a high stamina cost action when you only have a little stamina remaining. This will make your stamina bar stay at zero for longer, and leave you vulnerable. Keep your eye on the stamina bar always!
+Clicking in the right controller stick on either the XBox or PS3 will lock to your nearest enemy provided they are within range. If there are multiple enemies, you can switch your target by moving the right stick left or right after you are locked on. Locking on makes it easier for you to hit your desired target. Locking on also locks your movement towards your target and makes it harder to be aware of your surroundings while fighting, so be aware when you lock-on. The key is to know when to switch to lock-on and off.
+Critical strikes are attacks which deal much higher damage based on your equipped weapon's critical modifier.  The higher the modifier, the more damage will be done upon a critical strike Dagger weapons all have higher critical modifiers then all other weapons. Critical strikes are backstabs and riposte.
+Attacking an enemy from their back at close range will lead to a powerful backstab attack. Backstab attacks deal a huge amount of damage, so it’s always worth trying to do. The attack animation lasts for a short while, but you're invincible while in the animation. Most enemies can be backstabbed, usually humanoid type enemies. Some unique enemies like the Fang Boar in Undead Parish cannot be backstabbed.
+If you are using a light or medium shield (or certain types of weapon equipped in the left hand), you can parry incoming melee attacks by pressing L2 (on PS3) or the Left Trigger (on Xbox 360) right as a blow is about to land and hit you. Most heavier shields will not permit you to parry and instead will activate a shield bash, so make sure you have an appropriate shield before attempting to parry. Successfully doing so will cancel the enemy's attack and cause them to stagger in a unique animation leaving them open for a riposte attack. Parries are an advanced technique and hence will require practice to master, and there are points one should note to understand the action and make best use of it:
+Certain enemy attacks cannot be parried - for example, some two handed attacks cannot be parried.
+Different enemies and their various forms of melee attack have different sized windows of opportunity in which you can successfully parry them.
+The speed at which you are able to perform the parry move will depend on the shield in use. There is the Fast Parry delivered by small shields, Special Parry delivered by the Buckler, Target Shield, and Parrying Dagger, and standard parry delivered by every other form of parry. 
+If you fail your timing you will be left wide open to the enemy as well so it's very risky to try it on powerful enemies.
+Parrying slightly out of time or attempting to parry an arrow or an attack that can't be parried will result in a Partial Parry. The enemy will hit you but part of the damage (60~70%) will be prevented.
+While practicing the technique, you can hold down the block button and press the parry button. 
+Parries on computer enemies are generally not subject to lag and can be accomplished based on visual cues tied to when the attack is about to strike you. In PvP, however, player network lag can make parries a little difficult to land, and the attempt to parry must often be made before your opponent even begins to swing (at least from what you see on your screen, due to the lag). These are usually referred to as "prediction parries" where you parry based on your prediction that the opponent is about to swing at you. Players learning how to parry should therefore first practice the basic concepts and techniques on computer enemies, with the understanding that learning to parry other players is an even more challenging and advanced skill.
+After successfully parrying an enemy attack, signified by a unique sound effect and the sight of your attacker staggering, if you rapidly follow with a normal attack and are close enough to the enemy, a riposte will be performed. Ripostes are even deadlier versions of critical attacks than backstabs and can easily kill enemies in one strike. Similar to backstabs, the riposte animation will make you invulnerable for a brief period of time, which can be invaluable if you are facing multiple opponents.
+When you are subjected to a status attack (e.g., poison), a status bar will appear on the bottom of the screen and begin to fill. The size of the bar is tied to your resistance to the aliment being inflicted. If the bar completely fills you will suffer the effect of the status. The bar will slowly recover so long as you are not being affected by the status attack, so if for example you are facing poisonous terrain with various islands of clear ground, you can wait on each patch of dry land for your poison status bar to recover before continuing on, and thereby avoid being poisoned. Most of the below aliments are more commonly encountered when facing computer enemies and environmental hazards, but there are some items that enable players to inflicted status effects on one other (with the exception of Curse).
+Poison: Deals damage over time for its duration and cuts all healing in half. While the damage over time isn't especially dangerous, as it's a low value, the heal cut can be life threatening.
+Toxic: Deals very high damage over time. If left unchecked, it can easily kill the player in less than 20 seconds. Cure it as soon as possible.
+Curse: Instantly kills the player and cuts the remaining HP in half after the player returns to their previous bonfire. As of patch 1.05, Curse doesn't stack (you may get cursed while cursed, but your HP won't be halved again). If cursed, your best option is to seek a cure quickly. The HP reduction only affects standard HP; HP gained from rings/buffs won't be affected. Curse may be cured by a Purging Stone item, or by an NPC named Ingward located deep in the New Londo Ruins. It is wise to always carry a few Purging Stones, as being cursed can make it difficult to return to a vendor or Ingward if you do not have a cure handy.
+Bleeding: Bleeding deals medium instant damage. This damage ignores armor and goes straight to the HP. Fast attacking weapons like Bandit's Knife or Katanas can easily inflict 1~2 bleeding effects in one combo. Prevent constant hits to avoid taking this damage. When the Bleeding gauge is full, it takes 30% of your maximum health, and sometimes 50% if a special weapon is used.
+Poise: A very important statistic which determines your ability to resist having your "form broken" -- namely having your own actions interrupted when you are struck by an attack. With low poise, you will be more easily (and sometimes always) staggered when struck by an attack, which can interrupt your own attack or spell cast, and possibly subject you to a fatal "stunlocking" if your opponent has sufficient stamina and speed to keep hitting you and preventing you from moving. Working like other Status Resistances, there is a invisible bar that fills with the attacks you receive (the strength of the attack changes how much it fills) and when filled you will be staggered by the attack. Small weapons like daggers are greatly affected by Poise as they will rarely stagger an enemy, while great swords and other big weapons are mostly unaffected by it as a single strike will be able to stagger foes even with high Poise. Poise is affected by your equipped armor, and also by the Wolf Ring. Each wearable item has a Poise rating which may be viewed in its statistics. Your overall Poise rating, which may be viewed in the upper right hand corner of your Character information screen, is the sum of all the Poise ratings of your equipment. As a general rule of thumb, light gear has 0 poise, while heavy armor often provides significant Poise. Many players seek to have at least 52 poise to ensure they cannot be staggered by the first attack of all but the heaviest of weapons, while a poise of 77 should prevent a player from being stunned by the first attack of any weapon, including ultra greatswords. Even with very high Poise, however, it is still possible to be staggered or even knocked down by certain magical attacks or other effects.
+Strength is required for the majority of the weapons to wield. It is a weapon damage modifier and controls the player's Attack Power that increase your damage output for weapons that has strength scaling. More strength points is required for larger and heavier weapons to wield. Strength does NOT affect your weapon swing speed.
+
+Most weapons require a minimum strength level to be wielded properly.
+Two-handing the weapon will give a 50% strength bonus, affecting both the weapon requirements and damage modifier.
+If you do not meet the minimum strength required, the weapon damage is decreased and the moveset is altered to a single slow swing.
+Strength is the only stat that affects the moveset, but not meeting the Dexterity, Intelligence or Faith requirements of the weapon will make it rebound upon contact, and also decrease the damage.
+Strength is especially useful for Ultra Greatswords, Axes and Great Axes, Hammers and Great Hammers.
+It's an in-game statistic that increases your resistance to being staggered or stun-locked as an effect of taking hits from opponents. 
+
+Staggered: an enemy's attack interrupts your action. High poise will allow you to perform an action to completion despite being hit by enemies in their course (example: swinging a slow weapon, or casting spells).
+Stun-locked: an enemy's attacks causes you to temporarily be paralyzed, leaving you vulnerable to consecutive hits. Poise will allow you to soak up heavier hits and increase the number of consecutive hits you can take before getting stun-locked.
+Poise is a passive trait that is raised by wearing armor that gives you poise, equiping the Wolf Ring, casting Iron Flesh and/or using the Havel's Greatshield stoneskin buff. Note, however, that both Iron Flesh and the stoneskin buff are personal buffs and cannot be used concurrently.
+Poise works, in essence, as the maximum value of an invisible "poise bar". Whenever you're hit by an attack, that attack/weapon has an invisible "poise damage" value, which decreases your poise bar by that amount. Consecutively receiving attacks will continue to decrease the bar further. When it hits 0, your character will stagger.
+The most important breakpoints are 32 to take all the quickest attacks, 53 or 56 to take one of all the most dangerous attacks (except for Black Flame) and 61 to take 2x an attack which deals 30 poise Damage.
+Optimal Breakpoints are highly dependent on what build one is fighting. As an example, there is no immediate reason to use 61 poise against a Quality build (Strength and Dexterity), which may use a Murakumo or a Claymore, 53 poise would take a single two-handed light attack of each. However those builds are capable of swapping to a Katana, Spear or Curved Sword, against which 61 poise would give a significant advantage, and having invested into getting 53 instead of 32 poise will instead be a disadvantage.
+Becoming staggered is a very serious situation, and can become very difficult when surrounded by numerous enemies.
+Being staggered means that you will not be able to control your character after taking a heavy blow from an opponent.
+It should also be important to remember that two handing a single weapon increases the poise break damage and can be used to stagger opponents unexpectable.
+Note that some attacks cause instant staggering, and is not dependent on your Poise count.
+Poise Break Points
+It has been found that certain weapon classes will stun people at very specific poise amounts. For example Ultra Greatswords , when used 2 handed, will stun anyone at 75 poise or less. So a poise of 76 will prevent you being stunlocked by a hit from an UGS. However these values will only save you from 1 hit. If you are hit again before your "poise bar" empties completely you will be stunned.
+Each time a hit is taken, poise will reduce and remain briefly frozen at the latest value (it does not regenerate steadily like stamina). This means that if a player with 53 poise gets hit by an attack that drains 20 poise, the player will then have exactly 33 poise for the next few seconds. A hidden timer is triggered with each hit that is taken, and if it completes before another hit is taken, poise will instantly refill back to 100%.
+The world of Dark Souls is a world of cycles. Kingdoms rise and fall, ages come and go, and even time can end and restart as the flame fades and is renewed. These cycles are linked to the First Flame, a mysterious manifestation of life that divides and defines separate states such as heat and cold, or life and death. As the First Flame fades, these differences also begin to fade, such as life and death having little distinction, and humans becoming Undead. The onset of an Age of Dark, the time when the First Flame has fully died, is marked by endless nights, rampant undeath, time, space, and reality breaking down, lands collapsing and converging on one another, people mutating into monsters, darkness covering the world, and the Gods losing their power. To avoid this and prolong the Age of Fire, the bearer of a powerful soul must "link" themselves to the First Flame, becoming the fuel for another age. If this is not done, the First Flame will eventually die, and an Age of Dark will begin.
+
+The powerful Lord Souls were taken from the First Flame, used to defeat the dragons, and then to establish kingdoms. Souls are inextricably (and inexplicably) linked to fire. Souls are life, and life is fire; it stands to reason that souls are fire, as well. Without the First Flame and without souls, there is no life. The bearer of a strong soul, called a Lord, who links themselves to the First Flame, is thus rekindling the flames with their own soul, returning life to it. In the end, one could expect that all souls will have been returned to the First Flame, and the Age of Fire will have effectively ended anyways.
+
+It is inevitable that people try to find a way around this, another way to continue the Age of Fire without making sacrifices, but in every case they fail. In the first Age of Fire, the Witch of Izalith attempted to create a duplicate of the First Flame using her witchcraft and a special soul, but failed catastrophically. Instead of making another First Flame, she had created a twisted Flame of Chaos that produced distortions of life, turning herself and all her daughters into demons. These demons were malevolent, and wandered the land. Gwyn gathered up his armies and fought the demons of Chaos, eventually driving them back and shackling the Bed of Chaos to bind them. Knowing that the Age of Fire was nearing its end, under the guidance of the primordial serpent Kingseeker Frampt, Gwyn offered himself to the First Flame to stave off the Dark. As the flames surged with new life, the knights who followed him in were burnt by the flames and now wander the world as the Black Knights, hollow shells of armor who attack indiscriminately.
+
+Before he left to link the First Flame, Gwyn gave fragments of his soul to his followers and allies. Ornstein, Gough, Ciaran, and Artorias, his four strongest knights who fought against the dragons, Seath the Paledrake, who betrayed the dragons and played a crucial role in the war, and was also granted the title of Duke and permission to build a grand archive to conduct his research, and the Four Kings of New Londo, who ruled a city of Undead. In time, another primordial serpent convinced the people of the human kingdom of Oolacile to delve into the darkness of the Abyss to unearth the grave of an ancient human. Whether through their actions or some other means, the primordial human - Manus - was resurrected and driven to madness, and his wild Humanity caused the people of Oolacile to mutate into abominations. Manus, Father of the Abyss, began to rapidly spread Dark and accelerate the growth of the Abyss, and would've started an early Age of Dark had he not been defeated. Even so, the kingdom of Oolacile was lost to the Abyss, and eventually forgotten in the modern day. Nothing remains in the present day to mark the passing of this land save for Dusk, the princess of Oolacile.
+
+Gwyn's youngest son Gwyndolin, together with Kingseeker Frampt, sheperds the humans by Gwyn's command. Together they built giant asylums to house the countless undead, hoping against hope that one of them would be chosen to defeat the Asylum demon, and fulfill their destiny. The Undead are sent on a quest to ring the Bells of Awakening, collect the Lordvessel, slay the bearers of  Gwynn's soul, then offer those souls to the Lordvessel to open the path to the Kiln of the First Flame. In doing so, the unnatural Undead are given true death and the living can enjoy another age of fire for a thousand years, while the Undead linked to the First Flame will continue to burn, alive and aware, until someone else comes to take their place. And thus, the cycle continues.
+Known as the land of the ancient Lords, where their kingdoms converge. This is where the game takes place, and it is a dangerous area indeed. Containing a great variety of environments and filled with many dangerous creatures, any Undead's resolve will be tested to the fullest here. The Undead travel great distances to reach this land, where the First Flame waits to be linked.
+Known as the city of the gods, and founded by Lord Gwyn. It sits at the top of a mountain, and both the cliff face and its own walls separate it from the outside world. Long ago, invitations were given to great champions among humans, decided through victories in an arena, but this practice has not been kept up for some time. Sen's Fortress sits below it, an enormous deathtrap serving as both gateway and obstacle to Anor Londo, and those who could overcome it were permitted access, but the pathway at the end has since been sealed. Now, any Undead seeking to enter the city are carried in by bat-winged demons if they can overcome the fortress. The truth of Anor Londo is hidden behind an intricate illusion; when the First Flame began to fade, all of the gods abandoned Anor Londo save for Gwyndolin, Gwyn's youngest son. He now uses his magic to make it look like the city still stands strong, but in reality only he and his knights remain, and he is the only true authority left.
+Legendary city of the Witch of Izalith, one of the four original Lords. She and her daughters founded this city deep underground. The Witch and her daughters were originally practitioners of a form of fire sorcery, but this art was lost when the Flame of Chaos destroyed the city. When the First Flame began to fade, the Witch of Izalith tried to reproduce it using her magic and a special soul. However, she failed, and the result was the Flame of Chaos: a twisted flame that produced distorted life instead, known as the demons. Gwyn and his knights waged a war against these demons and eventually defeated them, sealing the Bed of Chaos, their source of life, with magic. Some demons now appear in roles that suggest they may work for the gods, either willingly or as captured servants. The creation of the Flame of Chaos also created pyromancy as a byproduct, and Quelana, the only Daughter of Izalith to escape the destruction, was able to develop an entire system of magic to imitate the ancient fire spells. She took only one student, Salaman from the Great Swamp. In teaching Salaman, she hoped that mankind could learn to harness and control the flames, to prevent the same catastrophy that destroyed her own home. Salaman then returned to the Great Swamp to spread the art of pyromancy.
+An extensive network of tombs and crypts, overseen by Gravelord Nito. All things that die are laid to rest here, and Nito's power of necromancy ensures that they are not disturbed. The area is not completely peaceful, however, and at one point a group of occultists attempted to steal Nito's power and use it to kill the gods. They presumably failed, but weapons and artefacts of their perverse rituals can still be found. Now the necromancer Pinwheel resides in the catacombs, where he slowly siphons away Nito's power for his own ends.
+A large city of Undead, this place was once prosperous and known for the foresight of its leaders. All undead were welcomed here, and it soon became a safe haven for undead that were banished from their homelands. New Londo was a city teeming with culture and life. Recognizing this, Lord Gwyn bestowed on the four leaders a fragment of his soul and the rank of king before he left to link the First Flame. Later, the Four Kings encountered Darkstalker Kaathe in the Abyss, who offered to teach them the art of lifedrain. In doing so, the Four Kings and their order of knights were corrupted by the dark, becoming the Darkwraiths of Kaathe. The threat they posed to the outside world was so great that the whole city was flooded to contain them, killing everyone inside. The dead still wander as ghosts through the ruins, and the Darkwraiths themselves survived the flooding even though they are still trapped.
+An ancient and long forgotten human kingdom that was once in Lordran. It was a peaceful land of scholars, who practiced a now lost form of light-based sorcery. Before its fall, a path to the Abyss was unearthed, and they encountered a primordial serpent who convinced them to delve into the depths of the Abyss to unearth the grave of a primordial human. When revived, this human, named Manus, went mad, and his humanity went wild. This caused him to mutate into a huge abomination, and contact with his humanity caused the people of Oolacile to also mutate into abominations. Manus was a powerful sorcerer and master of the Dark, and with his magic he guided the Abyss to grow, swiftly overtaking the kingdom of Oolacile. Knight Artorias was sent in to defeat Manus and halt the Abyss, but he failed and was corrupted by the Dark instead. The Chosen Undead travels back in time to lay Artorias to rest and defeat Manus in his stead. As the player is not naturally from that time, their actions are instead attributed to Artorias, to be known as the Abysswalker, a legendary knight who traversed the Abyss to defeat the Darkwraiths.
+A human kingdom outside Lordran, it is a land known for its traditional knights, clergy, and nobility. The Way of White originates from here, and the knight and cleric classes available to the player are apparently travelers from this land and start with the Way of White covenant. The Way of White itself is very proactive about removing Undead, and sponsors great hunts to round them up and forcibly transport them to an asylum on the edge of Lordran. Clerics and knights within the Way of White who become Undead are sent to Lordran on a pilgrimage, where they are told to search the Catacombs and learn the Rite of Kindling. At some point in the past, a terrible beast known as the Evil Eye attacked the kingdom of Astora, causing great damage. It was defeated, and its spirit is rumored to be trapped in a magic ring.
+Another kingdom outside Lordran that is known for its festivites and drinks, and also for the peculiar onion-like armor of its knights. Their armor was designed to deflect blows and is actually highly effective, and the knights take great pride in it, but the appearance is still mocked by outsiders.
+
+The Great Swamp.
+A distant and inhospitable land outside Lordran, unwanted by all save for the people who live there. Not a formal kingdom per se, it is populated by outcasts and exiles from other lands. They share a common interest in the teachings of pyromancy, and appear to practice some form of shamanism as well. As they are not a proper kingdom, they have no order of knights, but pyromancy is an easy craft to use and is still very powerful. Travelers from the Great Swamp are often equipped with wrapped clothing that protects them from the dangers of their homeland, and versatile hand axes that serve as both tools and weapons. It is not specified whether Undead are welcome there, but Undead from there are often ecstatic for the chance to travel to Lordran and hopefully visit the ancient city of Izalith.
+A land known for the Dragon School, a place of study for the system of sorcery formalized by Seath the Scaleless. The School employs its own spies and assassins trained in sound-manipulating magic, and through this maintain control of the city and its politics. The sorcerer starting class available to the player originates from Vinheim.
+This kingdom is most known for its shady aristocrats and knights, and its gods. If anything, it is the polar opposite of Astora. Pardoners of Velka, the rogue goddess, are known to come from here, and it is home to the infamous Arstor of Carim. It is a place known for distinctive weaponry: Carim knights use lightweight parrying daggers in place of shields and their Shotels cut a sinister profile, and its archers are trained in a unique crossbow specialized for sniping. A very particular kind of magic ring originates from here, exceptional at resisting status effects but rumored to be created through dreadful means. The Purging Stone items are also from Carim, and the fact that they contain the remains of humans raises serious questions about the nature of their production.
+An asylum for the undead on the edge of Lordran. Undead were corralled here, and in many such places by order of Gwyndolin, the youngest son of Gwynn, Lord of Sunlight. The Undead are kept here in hopes that one day one of them would be chosen to be able to defeat the gatekeeper, the fearsome Asylum demon and go on to link the first flame. It is still unclear whether the Undead is chosen because they are able to defeat the Asylum Demon, or that they are able to defeat the Asylum demon because they are chosen.
+earer of the strongest Lord Soul, Gwyn's power manifested as great spears of sunlight, which take the form of lightning. He founded the kingdom of Anor Londo, lead an army of his silver knights against the dragons, and was father to Gwynevere, Gwyndolin, and his disowned firstborn son(thought to be Sen, the ancient God of War). Gwyn was the first to link the First Flame, becoming a Lord of Cinder, and now mindlessly guards it against outside threats and serves as a test of strength for those seeking to link it again. Gwyn's crown is said to have once had some special power, but its power has long since faded and now only exudes a slight warmth by the time the player acquires it. Gwyn and his clan are referred to as gods. Whether this is by Gwyn's own command or simply a title given to them by others for their strength is unknown, though they are still the primary religious figures in many human kingdoms.
+The second daughter of Gwyn, and known as a goddess of fertility. The real Gwynevere married the flame god Flann and left Anor Londo long ago when the First Flame began to fade, but Gwyndolin created an illusion of her to maintain the image of power and stability in the kingdom. This illusion grants successful Undead the Lordvessel, and directs them to follow Kingseeker Frampt's advice and fill it with Lord Souls. Undead who ask can join the Princess Guard, knights of Gwynevere who grant aid to fellow Undead through the use of her miracles.
+Legendary knight of Gwyn, known for his unbreakable will of steel and unmatched skill with greatswords. It is said that Artorias forged a pact with the beasts of the Abyss to fight against the Darkwraiths, but this is only a fabrication, as his true story was intentionally obscured and eventually forgotten. In reality, Artorias was defeated by the Abyss, and his efforts were carried on by a forgotten champion. This champion eventually defeated Manus, Father of the Abyss, successfully stalling the Abyss's growth for some time. Artorias was friends with Sif the Great Wolf and the cat Alvina, both of whom now defend his grave from those who hope to find the means to enter the Abyss.
+One of the four original Lord Soul bearers, her Lord Soul granted the power of fire. She is a witch and master of the now forgotten fire sorceries, and founded the city of Izalith with her daughters deep underground. When the First Flame began to fade, she attempted to create a second First Flame to replace it using her witchcraft and a special soul, but failed catastrophically and instead created the Flame of Chaos. The birth of Chaos marked the birth of demons, and its flame transformed the Witch of Izalith and all her daughters into demons barring Quelana, who escaped the destruction of her home. As the daughters of Izalith were the only practitioners of fire sorcery, it is now a forgotten art, but the creation of Chaos also created pyromancy as a byproduct. Gwyn waged war against the demons and eventually routed them, shackling the Bed of Chaos, their source of life, to contain them.
+One of the daughters of Izalith, and the only one who successfully escaped the destruction of her home. The end of Izalith marked the end of fire sorcery, but the creation of Chaos also marked the birth of pyromancy. Quelana adapted many old fire sorcery spells into pyromancy, then taught them to her pupil Salaman long ago, who then taught it to the outcasts who live in the Great Swamp. In teaching pyromancy, she hoped to teach people control over the flame to prevent another such disaster, while also preaching a message to fear the flame as it is inherently uncontrollable. Quelana is known to pre-date the Age of Fire, but by how much or even how at all is never explained.
+One of the four original Lord Soul bearers, Nito's soul grants power over death. Nito can inflict disease and decay, and animates skeletons to fight for him. Along with the other four original Lords, he played a major role in defeating the dragons and now holds dominion over an extended system of crypts and tombs where he watches over the dead. Nito leads a covenant, the Gravelord Servants, who use Eyes of Death to spread misfortune and curses, which produces more of the Eyes of Death Nito desires. Not much is known about him beyond this, though at one point a group of occultists tried to take a part of his Lord Soul in an attempt to slay the gods. More recently, the necromancer Pinwheel has been slowly draining Nito's power for his own use. Even despite all of this, Nito's Lord Soul remains strong enough to satiate the Lordvessel, and he is still a Lord in his own right.
+Necromancer of the Catacombs, he has been taking power from Nito's soul for his own ends. Pinwheel appears to have three heads and six arms, and concept art of him shows three separate bodies either stacked together or fused underneath his robe. Pinwheel himself is not especially powerful, and does not accomplish anything of note in the story. His three masks are each enchanted with special power, and will fortify the body of anyone wearing them.
+Seath was born without the scales that make other dragons immortal. In his envy, he betrayed them and stole the primordial crystal, which granted him near complete invulnerability, if not an adequate imitation of immortality. After the war, he was given the title of Duke by Gwyn, a fragment of Gwyn's own soul, and a tower and archives to conduct his research in. Seath eventually codified a system of magic utilizing souls, and is known as the father of sorcery by the Dragon School of Vinheim which teaches it. Seath spent his time trying to find the secrets of immortality and produce scales for himself, but his research eventually drove him mad and his experiments became more and more deranged. By the time the game begins, he is sending his minions out to kidnap maidens and perform horrible atrocities on them, turning them into monsters. In his madness, he developed powerful sorceries based on a link between souls and crystals, the mere study of which is enough to drive other wizards equally insane. As with all dragons, his tail can be severed to find a special weapon: the Moonlight Greatsword, a non-physical blade that shoots, and is composed of, waves of moonlight.
+A primeval human, Manus was once a man but becomes a twisted abomination after being resurrected. His Humanity goes wild, and similarly mutates any other human it comesin contact with. He is a dark sorcerer of immense power, and wields the strength of the Abyss to bring the kingdom of Oolacile to its knees in short order, capturing the Princess Dusk. The Abyss spreads rapidly under his guidance, and while its spread is halted with his death, Gough notes that this is only a temporary measure. The knight Artorias attempts to stop him, but is defeated. Manus himself is warped beyond the ability to reason by his revival, and desperately seeks his precious pendant, which he never finds. He demonstrates the ability to reach beyond time and space, snatching at least two people from the future and dragging them back into the past.
+The fate of the Hollow Knight is linked to the end of the Knight's journey. By killing the Hollow Knight, the Knight takes their place in sealing the Radiance. By instead entering their mind with the help of Hornet, the Knight can kill the Radiance. At the end of this fight, the Hollow Knight's Shade appears and opens up a weak point on her head, allowing the Knight to land the finishing blows. The two siblings then return to the Void together.
+The Hollow Knight is the Vessel chosen by the Pale King to seal away the Radiance and save Hallownest from the Infection.[2] Like their siblings, they are the child of the King and Queen of Hallownest, birthed in the Abyss to be infused with the power of the Void.[3] As such, they are genderless.[1][4] This birth condition was also supposed to leave them without a mind, will, and voice,[5] to prevent the Radiance from influencing them.[6][7] However, their purity was misjudged, tarnished by an idea instilled,[8] a bond with the Pale King who raised them.[9]
+
+
+The young Hollow Knight being led out of the Abyss
+
+Regardless of their impurity, the Hollow Knight was trained and raised, eventually becoming a fully grown Vessel.[10] The Radiance was sealed within them, and they were chained within the Temple of the Black Egg where they were expected to contain the Infection for eternity.[11] However, because of the aforementioned impurities, the Radiance could still exert influence. It ultimately resulted in the resurgence of the Infection and the Kingdom falling into ruin.
+
+Over time, the Hollow Knight disappeared from the fallen Kingdom's memory. Only the Memorial in the middle of the City of Tears testifies of their sacrifice to save Hallownest.
+These are the base attacks that the Hollow Knight starts with. They are expanded on in the next 2 Phases.
+
+Triple Slash: The Hollow Knight swings their nail 3 times. This attack is only used in Phases 1 through 3. Each swing of their nail moves the Hollow Knight forward, covering about 25% of the arena in total. The swings are so wide that they can damage the Knight even if they are behind the Hollow Knight.
+Lunge: The Hollow Knight lunges along the ground with their nail pointed towards the Knight. This attack is only used in Phases 1 through 3. This lunge covers about 50% of the arena.
+Parry: The Hollow Knight take up a defensive stance with their nail. If the Knight damages them after their nail shines, they take no damage from the hit and instead respond with a riposte. This attack is only used in Phases 1 through 3. The riposte has a huge arc and sizeable range because the Hollow Knight slides forward rapidly when they swing. The parry lasts 0.75 seconds.
+After reaching 750 HP, the Hollow Knight gains these attacks in addition to the attacks of Phase 1. The Hollow Knight attacks and moves more frequently.
+
+Diving Flame Pillar: The Hollow Knight either jumps or teleports into the air and then slams straight down with their nail, causing columns of Infected fire to shoot up from the ground. No matter which method they choose, the Hollow Knight attempts to slam down where the Knight was at the beginning of the attack. This attack is only used in Phases 2 and 3. Lifeblood content This attack deals two Masks of damage.
+Barrage: The Hollow Knight launches multiple blobs of Infection towards the Knight from beneath their cloak. This attack is only used in Phases 2 and 3. The blobs are fired in arcs at multiple angles, starting low and working up. This attack covers about 75% of the arena. The Hollow Knight launches 9 or 10 blobs in total. This attack does not track the Knight; the blobs always follow the same arcs.
+After reaching 400 HP, the Hollow Knight gains these attacks in addition to the attacks from the previous Phases. However, they lose the Lunge and Triple Slash attacks. The Hollow Knight attacks and moves less frequently and cannot be staggered after this Phase starts.
+
+Outbreak: The Hollow Knight hovers in the air and shoots blobs of Infection everywhere. This attack is only used in Phase 3. The Hollow Knight is always in the centre of the arena for this attack. They remain in the air for about 6.5 seconds. The blobs travel along three primary paths: an arc going left, an arc going right, and a third going down. Blobs burst from the Hollow Knight for 5-6 seconds.
+Bouncing Balloon: The Hollow Knight floats around the arena and bounces up and down 2-5 times. This attack is only used in Phases 3 and 4. This attack tracks the Knight's position and always aims for the Knight, specifically during the slam.
+Self Stab: The Hollow Knight stands in place and stabs their nail through their chest multiple times. During this move, all damage dealt to the Hollow Knight is reduced to 1, regardless of Nail level.
+
+After reaching 0 HP, the Hollow Knight heals for 250 HP only if the fight is continued. Depending on the Knight's progress, the fight is interrupted by Hornet, allowing the Knight to access their mind with the Dream Nail and fight the Radiance, otherwise, the fight continues as normal.
+
+During the fourth Phase of the battle, the Hollow Knight loses all other attacks except the Bouncing Balloon and Self Stab attacks and gains one new attack.
+
+Deterioration: The Hollow Knight attempts to swing their nail once and then falls to their knees. This attack is only used in Phase 4. Essentially, the Hollow Knight is attempting a Triple Slash attack but as soon as the first slash happens, they fall over without moving forward at all.
+Upon breaking the seals on the Temple of the Black Egg by destroying the three Dreamers, the Knight is allowed entrance in order to fight this boss. To begin the fight, the Knight must break the four chains holding the Hollow Knight.
+
+The Hollow Knight fight has 4 Phases. Each Phase is marked by the Hollow Knight standing still, turning their head skyward and roaring. This roar stuns the Knight. The fight changes with each Phase.
+
+In Phase 1, the Hollow Knight has three attacks: Triple Slash, Lunge, and Parry. The attacks come regularly. The Hollow Knight back dashes, teleports, and leaps around the arena between attacks.
+
+In Phase 2 of the fight, the Hollow Knight gains two more attacks (Barrage and Diving Flame Pillar) and the Hollow Knight moves and attacks with greater frequency.
+
+In Phase 3, the Hollow Knight begins stabbing themself. The Hollow Knight gains two more attacks (Outbreak and Bouncing Balloon) but they also slow down: rarely leaping or teleporting and their attacks come less often.
+
+In Phase 4, the Hollow Knight can barely move. They can no longer teleport or leap and can hardly swing their nail. Only two attacks are used in the phase: the Bouncing Balloon and Deterioration.
+
+The main weakness of the Hollow Knight is that they are vulnerable to attacks from above. During a Lunge or Triple Slash, jump above their head and Nail-bounce a few times while they finish the attack. If they parry your attack, shadow dash through their riposte.
+
+There are safe zones amongst the blobs during the Barrage and Explosion atacks so pay attention and move into safe zones. Dashing can often overshoot a safe zone, so walking is usually the safer option.
+
+During the Bouncing Balloon attack, the Hollow Knight attempts to home in on the Knight. They have trouble tracking if the Knight constantly changes direction. Dodge the first slam, then dash under them when they rise for a new slam, then reverse again after they come down and repeat.
+
+During the Diving Flame Pillar attack, the pillars briefly charge on the floor before erupting, showing where it is safe to stand. When the Hollow Knight jumps and readies their nail, start looking for a safe zone immediately after dodging the downward strike.
+
+The Hollow Knight's teleport usually positions them far away from the Knight, so using Vengeful Spirit/Shade Soul during this time is useful to get hits in before they charge another attack. Moving too far from the Hollow Knight makes it more likely they will teleport close to the Knight, so be careful when running away to heal.
+
+Depending on the Knight's progress, one of two endings plays out after the fight. After the ending, the Knight respawns at the last Bench they rested at. The Hollow Knight can be Dream Nailed at the start of Phase 4 if the Knight has Void Heart, initiating the fight with the Radiance.
+Today is the anniversary of the publication of Robert Frost’s iconic poem “Stopping by Woods on a Snowy Evening,” a fact that spurred the Literary Hub office into a long conversation about their favorite poems, the most iconic poems written in English, and which poems we should all have already read (or at least be reading next). Turns out, despite frequent (false) claims that poetry is dead and/or irrelevant and/or boring, there are plenty of poems that have sunk deep into our collective consciousness as cultural icons. (What makes a poem iconic? For our purposes here, it’s primarily a matter of cultural ubiquity, though unimpeachable excellence helps any case.) So for those of you who were not present for our epic office argument, I have listed some of them here.
+
+NB that I limited myself to one poem per poet—which means that the impetus for this list actually gets bumped for the widely quoted (and misunderstood) “The Road Not Taken,” but so it goes. I also excluded book-length poems, because they’re really a different form. Finally, despite the headline, I’m sure there are many, many iconic poems out there that I’ve missed—so feel free to extend this list in the comments. But for now, happy reading (and re-reading):
+April is the cruellest month, breeding
+Lilacs out of the dead land, mixing
+Memory and desire, stirring
+Dull roots with spring rain.
+Winter kept us warm, covering
+Earth in forgetful snow, feeding
+A little life with dried tubers.
+Summer surprised us, coming over the Starnbergersee
+With a shower of rain; we stopped in the colonnade,
+And went on in sunlight, into the Hofgarten,
+And drank coffee, and talked for an hour.
+Bin gar keine Russin, stamm’ aus Litauen, echt deutsch.
+And when we were children, staying at the archduke’s,
+My cousin’s, he took me out on a sled,
+And I was frightened. He said, Marie,
+Marie, hold on tight. And down we went.
+In the mountains, there you feel free.
+I read, much of the night, and go south in the winter.
+
+What are the roots that clutch, what branches grow
+Out of this stony rubbish? Son of man,
+You cannot say, or guess, for you know only
+A heap of broken images, where the sun beats,
+And the dead tree gives no shelter, the cricket no relief,
+And the dry stone no sound of water. Only
+There is shadow under this red rock,
+(Come in under the shadow of this red rock),
+And I will show you something different from either
+Your shadow at morning striding behind you
+Or your shadow at evening rising to meet you;
+I will show you fear in a handful of dust.
+Madame Sosostris, famous clairvoyante,
+Had a bad cold, nevertheless
+Is known to be the wisest woman in Europe,
+With a wicked pack of cards. Here, said she,
+Is your card, the drowned Phoenician Sailor,
+(Those are pearls that were his eyes. Look!)
+Here is Belladonna, the Lady of the Rocks,
+The lady of situations.
+Here is the man with three staves, and here the Wheel,
+And here is the one-eyed merchant, and this card,
+Which is blank, is something he carries on his back,
+Which I am forbidden to see. I do not find
+The Hanged Man. Fear death by water.
+I see crowds of people, walking round in a ring.
+Thank you. If you see dear Mrs. Equitone,
+Tell her I bring the horoscope myself:
+One must be so careful these days.
+
+Unreal City,
+Under the brown fog of a winter dawn,
+A crowd flowed over London Bridge, so many,
+I had not thought death had undone so many.
+Sighs, short and infrequent, were exhaled,
+And each man fixed his eyes before his feet.
+Flowed up the hill and down King William Street,
+To where Saint Mary Woolnoth kept the hours
+With a dead sound on the final stroke of nine.
+There I saw one I knew, and stopped him, crying: 'Stetson!
+'You who were with me in the ships at Mylae!
+'That corpse you planted last year in your garden,
+'Has it begun to sprout? Will it bloom this year?
+'Or has the sudden frost disturbed its bed?
+'Oh keep the Dog far hence, that’s friend to men,
+'Or with his nails he’ll dig it up again!
+Two roads diverged in a yellow wood,
+And sorry I could not travel both
+And be one traveler, long I stood
+And looked down one as far as I could
+To where it bent in the undergrowth;
+
+Then took the other, as just as fair,
+And having perhaps the better claim,
+Because it was grassy and wanted wear;
+Though as for that the passing there
+Had worn them really about the same,
+
+And both that morning equally lay
+In leaves no step had trodden black.
+Oh, I kept the first for another day!
+Yet knowing how way leads on to way,
+I doubted if I should ever come back.
+
+I shall be telling this with a sigh
+Somewhere ages and ages hence:
+Two roads diverged in a wood, and I—
+I took the one less traveled by,
+And that has made all the difference.
+The art of losing isn’t hard to master;
+so many things seem filled with the intent
+to be lost that their loss is no disaster.
+
+Lose something every day. Accept the fluster
+of lost door keys, the hour badly spent.
+The art of losing isn’t hard to master.
+
+Then practice losing farther, losing faster:
+places, and names, and where it was you meant
+to travel. None of these will bring disaster.
+
+I lost my mother’s watch. And look! my last, or
+next-to-last, of three loved houses went.
+The art of losing isn’t hard to master.
+
+I lost two cities, lovely ones. And, vaster,
+some realms I owned, two rivers, a continent.
+I miss them, but it wasn’t a disaster.
+
+—Even losing you (the joking voice, a gesture
+I love) I shan’t have lied. It’s evident
+the art of losing’s not too hard to master
+though it may look like (Write it!) like disaster.
+
+Because I could not stop for Death –
+He kindly stopped for me –
+The Carriage held but just Ourselves –
+And Immortality.
+
+We slowly drove – He knew no haste
+And I had put away
+My labor and my leisure too,
+For His Civility –
+
+We passed the School, where Children strove
+At Recess – in the Ring –
+We passed the Fields of Gazing Grain –
+We passed the Setting Sun –
+
+Or rather – He passed Us –
+The Dews drew quivering and Chill –
+For only Gossamer, my Gown –
+My Tippet – only Tulle –
+
+We paused before a House that seemed
+A Swelling of the Ground –
+The Roof was scarcely visible –
+The Cornice – in the Ground –
+
+Since then – 'tis Centuries – and yet
+Feels shorter than the Day
+I first surmised the Horses' Heads
+Were toward Eternity –
+
+You do not do, you do not do   
+Any more, black shoe
+In which I have lived like a foot   
+For thirty years, poor and white,   
+Barely daring to breathe or Achoo.
+
+Daddy, I have had to kill you.   
+You died before I had time——
+Marble-heavy, a bag full of God,   
+Ghastly statue with one gray toe   
+Big as a Frisco seal
+
+And a head in the freakish Atlantic   
+Where it pours bean green over blue   
+In the waters off beautiful Nauset.   
+I used to pray to recover you.
+Ach, du.
+
+In the German tongue, in the Polish town   
+Scraped flat by the roller
+Of wars, wars, wars.
+But the name of the town is common.   
+My Polack friend
+
+Says there are a dozen or two.   
+So I never could tell where you   
+Put your foot, your root,
+I never could talk to you.
+The tongue stuck in my jaw.
+
+It stuck in a barb wire snare.   
+Ich, ich, ich, ich,
+I could hardly speak.
+I thought every German was you.   
+And the language obscene
+
+An engine, an engine
+Chuffing me off like a Jew.
+A Jew to Dachau, Auschwitz, Belsen.   
+I began to talk like a Jew.
+I think I may well be a Jew.
+
+The snows of the Tyrol, the clear beer of Vienna   
+Are not very pure or true.
+With my gipsy ancestress and my weird luck   
+And my Taroc pack and my Taroc pack
+I may be a bit of a Jew.
+
+I have always been scared of you,
+With your Luftwaffe, your gobbledygoo.   
+And your neat mustache
+And your Aryan eye, bright blue.
+Panzer-man, panzer-man, O You——
+
+Not God but a swastika
+So black no sky could squeak through.   
+Every woman adores a Fascist,   
+The boot in the face, the brute   
+Brute heart of a brute like you.
+
+You stand at the blackboard, daddy,   
+In the picture I have of you,
+A cleft in your chin instead of your foot   
+But no less a devil for that, no not   
+Any less the black man who
+
+Bit my pretty red heart in two.
+I was ten when they buried you.   
+At twenty I tried to die
+And get back, back, back to you.
+I thought even the bones would do.
+
+But they pulled me out of the sack,   
+And they stuck me together with glue.   
+And then I knew what to do.
+I made a model of you,
+A man in black with a Meinkampf look
+
+And a love of the rack and the screw.   
+And I said I do, I do.
+So daddy, I’m finally through.
+The black telephone’s off at the root,   
+The voices just can’t worm through.
+
+If I’ve killed one man, I’ve killed two——
+The vampire who said he was you   
+And drank my blood for a year,
+Seven years, if you want to know.
+Daddy, you can lie back now.
+
+There’s a stake in your fat black heart   
+And the villagers never liked you.
+They are dancing and stamping on you.   
+They always knew it was you.
+Daddy, daddy, you bastard, I’m through.
+
+Jesús, Estrella, Esperanza, Mercy:
+
+       Sails flashing to the wind like weapons,
+       sharks following the moans the fever and the dying;   
+       horror the corposant and compass rose.
+
+Middle Passage:
+               voyage through death
+                               to life upon these shores.
+
+       “10 April 1800—
+       Blacks rebellious. Crew uneasy. Our linguist says   
+       their moaning is a prayer for death,
+       ours and their own. Some try to starve themselves.   
+       Lost three this morning leaped with crazy laughter   
+       to the waiting sharks, sang as they went under.”
+
+Desire, Adventure, Tartar, Ann:
+
+       Standing to America, bringing home   
+       black gold, black ivory, black seed.
+
+               Deep in the festering hold thy father lies,   
+               of his bones New England pews are made,   
+               those are altar lights that were his eyes.
+
+Jesus    Saviour    Pilot    Me
+Over    Life’s    Tempestuous    Sea
+
+We pray that Thou wilt grant, O Lord,   
+safe passage to our vessels bringing   
+heathen souls unto Thy chastening.
+
+Jesus    Saviour
+
+       “8 bells. I cannot sleep, for I am sick
+       with fear, but writing eases fear a little
+       since still my eyes can see these words take shape   
+       upon the page & so I write, as one
+       would turn to exorcism. 4 days scudding,
+       but now the sea is calm again. Misfortune
+       follows in our wake like sharks (our grinning   
+       tutelary gods). Which one of us
+       has killed an albatross? A plague among
+       our blacks—Ophthalmia: blindness—& we   
+       have jettisoned the blind to no avail.
+       It spreads, the terrifying sickness spreads.
+       Its claws have scratched sight from the Capt.'s eyes   
+       & there is blindness in the fo’c’sle
+       & we must sail 3 weeks before we come
+       to port.”
+
+               What port awaits us, Davy Jones’
+               or home? I’ve heard of slavers drifting, drifting,   
+               playthings of wind and storm and chance, their crews   
+               gone blind, the jungle hatred
+               crawling up on deck.
+
+Thou    Who    Walked    On    Galilee
+
+       “Deponent further sayeth The Bella J
+       left the Guinea Coast
+       with cargo of five hundred blacks and odd   
+       for the barracoons of Florida:
+
+       “That there was hardly room ’tween-decks for half   
+       the sweltering cattle stowed spoon-fashion there;   
+       that some went mad of thirst and tore their flesh   
+       and sucked the blood:
+
+       “That Crew and Captain lusted with the comeliest   
+       of the savage girls kept naked in the cabins;   
+       that there was one they called The Guinea Rose   
+       and they cast lots and fought to lie with her:
+
+       “That when the Bo’s’n piped all hands, the flames   
+       spreading from starboard already were beyond   
+       control, the negroes howling and their chains   
+       entangled with the flames:
+
+       “That the burning blacks could not be reached,   
+       that the Crew abandoned ship,
+       leaving their shrieking negresses behind,
+       that the Captain perished drunken with the wenches:
+
+       “Further Deponent sayeth not.”
+
+Pilot    Oh    Pilot    Me
+
+
+       II
+
+Aye, lad, and I have seen those factories,   
+Gambia, Rio Pongo, Calabar;
+have watched the artful mongos baiting traps   
+of war wherein the victor and the vanquished
+
+Were caught as prizes for our barracoons.   
+Have seen the nigger kings whose vanity
+and greed turned wild black hides of Fellatah,   
+Mandingo, Ibo, Kru to gold for us.
+
+And there was one—King Anthracite we named him—
+fetish face beneath French parasols
+of brass and orange velvet, impudent mouth
+whose cups were carven skulls of enemies:
+
+He’d honor us with drum and feast and conjo   
+and palm-oil-glistening wenches deft in love,   
+and for tin crowns that shone with paste,   
+red calico and German-silver trinkets
+
+Would have the drums talk war and send   
+his warriors to burn the sleeping villages   
+and kill the sick and old and lead the young   
+in coffles to our factories.
+
+Twenty years a trader, twenty years,
+for there was wealth aplenty to be harvested   
+from those black fields, and I’d be trading still   
+but for the fevers melting down my bones.
+
+
+       III
+
+Shuttles in the rocking loom of history,   
+the dark ships move, the dark ships move,   
+their bright ironical names
+like jests of kindness on a murderer’s mouth;   
+plough through thrashing glister toward   
+fata morgana’s lucent melting shore,   
+weave toward New World littorals that are   
+mirage and myth and actual shore.
+
+Voyage through death,
+                               voyage whose chartings are unlove.
+
+A charnel stench, effluvium of living death   
+spreads outward from the hold,
+where the living and the dead, the horribly dying,   
+lie interlocked, lie foul with blood and excrement.
+
+       Deep in the festering hold thy father lies,   
+       the corpse of mercy rots with him,   
+       rats eat love’s rotten gelid eyes.
+
+       But, oh, the living look at you
+       with human eyes whose suffering accuses you,   
+       whose hatred reaches through the swill of dark   
+       to strike you like a leper’s claw.
+
+       You cannot stare that hatred down
+       or chain the fear that stalks the watches
+       and breathes on you its fetid scorching breath;   
+       cannot kill the deep immortal human wish,   
+       the timeless will.
+
+               “But for the storm that flung up barriers   
+               of wind and wave, The Amistad, señores,
+               would have reached the port of Príncipe in two,   
+               three days at most; but for the storm we should   
+               have been prepared for what befell.   
+               Swift as the puma’s leap it came. There was   
+               that interval of moonless calm filled only   
+               with the water’s and the rigging’s usual sounds,   
+               then sudden movement, blows and snarling cries   
+               and they had fallen on us with machete   
+               and marlinspike. It was as though the very   
+               air, the night itself were striking us.   
+               Exhausted by the rigors of the storm,
+               we were no match for them. Our men went down   
+               before the murderous Africans. Our loyal   
+               Celestino ran from below with gun   
+               and lantern and I saw, before the cane-
+               knife’s wounding flash, Cinquez,
+               that surly brute who calls himself a prince,   
+               directing, urging on the ghastly work.
+               He hacked the poor mulatto down, and then   
+               he turned on me. The decks were slippery
+               when daylight finally came. It sickens me   
+               to think of what I saw, of how these apes   
+               threw overboard the butchered bodies of
+               our men, true Christians all, like so much jetsam.   
+               Enough, enough. The rest is quickly told:   
+               Cinquez was forced to spare the two of us   
+               you see to steer the ship to Africa,   
+               and we like phantoms doomed to rove the sea   
+               voyaged east by day and west by night,   
+               deceiving them, hoping for rescue,   
+               prisoners on our own vessel, till   
+               at length we drifted to the shores of this   
+               your land, America, where we were freed   
+               from our unspeakable misery. Now we   
+               demand, good sirs, the extradition of   
+               Cinquez and his accomplices to La   
+               Havana. And it distresses us to know   
+               there are so many here who seem inclined   
+               to justify the mutiny of these blacks.   
+               We find it paradoxical indeed
+               that you whose wealth, whose tree of liberty   
+               are rooted in the labor of your slaves
+               should suffer the august John Quincy Adams   
+               to speak with so much passion of the right   
+               of chattel slaves to kill their lawful masters   
+               and with his Roman rhetoric weave a hero’s   
+               garland for Cinquez. I tell you that   
+               we are determined to return to Cuba
+               with our slaves and there see justice done. Cinquez—
+               or let us say ‘the Prince’—Cinquez shall die.”
+
+       The deep immortal human wish,   
+       the timeless will:
+
+               Cinquez its deathless primaveral image,   
+               life that transfigures many lives.
+
+       Voyage through death
+                                     to life upon these shores.
+Among twenty snowy mountains,   
+The only moving thing   
+Was the eye of the blackbird.   
+
+II
+I was of three minds,   
+Like a tree   
+In which there are three blackbirds.   
+
+III
+The blackbird whirled in the autumn winds.   
+It was a small part of the pantomime.   
+
+IV
+A man and a woman   
+Are one.   
+A man and a woman and a blackbird   
+Are one.   
+
+V
+I do not know which to prefer,   
+The beauty of inflections   
+Or the beauty of innuendoes,   
+The blackbird whistling   
+Or just after.   
+
+VI
+Icicles filled the long window   
+With barbaric glass.   
+The shadow of the blackbird   
+Crossed it, to and fro.   
+The mood   
+Traced in the shadow   
+An indecipherable cause.   
+
+VII
+O thin men of Haddam,   
+Why do you imagine golden birds?   
+Do you not see how the blackbird   
+Walks around the feet   
+Of the women about you?   
+
+VIII
+I know noble accents   
+And lucid, inescapable rhythms;   
+But I know, too,   
+That the blackbird is involved   
+In what I know.   
+
+IX
+When the blackbird flew out of sight,   
+It marked the edge   
+Of one of many circles.   
+
+X
+At the sight of blackbirds   
+Flying in a green light,   
+Even the bawds of euphony   
+Would cry out sharply.   
+
+XI
+He rode over Connecticut   
+In a glass coach.   
+Once, a fear pierced him,   
+In that he mistook   
+The shadow of his equipage   
+For blackbirds.   
+
+XII
+The river is moving.   
+The blackbird must be flying.   
+
+XIII
+It was evening all afternoon.   
+It was snowing   
+And it was going to snow.   
+The blackbird sat   
+In the cedar-limbs.
+I saw the best minds of my generation destroyed by madness, starving hysterical naked,
+dragging themselves through the negro streets at dawn looking for an angry fix,
+angelheaded hipsters burning for the ancient heavenly connection to the starry dynamo in the machinery of night,
+who poverty and tatters and hollow-eyed and high sat up smoking in the supernatural darkness of cold-water flats floating across the tops of cities contemplating jazz,
+who bared their brains to Heaven under the El and saw Mohammedan angels staggering on tenement roofs illuminated,
+who passed through universities with radiant cool eyes hallucinating Arkansas and Blake-light tragedy among the scholars of war,
+who were expelled from the academies for crazy & publishing obscene odes on the windows of the skull,
+who cowered in unshaven rooms in underwear, burning their money in wastebaskets and listening to the Terror through the wall,
+who got busted in their pubic beards returning through Laredo with a belt of marijuana for New York,
+who ate fire in paint hotels or drank turpentine in Paradise Alley, death, or purgatoried their torsos night after night
+with dreams, with drugs, with waking nightmares, alcohol and cock and endless balls,
+incomparable blind streets of shuddering cloud and lightning in the mind leaping toward poles of Canada & Paterson, illuminating all the motionless world of Time between,
+Peyote solidities of halls, backyard green tree cemetery dawns, wine drunkenness over the rooftops, storefront boroughs of teahead joyride neon blinking traffic light, sun and moon and tree vibrations in the roaring winter dusks of Brooklyn, ashcan rantings and kind king light of mind,
+who chained themselves to subways for the endless ride from Battery to holy Bronx on benzedrine until the noise of wheels and children brought them down shuddering mouth-wracked and battered bleak of brain all drained of brilliance in the drear light of Zoo,
+who sank all night in submarine light of Bickford’s floated out and sat through the stale beer afternoon in desolate Fugazzi’s, listening to the crack of doom on the hydrogen jukebox,
+who talked continuously seventy hours from park to pad to bar to Bellevue to museum to the Brooklyn Bridge,
+a lost battalion of platonic conversationalists jumping down the stoops off fire escapes off windowsills off Empire State out of the moon,
+yacketayakking screaming vomiting whispering facts and memories and anecdotes and eyeball kicks and shocks of hospitals and jails and wars,
+whole intellects disgorged in total recall for seven days and nights with brilliant eyes, meat for the Synagogue cast on the pavement,
+who vanished into nowhere Zen New Jersey leaving a trail of ambiguous picture postcards of Atlantic City Hall,
+suffering Eastern sweats and Tangerian bone-grindings and migraines of China under junk-withdrawal in Newark’s bleak furnished room,   
+who wandered around and around at midnight in the railroad yard wondering where to go, and went, leaving no broken hearts,
+who lit cigarettes in boxcars boxcars boxcars racketing through snow toward lonesome farms in grandfather night,
+who studied Plotinus Poe St. John of the Cross telepathy and bop kabbalah because the cosmos instinctively vibrated at their feet in Kansas,   
+who loned it through the streets of Idaho seeking visionary indian angels who were visionary indian angels,
+who thought they were only mad when Baltimore gleamed in supernatural ecstasy,
+who jumped in limousines with the Chinaman of Oklahoma on the impulse of winter midnight streetlight smalltown rain,
+who lounged hungry and lonesome through Houston seeking jazz or sex or soup, and followed the brilliant Spaniard to converse about America and Eternity, a hopeless task, and so took ship to Africa,
+who disappeared into the volcanoes of Mexico leaving behind nothing but the shadow of dungarees and the lava and ash of poetry scattered in fireplace Chicago,
+who reappeared on the West Coast investigating the FBI in beards and shorts with big pacifist eyes sexy in their dark skin passing out incomprehensible leaflets,
+who burned cigarette holes in their arms protesting the narcotic tobacco haze of Capitalism,
+who distributed Supercommunist pamphlets in Union Square weeping and undressing while the sirens of Los Alamos wailed them down, and wailed down Wall, and the Staten Island ferry also wailed,
+who broke down crying in white gymnasiums naked and trembling before the machinery of other skeletons,
+who bit detectives in the neck and shrieked with delight in policecars for committing no crime but their own wild cooking pederasty and intoxication,
+who howled on their knees in the subway and were dragged off the roof waving genitals and manuscripts,
+who let themselves be fucked in the ass by saintly motorcyclists, and screamed with joy,
+who blew and were blown by those human seraphim, the sailors, caresses of Atlantic and Caribbean love,
+who balled in the morning in the evenings in rosegardens and the grass of public parks and cemeteries scattering their semen freely to whomever come who may,
+who hiccuped endlessly trying to giggle but wound up with a sob behind a partition in a Turkish Bath when the blond & naked angel came to pierce them with a sword,
+who lost their loveboys to the three old shrews of fate the one eyed shrew of the heterosexual dollar the one eyed shrew that winks out of the womb and the one eyed shrew that does nothing but sit on her ass and snip the intellectual golden threads of the craftsman’s loom,
+who copulated ecstatic and insatiate with a bottle of beer a sweetheart a package of cigarettes a candle and fell off the bed, and continued along the floor and down the hall and ended fainting on the wall with a vision of ultimate cunt and come eluding the last gyzym of consciousness,
+who sweetened the snatches of a million girls trembling in the sunset, and were red eyed in the morning but prepared to sweeten the snatch of the sunrise, flashing buttocks under barns and naked in the lake,
+who went out whoring through Colorado in myriad stolen night-cars, N.C., secret hero of these poems, cocksman and Adonis of Denver—joy to the memory of his innumerable lays of girls in empty lots & diner backyards, moviehouses’ rickety rows, on mountaintops in caves or with gaunt waitresses in familiar roadside lonely petticoat upliftings & especially secret gas-station solipsisms of johns, & hometown alleys too,
+who faded out in vast sordid movies, were shifted in dreams, woke on a sudden Manhattan, and picked themselves up out of basements hung-over with heartless Tokay and horrors of Third Avenue iron dreams & stumbled to unemployment offices,
+who walked all night with their shoes full of blood on the snowbank docks waiting for a door in the East River to open to a room full of steam-heat and opium,
+who created great suicidal dramas on the apartment cliff-banks of the Hudson under the wartime blue floodlight of the moon & their heads shall be crowned with laurel in oblivion,
+who ate the lamb stew of the imagination or digested the crab at the muddy bottom of the rivers of Bowery,
+who wept at the romance of the streets with their pushcarts full of onions and bad music,
+who sat in boxes breathing in the darkness under the bridge, and rose up to build harpsichords in their lofts,
+who coughed on the sixth floor of Harlem crowned with flame under the tubercular sky surrounded by orange crates of theology,
+who scribbled all night rocking and rolling over lofty incantations which in the yellow morning were stanzas of gibberish,
+who cooked rotten animals lung heart feet tail borsht & tortillas dreaming of the pure vegetable kingdom,
+who plunged themselves under meat trucks looking for an egg,
+who threw their watches off the roof to cast their ballot for Eternity outside of Time, & alarm clocks fell on their heads every day for the next decade,
+who cut their wrists three times successively unsuccessfully, gave up and were forced to open antique stores where they thought they were growing old and cried,
+who were burned alive in their innocent flannel suits on Madison Avenue amid blasts of leaden verse & the tanked-up clatter of the iron regiments of fashion & the nitroglycerine shrieks of the fairies of advertising & the mustard gas of sinister intelligent editors, or were run down by the drunken taxicabs of Absolute Reality,
+who jumped off the Brooklyn Bridge this actually happened and walked away unknown and forgotten into the ghostly daze of Chinatown soup alleyways & firetrucks, not even one free beer,
+who sang out of their windows in despair, fell out of the subway window, jumped in the filthy Passaic, leaped on negroes, cried all over the street, danced on broken wineglasses barefoot smashed phonograph records of nostalgic European 1930s German jazz finished the whiskey and threw up groaning into the bloody toilet, moans in their ears and the blast of colossal steamwhistles,
+who barreled down the highways of the past journeying to each other’s hotrod-Golgotha jail-solitude watch or Birmingham jazz incarnation,
+who drove crosscountry seventytwo hours to find out if I had a vision or you had a vision or he had a vision to find out Eternity,
+who journeyed to Denver, who died in Denver, who came back to Denver & waited in vain, who watched over Denver & brooded & loned in Denver and finally went away to find out the Time, & now Denver is lonesome for her heroes,
+who fell on their knees in hopeless cathedrals praying for each other’s salvation and light and breasts, until the soul illuminated its hair for a second,
+who crashed through their minds in jail waiting for impossible criminals with golden heads and the charm of reality in their hearts who sang sweet blues to Alcatraz,
+who retired to Mexico to cultivate a habit, or Rocky Mount to tender Buddha or Tangiers to boys or Southern Pacific to the black locomotive or Harvard to Narcissus to Woodlawn to the daisychain or grave,
+who demanded sanity trials accusing the radio of hypnotism & were left with their insanity & their hands & a hung jury,
+who threw potato salad at CCNY lecturers on Dadaism and subsequently presented themselves on the granite steps of the madhouse with shaven heads and harlequin speech of suicide, demanding instantaneous lobotomy,
+and who were given instead the concrete void of insulin Metrazol electricity hydrotherapy psychotherapy occupational therapy pingpong & amnesia,
+who in humorless protest overturned only one symbolic pingpong table, resting briefly in catatonia,
+returning years later truly bald except for a wig of blood, and tears and fingers, to the visible madman doom of the wards of the madtowns of the East,
+Pilgrim State’s Rockland’s and Greystone’s foetid halls, bickering with the echoes of the soul, rocking and rolling in the midnight solitude-bench dolmen-realms of love, dream of life a nightmare, bodies turned to stone as heavy as the moon,
+with mother finally and the last fantastic book flung out of the tenement window, and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet, and even that imaginary, nothing but a hopeful little bit of hallucination—
+ah, Carl, while you are not safe I am not safe, and now you’re really in the total animal soup of time—
+and who therefore ran through the icy streets obsessed with a sudden flash of the alchemy of the use of the ellipsis catalogue a variable measure and the vibrating plane,
+who dreamt and made incarnate gaps in Time & Space through images juxtaposed, and trapped the archangel of the soul between 2 visual images and joined the elemental verbs and set the noun and dash of consciousness together jumping with sensation of Pater Omnipotens Aeterna Deus
+to recreate the syntax and measure of poor human prose and stand before you speechless and intelligent and shaking with shame, rejected yet confessing out the soul to conform to the rhythm of thought in his naked and endless head,
+the madman bum and angel beat in Time, unknown, yet putting down here what might be left to say in time come after death,
+and rose reincarnate in the ghostly clothes of jazz in the goldhorn shadow of the band and blew the suffering of America’s naked mind for love into an eli eli lamma lamma sabacthani saxophone cry that shivered the cities down to the last radio
+with the absolute heart of the poem of life butchered out of their own bodies good to eat a thousand years.
+What sphinx of cement and aluminum bashed open their skulls and ate up their brains and imagination?
+Moloch! Solitude! Filth! Ugliness! Ashcans and unobtainable dollars! Children screaming under the stairways! Boys sobbing in armies! Old men weeping in the parks!
+Moloch! Moloch! Nightmare of Moloch! Moloch the loveless! Mental Moloch! Moloch the heavy judger of men!
+Moloch the incomprehensible prison! Moloch the crossbone soulless jailhouse and Congress of sorrows! Moloch whose buildings are judgment! Moloch the vast stone of war! Moloch the stunned governments!
+Moloch whose mind is pure machinery! Moloch whose blood is running money! Moloch whose fingers are ten armies! Moloch whose breast is a cannibal dynamo! Moloch whose ear is a smoking tomb!
+Moloch whose eyes are a thousand blind windows! Moloch whose skyscrapers stand in the long streets like endless Jehovahs! Moloch whose factories dream and croak in the fog! Moloch whose smoke-stacks and antennae crown the cities!
+Moloch whose love is endless oil and stone! Moloch whose soul is electricity and banks! Moloch whose poverty is the specter of genius! Moloch whose fate is a cloud of sexless hydrogen! Moloch whose name is the Mind!
+Moloch in whom I sit lonely! Moloch in whom I dream Angels! Crazy in Moloch! Cocksucker in Moloch! Lacklove and manless in Moloch!
+Moloch who entered my soul early! Moloch in whom I am a consciousness without a body! Moloch who frightened me out of my natural ecstasy! Moloch whom I abandon! Wake up in Moloch! Light streaming out of the sky!
+Moloch! Moloch! Robot apartments! invisible suburbs! skeleton treasuries! blind capitals! demonic industries! spectral nations! invincible madhouses! granite cocks! monstrous bombs!
+They broke their backs lifting Moloch to Heaven! Pavements, trees, radios, tons! lifting the city to Heaven which exists and is everywhere about us!
+Visions! omens! hallucinations! miracles! ecstasies! gone down the American river!
+Dreams! adorations! illuminations! religions! the whole boatload of sensitive bullshit!
+Breakthroughs! over the river! flips and crucifixions! gone down the flood! Highs! Epiphanies! Despairs! Ten years’ animal screams and suicides! Minds! New loves! Mad generation! down on the rocks of Time!
+Real holy laughter in the river! They saw it all! the wild eyes! the holy yells! They bade farewell! They jumped off the roof! to solitude! waving! carrying flowers! Down to the river! into the street!
+You may write me down in history
+With your bitter, twisted lies,
+You may trod me in the very dirt
+But still, like dust, I'll rise.
+
+Does my sassiness upset you?
+Why are you beset with gloom?
+’Cause I walk like I've got oil wells
+Pumping in my living room.
+
+Just like moons and like suns,
+With the certainty of tides,
+Just like hopes springing high,
+Still I'll rise.
+
+Did you want to see me broken?
+Bowed head and lowered eyes?
+Shoulders falling down like teardrops,
+Weakened by my soulful cries?
+
+Does my haughtiness offend you?
+Don't you take it awful hard
+’Cause I laugh like I've got gold mines
+Diggin’ in my own backyard.
+
+You may shoot me with your words,
+You may cut me with your eyes,
+You may kill me with your hatefulness,
+But still, like air, I’ll rise.
+
+Does my sexiness upset you?
+Does it come as a surprise
+That I dance like I've got diamonds
+At the meeting of my thighs?
+
+Out of the huts of history’s shame
+I rise
+Up from a past that’s rooted in pain
+I rise
+I'm a black ocean, leaping and wide,
+Welling and swelling I bear in the tide.
+
+Leaving behind nights of terror and fear
+I rise
+Into a daybreak that’s wondrously clear
+I rise
+Bringing the gifts that my ancestors gave,
+I am the dream and the hope of the slave.
+I rise
+I rise
+I rise.
+Do not go gentle into that good night,
+Old age should burn and rave at close of day;
+Rage, rage against the dying of the light.
+
+Though wise men at their end know dark is right,
+Because their words had forked no lightning they
+Do not go gentle into that good night.
+
+Good men, the last wave by, crying how bright
+Their frail deeds might have danced in a green bay,
+Rage, rage against the dying of the light.
+
+Wild men who caught and sang the sun in flight,
+And learn, too late, they grieved it on its way,
+Do not go gentle into that good night.
+
+Grave men, near death, who see with blinding sight
+Blind eyes could blaze like meteors and be gay,
+Rage, rage against the dying of the light.
+
+And you, my father, there on the sad height,
+Curse, bless, me now with your fierce tears, I pray.
+Do not go gentle into that good night.
+Rage, rage against the dying of the light.
+In Xanadu did Kubla Khan
+A stately pleasure-dome decree:
+Where Alph, the sacred river, ran
+Through caverns measureless to man
+   Down to a sunless sea.
+So twice five miles of fertile ground
+With walls and towers were girdled round;
+And there were gardens bright with sinuous rills,
+Where blossomed many an incense-bearing tree;
+And here were forests ancient as the hills,
+Enfolding sunny spots of greenery.
+
+But oh! that deep romantic chasm which slanted
+Down the green hill athwart a cedarn cover!
+A savage place! as holy and enchanted
+As e’er beneath a waning moon was haunted
+By woman wailing for her demon-lover!
+And from this chasm, with ceaseless turmoil seething,
+As if this earth in fast thick pants were breathing,
+A mighty fountain momently was forced:
+Amid whose swift half-intermitted burst
+Huge fragments vaulted like rebounding hail,
+Or chaffy grain beneath the thresher’s flail:
+And mid these dancing rocks at once and ever
+It flung up momently the sacred river.
+Five miles meandering with a mazy motion
+Through wood and dale the sacred river ran,
+Then reached the caverns measureless to man,
+And sank in tumult to a lifeless ocean;
+And ’mid this tumult Kubla heard from far
+Ancestral voices prophesying war!
+   The shadow of the dome of pleasure
+   Floated midway on the waves;
+   Where was heard the mingled measure
+   From the fountain and the caves.
+It was a miracle of rare device,
+A sunny pleasure-dome with caves of ice!
+
+   A damsel with a dulcimer
+   In a vision once I saw:
+   It was an Abyssinian maid
+   And on her dulcimer she played,
+   Singing of Mount Abora.
+   Could I revive within me
+   Her symphony and song,
+   To such a deep delight ’twould win me,
+That with music loud and long,
+I would build that dome in air,
+That sunny dome! those caves of ice!
+And all who heard should see them there,
+And all should cry, Beware! Beware!
+His flashing eyes, his floating hair!
+Weave a circle round him thrice,
+And close your eyes with holy dread
+For he on honey-dew hath fed,
+And drunk the milk of Paradise.
+I met a traveller from an antique land,
+Who said—“Two vast and trunkless legs of stone
+Stand in the desert. . . . Near them, on the sand,
+Half sunk a shattered visage lies, whose frown,
+And wrinkled lip, and sneer of cold command,
+Tell that its sculptor well those passions read
+Which yet survive, stamped on these lifeless things,
+The hand that mocked them, and the heart that fed;
+And on the pedestal, these words appear:
+My name is Ozymandias, King of Kings;
+Look on my Works, ye Mighty, and despair!
+Nothing beside remains. Round the decay
+Of that colossal Wreck, boundless and bare
+The lone and level sands stretch far away.”
+Once upon a midnight dreary, while I pondered, weak and weary,
+Over many a quaint and curious volume of forgotten lore—
+    While I nodded, nearly napping, suddenly there came a tapping,
+As of some one gently rapping, rapping at my chamber door.
+“’Tis some visitor,” I muttered, “tapping at my chamber door—
+            Only this and nothing more.”
+
+    Ah, distinctly I remember it was in the bleak December;
+And each separate dying ember wrought its ghost upon the floor.
+    Eagerly I wished the morrow;—vainly I had sought to borrow
+    From my books surcease of sorrow—sorrow for the lost Lenore—
+For the rare and radiant maiden whom the angels name Lenore—
+            Nameless here for evermore.
+
+    And the silken, sad, uncertain rustling of each purple curtain
+Thrilled me—filled me with fantastic terrors never felt before;
+    So that now, to still the beating of my heart, I stood repeating
+    “’Tis some visitor entreating entrance at my chamber door—
+Some late visitor entreating entrance at my chamber door;—
+            This it is and nothing more.”
+
+    Presently my soul grew stronger; hesitating then no longer,
+“Sir,” said I, “or Madam, truly your forgiveness I implore;
+    But the fact is I was napping, and so gently you came rapping,
+    And so faintly you came tapping, tapping at my chamber door,
+That I scarce was sure I heard you”—here I opened wide the door;—
+            Darkness there and nothing more.
+
+    Deep into that darkness peering, long I stood there wondering, fearing,
+Doubting, dreaming dreams no mortal ever dared to dream before;
+    But the silence was unbroken, and the stillness gave no token,
+    And the only word there spoken was the whispered word, “Lenore?”
+This I whispered, and an echo murmured back the word, “Lenore!”—
+            Merely this and nothing more.
+
+    Back into the chamber turning, all my soul within me burning,
+Soon again I heard a tapping somewhat louder than before.
+    “Surely,” said I, “surely that is something at my window lattice;
+      Let me see, then, what thereat is, and this mystery explore—
+Let my heart be still a moment and this mystery explore;—
+            ’Tis the wind and nothing more!”
+
+    Open here I flung the shutter, when, with many a flirt and flutter,
+In there stepped a stately Raven of the saintly days of yore;
+    Not the least obeisance made he; not a minute stopped or stayed he;
+    But, with mien of lord or lady, perched above my chamber door—
+Perched upon a bust of Pallas just above my chamber door—
+            Perched, and sat, and nothing more.
+
+Then this ebony bird beguiling my sad fancy into smiling,
+By the grave and stern decorum of the countenance it wore,
+“Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,
+Ghastly grim and ancient Raven wandering from the Nightly shore—
+Tell me what thy lordly name is on the Night’s Plutonian shore!”
+            Quoth the Raven “Nevermore.”
+
+    Much I marvelled this ungainly fowl to hear discourse so plainly,
+Though its answer little meaning—little relevancy bore;
+    For we cannot help agreeing that no living human being
+    Ever yet was blessed with seeing bird above his chamber door—
+Bird or beast upon the sculptured bust above his chamber door,
+            With such name as “Nevermore.”
+
+    But the Raven, sitting lonely on the placid bust, spoke only
+That one word, as if his soul in that one word he did outpour.
+    Nothing farther then he uttered—not a feather then he fluttered—
+    Till I scarcely more than muttered “Other friends have flown before—
+On the morrow he will leave me, as my Hopes have flown before.”
+            Then the bird said “Nevermore.”
+
+    Startled at the stillness broken by reply so aptly spoken,
+“Doubtless,” said I, “what it utters is its only stock and store
+    Caught from some unhappy master whom unmerciful Disaster
+    Followed fast and followed faster till his songs one burden bore—
+Till the dirges of his Hope that melancholy burden bore
+            Of ‘Never—nevermore’.”
+
+    But the Raven still beguiling all my fancy into smiling,
+Straight I wheeled a cushioned seat in front of bird, and bust and door;
+    Then, upon the velvet sinking, I betook myself to linking
+    Fancy unto fancy, thinking what this ominous bird of yore—
+What this grim, ungainly, ghastly, gaunt, and ominous bird of yore
+            Meant in croaking “Nevermore.”
+
+    This I sat engaged in guessing, but no syllable expressing
+To the fowl whose fiery eyes now burned into my bosom’s core;
+    This and more I sat divining, with my head at ease reclining
+    On the cushion’s velvet lining that the lamp-light gloated o’er,
+But whose velvet-violet lining with the lamp-light gloating o’er,
+            She shall press, ah, nevermore!
+
+    Then, methought, the air grew denser, perfumed from an unseen censer
+Swung by Seraphim whose foot-falls tinkled on the tufted floor.
+    “Wretch,” I cried, “thy God hath lent thee—by these angels he hath sent thee
+    Respite—respite and nepenthe from thy memories of Lenore;
+Quaff, oh quaff this kind nepenthe and forget this lost Lenore!”
+            Quoth the Raven “Nevermore.”
+
+    “Prophet!” said I, “thing of evil!—prophet still, if bird or devil!—
+Whether Tempter sent, or whether tempest tossed thee here ashore,
+    Desolate yet all undaunted, on this desert land enchanted—
+    On this home by Horror haunted—tell me truly, I implore—
+Is there—is there balm in Gilead?—tell me—tell me, I implore!”
+            Quoth the Raven “Nevermore.”
+
+    “Prophet!” said I, “thing of evil!—prophet still, if bird or devil!
+By that Heaven that bends above us—by that God we both adore—
+    Tell this soul with sorrow laden if, within the distant Aidenn,
+    It shall clasp a sainted maiden whom the angels name Lenore—
+Clasp a rare and radiant maiden whom the angels name Lenore.”
+            Quoth the Raven “Nevermore.”
+
+    “Be that word our sign of parting, bird or fiend!” I shrieked, upstarting—
+“Get thee back into the tempest and the Night’s Plutonian shore!
+    Leave no black plume as a token of that lie thy soul hath spoken!
+    Leave my loneliness unbroken!—quit the bust above my door!
+Take thy beak from out my heart, and take thy form from off my door!”
+            Quoth the Raven “Nevermore.”
+
+    And the Raven, never flitting, still is sitting, still is sitting
+On the pallid bust of Pallas just above my chamber door;
+    And his eyes have all the seeming of a demon’s that is dreaming,
+    And the lamp-light o’er him streaming throws his shadow on the floor;
+And my soul from out that shadow that lies floating on the floor
+            Shall be lifted—nevermore!
+The storyteller folds her slender hands - both pairs - and speaks. “It happened an age ago. But when I recall, I see it true.” So begins the tale of the Shattering, a devastating war between the children of Marika, Demigods of the Lands Between. One grim night in the depths of winter, a flock of unknown assassins stole across the Lands Between.
+
+In a coetaneous attack, this foul covenant snuffed out the lives of many of the God-Queen’s kin throughout the empire, too numerous and too scattered for her godly protection to save. The assassins’ targets were multifold, but none was as devastating a loss to the Eternal Queen as that of Godwyn the Golden. After his death, the Elden Ring was somehow shattered, and the order of the world broke with it.
+
+Out of this chaos came war. Open, bitter war, pitting blood against blood and kin against kin. The conflict broke a vast and prosperous empire into brittle fragments. No single side could find enough purchase to maintain a decisive victory, even when fueled by the power of a Great Rune.
+
+The battle of General Radahn against Malenia the Severed illustrated that neither strength nor skill alone would be enough to take control of the entirety of the lands Marika had united. And so, the Lands Between are no longer gripped by open war, but caught in an uneasy stalemate that seems impossible to resolve. “Unless of course,” the storyteller says, a coy smile on both her lips, “thou shouldst take the crown?”
+
+Take a deeper dive into the carefully crafted mythology of George R.R. Martin – author of The New York Times best-selling fantasy series, A Song of Ice and Fire – and the world created by FromSoftware based on his work in this new trailer available here.
+
+Transported to ages long ago, you will relive the Shattering, a war that brought darkness to the Lands Between, initiated by demigods’ hunger for power. You’ll fight alongside General Radahn and Malenia the Severed, but even these two undefeatable warriors couldn’t reunite a world so badly broken. There is only one hope left: the hope that a new Elden Lord will rise and lift the veil of shadows that has fallen over Marika’s domain.
+
+The wait is almost over. Soon you’ll venture into the Lands Between and strive to become its Elden Lord. Stand ready, Tarnished, and prepare to claim what fate has promised you.
+
+characterized by his flowing red locks, is Queen Marika's second chosen consort and a great warrior. His early life and how he came to be a prominent figure in the Golden Order remain a mystery. There is speculation that he may be a smaller-sized Fire Giant from the descriptions of the Sword of Milos and Giant's Red Braid. Another running theory is that he was cursed to have red hair by the Fire Giants as a result of the Golden Order's war with them. Either way, Radagon was said to have hated the red-tint of his hair.
+
+In the war against Liurnia of the Lakes and it's inhabitants, he was tasked by Marika to lead the Erdtree's armies. The sword monuments the Tarnished can find in Liurnia suggest that there were two Liurnian Wars, and that it was after the second war that Radagon and Rennala fell in love. Radagon sought absolution at the Church of Vows using Celestial Dew, and the two were bonded by marriage, uniting the Capital of Leyndell and Academy of Raya Lucaria. The Glintstone Kris is one of the symbols of the unity of the two factions.
+
+As is tradition, Rennala bestowed a Moon Greatsword onto Radagon, her spouse. They bore 3 children - General Radahn, Praetor Rykard, and Lunar Princess Ranni. However, much to Rennala's dismay, Radagon gifted her an Amber Egg and left her to join Marika's side when Godfrey and his fellow Tarnished were exiled from the Lands Between. They had the twin demigods, Miquella and Malenia, and he reforged his Moon Greatsword into the Golden Order Greatsword.  A speculated explanation for the requirement of both Faith and Intelligence in casting Golden Order Incantations is due to Radagon having learnt sorceries while Rennala's consort and incantations when consort to Queen Marika.
+
+It is revealed by a statue in the Royal Capital that Marika and Radagon are one and the same. It is unlcear whether they were always one, whether Radagon is a fragment of Marika, or as Melina's dialogue suggests, that they became one after becoming consorts. Despite being one and the same person, Marika and Radagon held different wills and when Marika shattered the Elden Ring, he used the same hammer she used to try to repair it.
+Son of Queen Marika and her first consort, Godfrey. Unlike his twin brother who distanced himself from his Omen nature, Mohg fully embraced his accursed Omen blood and traits. Like his brother, he was shackled deep within the Subterranean Shunning-Grounds. While imprisoned underground, he encountered the Formless Mother, an outer god like the Greater Will. This encounter caused his accursed omen blood to ignite, and gave him the ability to cast bloodflame incantations. Mohg used his spear, Mohgwyn's Sacred Spear, to further communicate with the Formless Mother.
+
+At sone point he managed to escape from the Subterranean Shunning-Grounds, and established the Mohgwyn Palace in a secluded part of the Siofra River. He recruited multiple people to become followers of the upcoming Mohgwyn Dynasty, offering deals to some, like Bloody Finger Okina, and kidnapping others, like the War Surgeons.
+
+While he is not an Empyrean himself and thus unable to ascend to godhood, he hoped to claim the title of monarch by raising empyrean Miquella to full godhood and becoming his consort. Mohg stole the slumbering Miquella from inside the Haligtree and attempted to rouse him with his accursed blood. However, no matter how much blood he offered and how much he shared his bedchambers with the empyrean, Miquella never woke from his slumber.
+Praetor Rykard, Lord of the Volcano Manor and a ruthless justiciar. He is the son of Rennala and Radagon and like his siblings, became a demigod after Radagon's unity with Queen Marika. Rykard presides over Mt. Gelmir and was served by the Gelmir Knights. The lava sorceries the Tarnished can learn were created by Rykard, with some being old hexes from Mt. Gelmir that he turned into practical sorceries. At some point, Rykard met Tanith in a foreign land and brought her back to the Lands Between to be his consort.
+
+Rykard had a hand in the Night of the Black Knives, though to what extent is unclear. The Blasphemous Claw was an item rewarded by his sister Ranni allowing him to challenge Maliketh as a last resort. The description for the Taker's Cameo implies that Rykard believed that Marika and her Order ruled by force, and so he swore himself to blasphemy and sought to overthrow them, an ambition that drew many towards him.
+
+The ancient people of Mt. Gelmir worshipped a powerful serpent god that they would offer up sacrifices to. Rykard one day encountered the God-Devouring Serpent and offered himself and his Great Rune up as sacrifices to grant himself immortality, allowing him to grow and devour people and gods alike for all eternity. This fall into greed and glutinous depravity caused most of his followers to turn against him, with Tanith being a notable exception. Those who were once Gelmir Knights sought out the Serpent-Hunter, a great spear designed to hunt the immortal serpent, to put an end to their Lord. They found the mythical weapon, but were unsuccessful in defeating Rykard, as evident from the corpses holding the Serpent-Hunter in his boss room.
+
+When the Tarnished visits the Volcano Manor, they can find it's members following Rykard's blasphemous path. It is later revealed that those who proved themselves as recusants were granted an audience with Rykard and became part of the family - that is by being devoured by the great serpent himself.
+
+ 
+engrave
+engraved
+engravement
+engraven
+engraver
+engravers
+engraves
+grave
+grave-born
+grave-bound
+grave-browed
+graveclod
+gravecloth
+graveclothes
+grave-clothes
+grave-colored
+graved
+gravedigger
+grave-digger
+gravediggers
+grave-digging
+gravedo
+grave-faced
+gravegarth
+graveyard
+graveyards
+gravel
+gravel-bind
+gravel-blind
+gravel-blindness
+graveldiver
+graveled
+graveless
+gravel-grass
+gravely
+gravelike
+graveling
+gravelish
+gravelled
+Gravelly
+gravelliness
+gravelling
+grave-looking
+gravelous
+gravel-pit
+gravelroot
+gravels
+gravelstone
+gravel-stone
+gravel-walk
+gravelweed
+gravemaker
+gravemaking
+graveman
+gravemaster
+graven
+graveness
+gravenesses
+Gravenhage
+Gravenstein
+graveolence
+graveolency
+graveolent
+graver
+gravery
+grave-riven
+graverobber
+graverobbing
+grave-robbing
+gravers
+Graves
+Gravesend
+graveship
+graveside
+gravest
+gravestead
+gravestone
+gravestones
+grave-toned
+Gravette
+Gravettian
+grave-visaged
+graveward
+gravewards
+grave-wax
+ingrapple
+ingrate
+ingrateful
+ingratefully
+ingratefulness
+ingrately
+ingrates
+ingratiate
+ingratiated
+ingratiates
+ingratiating
+ingratiatingly
+ingratiation
+ingratiatory
+ingratitude
+ingratitudes
+Ingra
+ingracious
+ingraft
+ingraftation
+ingrafted
+ingrafter
+ingrafting
+ingraftment
+ingrafts
+Ingraham
+ingrain
+ingrained
+ingrainedly
+ingrainedness
+ingraining
+ingrains
+Ingram
+ingrammaticism
+ingramness
+ingrandize
+ingrapple
+ingrate
+ingrateful
+ingratefully
+ingratefulness
+ingrately
+ingrates
+ingratiate
+ingratiated
+ingratiates
+ingratiating
+ingratiatingly
+ingratiation
+ingratiatory
+ingratitude
+ingratitudes
+ingrave
+ingravescence
+ingravescent
+ingravidate
+ingravidation
+ingreat
+ingredience
+ingredient
+ingredients
+integer
+integers
+integer's
+integrability
+integrable
+integral
+integrality
+integralization
+integralize
+integrally
+integrals
+integral's
+integrand
+integrant
+integraph
+integrate
+integrated
+integrates
+integrating
+integration
+integrationist
+integrations
+integrative
+integrator
+integrifolious
+integrious
+integriously
+integripallial
+integripalliate
+integrity
+integrities
+integrodifferential
+integropallial
+Integropallialia
+Integropalliata
+integropalliate
+integumation
+integument
+integumental
+integumentary
+integumentation
+integuments
+irradiations
+irradiative
+irradiator
+irradicable
+irradicably
+irradicate
+irradicated
+irrarefiable
+irrate
+irrationability
+irrationable
+irrationably
+irrational
+irrationalise
+irrationalised
+irrationalising
+irrationalism
+irrationalist
+irrationalistic
+irrationality
+irrationalities
+irrationalize
+irrationalized
+irrationalizing
+irrationally
+irrationalness
+irrationals
+Irrawaddy
+irreal
+irreality
+irrealizable
+irrebuttable
+irreceptive
+irreceptivity
+irreciprocal
+irreciprocity
+irreclaimability
+irreclaimable
+irreclaimableness
+irreclaimably
+irreclaimed
+irrecognition
+irrecognizability
+irrecognizable
+irrecognizably
+irrecognizant
+irrecollection
+irreconcilability
+irreconcilabilities
+irreconcilable
+irreconcilableness
+irreconcilably
+irreconcile
+irreconciled
+irreconcilement
+irreconciliability
+irreconciliable
+irreconciliableness
+irreconciliably
+irreconciliation
+irrecordable
+irrecoverable
+irrecoverableness
+irrecoverably
+irrecuperable
+irrecurable
+irrecusable
+irrecusably
+irred
+irredeemability
+irredeemable
+irredeemableness
+irredeemably
+irredeemed
+irredenta
+irredential
+Irredentism
+Irredentist
+irredentists
+irredressibility
+irredressible
+irredressibly
+irreducibility
+irreducibilities
+irreducible
+irreducibleness
+irreducibly
+irreductibility
+irreductible
+irreduction
+irreferable
+irreflection
+irreflective
+irreflectively
+irreflectiveness
+irreflexive
+irreformability
+irreformable
+irrefragability
+irrefragable
+irrefragableness
+irrefragably
+irrefrangibility
+irrefrangible
+irrefrangibleness
+irrefrangibly
+irrefusable
+irrefutability
+irrefutable
+irrefutableness
+irrefutably
+irreg
+irreg.
+irregardless
+irregeneracy
+irregenerate
+irregeneration
+irregular
+irregularism
+irregularist
+irregularity
+irregularities
+irregularize
+irregularly
+irregularness
+irregulars
+irregulate
+irregulated
+irregulation
+irregulous
+irrejectable
+irrelapsable
+irrelate
+irrelated
+irrelation
+irrelative
+irrelatively
+irrelativeness
+irrelevance
+irrelevances
+irrelevancy
+irrelevancies
+irrelevant
+irrelevantly
+irreliability
+irrelievable
+irreligion
+irreligionism
+irreligionist
+irreligionize
+irreligiosity
+irreligious
+irreligiously
+irreligiousness
+irreluctant
+irremeable
+irremeably
+irremediable
+irremediableness
+irremediably
+irremediless
+irrememberable
+irremissibility
+irremissible
+irremissibleness
+irremissibly
+irremission
+irremissive
+irremittable
+irremovability
+irremovable
+irremovableness
+irremovably
+irremunerable
+irrenderable
+irrenewable
+irrenowned
+irrenunciable
+irrepair
+irrepairable
+irreparability
+irreparable
+irreparableness
+irreparably
+irrepassable
+irrepatriable
+irrepealability
+irrepealable
+irrepealableness
+irrepealably
+irrepentance
+irrepentant
+irrepentantly
+irrepetant
+irreplacable
+irreplacably
+irreplaceability
+irreplaceable
+irreplaceableness
+irreplaceably
+irrepleviable
+irreplevisable
+irreportable
+irreprehensibility
+irreprehensible
+irreprehensibleness
+irreprehensibly
+irrepresentable
+irrepresentableness
+irrepressibility
+irrepressible
+irrepressibleness
+irrepressibly
+irrepressive
+irreproachability
+irreproachable
+irreproachableness
+irreproachably
+irreproducibility
+irreproducible
+irreproductive
+irreprovable
+irreprovableness
+irreprovably
+irreption
+irreptitious
+irrepublican
+irreputable
+irresilience
+irresiliency
+irresilient
+irresistable
+irresistably
+irresistance
+irresistibility
+irresistible
+irresistibleness
+irresistibly
+irresistless
+irresolubility
+irresoluble
+irresolubleness
+irresolute
+irresolutely
+irresoluteness
+irresolution
+irresolutions
+irresolvability
+irresolvable
+irresolvableness
+irresolved
+irresolvedly
+irresonance
+irresonant
+irrespectability
+irrespectable
+irrespectful
+irrespective
+irrespectively
+irrespirable
+irrespondence
+irresponsibility
+irresponsibilities
+irresponsible
+irresponsibleness
+irresponsibly
+irresponsive
+irresponsiveness
+irrestrainable
+irrestrainably
+irrestrictive
+irresultive
+irresuscitable
+irresuscitably
+irretention
+irretentive
+irretentiveness
+irreticence
+irreticent
+irretraceable
+irretraceably
+irretractable
+irretractile
+irretrievability
+irretrievable
+irretrievableness
+irretrievably
+irreturnable
+irrevealable
+irrevealably
+irreverence
+irreverences
+irreverend
+irreverendly
+irreverent
+irreverential
+irreverentialism
+irreverentially
+irreverently
+irreversibility
+irreversible
+irreversibleness
+irreversibly
+irrevertible
+irreviewable
+irrevisable
+irrevocability
+irrevocable
+irrevocableness
+irrevocably
+irrevoluble
+irrhation
+irride
+irridenta
+irrigable
+irrigably
+irrigant
+irrigate
+irrigated
+irrigates
+irrigating
+irrigation
+irrigational
+irrigationist
+irrigations
+irrigative
+irrigator
+irrigatory
+irrigatorial
+irrigators
+Irrigon
+irriguous
+irriguousness
+irrisible
+irrision
+irrisor
+irrisory
+Irrisoridae
+irritability
+irritabilities
+irritable
+irritableness
+irritably
+irritament
+irritancy
+irritancies
+irritant
+irritants
+irritate
+irritated
+irritatedly
+irritates
+irritating
+irritatingly
+irritation
+irritation-proof
+irritations
+irritative
+irritativeness
+irritator
+irritatory
+irrite
+Irritila
+irritomotile
+irritomotility
+irrogate
+irrorate

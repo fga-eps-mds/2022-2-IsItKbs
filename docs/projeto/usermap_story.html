@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Mapeamento da História de Usuário - is it KBS?</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="../icon/icon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div class="painelLateral">
+         <div id="mySidepanel" class="sidepanel">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
+             <a href="../index.html">Home</a>
+             <a href="#about" onclick="openNav2()">Projeto<span class="options_sidebar">&gt;</span></a>
+             <a href="#team" onclick="openNav3()">Equipe<span class="options_sidebar">&gt;</span></a>
+             <a href="../projeto/conduct_code.html">Código de conduta</a>
+          </div>
+          <div id="projetoSidepanel" class="sidepanel">
+             <div class="panelTitle">
+                <h3>Projeto</h3>
+             </div>
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+             <a href="../projeto/usermap_story.html">Mapeamento da história de usuário</a>
+             <a href="../projeto/workflow.html">WorkFlow</a>
+             <a href="../projeto/roadmap.html">Roadmap</a>
+             <a href="../projeto/contribution_guide.html">Guia de Contribuição</a>
+          </div>
+          <div id="equipeSidepanel" class="sidepanel">
+            <div class="panelTitle">
+               <h3>Equipe</h3>
+            </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+            <a href="metodologia_comunicacao.html">Metodologia e Comunicação</a>
+         </div>
+       </div>
+      
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                     <div class="sea_icon d_none ">
+                        <button class="openbtn" onclick="openNav()"><img src="../images/menu_icon.png" alt="#"/> </button>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="../index.html"><img src="../images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- about section -->
+      <div id="about" class="about" style="padding-top: 150px;">
+         
+            <div class="container">
+               <div class="titlepage">
+                    <h2>Mapeamento da História de Usuário</h2>
+                    <p>O objetivo do nosso projeto é a elaboração de um pacote python que tenha funções capazes de determinar, por meio de aprendizado de máquina, se entradas de texto são consideradas ou não keyboard smashing, sendo assim, o público alvo seria programadores que fariam a importação da nosso biblioteca para ajudá-los a processar suas bases de dados. Com base na descrição anterior, nosso user story map está estruturado da seguinte maneira:</p>
+                    
+               </div>
+               <div class="project">
+                <div class="usermap_image">
+                  <iframe width="512" height="729" src="https://miro.com/app/embed/uXjVPAq2MHY=/?pres=1&frameId=3458764540613878239&embedId=375139254843&autoplay=yep" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+                <div class="legenda">
+                  <span style="margin-right: 20px;color: #03cafc">Objetivo final</span>
+                  <span style="margin-right: 20px;color: #fcc10e">Épicos</span>
+                  <span style="margin-right: 20px;color: black">Features</span>
+                </div>
+                <div>
+                    <u>
+                        <li id="list_1">
+                            <span style="font-weight: bold;">Pacote Python para identificar Keyboard Smashing</span> - É o objetivo central do projeto e que necessita de várias etapas para ser concluído. 
+                        </li>
+                        <li class="list_2" style="color:#fcc10e">
+                            <span style="font-weight: bold;">Identificar keyboard smashing na língua inglesa</span>  - Inicialmente o escopo será limitado à língua inglesa.
+                        </li>
+                        <li class="list_3">
+                           <span style="font-weight: bold;">Identificar Keyboard Smashing utilizando árvore de decisão</span> - Um algoritmo de árvore de decisão para a identificação de keyboard smashing, a priori esse seria um único modelo disponível para utilização no MVP.
+                       </li>
+                       <li class="list_3">
+                        <span style="font-weight: bold;">Verificar a acurácia de cada método de identificação</span>  - O intuito é que o pacote tenha mais de um algoritmo treinado para a identificação de keyboard smashing e como diferentes algoritmos se saem de maneira distinta a depender da situação em específico, é interessante que o usuário saiba de maneira geral qual a acurácia de determinado algoritmo antes de testá-lo em seu cenário.
+                        </li>
+                        <li class="list_3">
+                           <span style="font-weight: bold;">Identificar Keyboard Smashing em palavras isoladas</span> - Uma função simples que dada uma string como parâmetro retorne se ela é keyboard smashing ou não.
+                       </li>
+                        <li class="list_3">
+                            <span style="font-weight: bold;">Empacotar os módulos e pubilicar na Pypi</span>  - É preciso que os usuário consigam fazer a instalação do pacote com o pip para que seja feita a importação para seus códigos.
+                        </li>
+                        <li class="list_3">
+                           <span style="font-weight: bold;">Identificar Keyboard Smashing com Naive Bayes</span> - Naive bayes é um outro modelo de aprendizado de máquina, dito isso, para uma segunda release ele seria uma outra opção de algoritmo a ser utilizado pelo usuário.
+                       </li>
+                        <li class="list_3">
+                            <span style="font-weight: bold;">Identificar keyboard smashing em frases</span> - Uma função que seja capaz de detectar a presença de keyboard smashing em frases/textos e retornar a resposta ao usuário.
+                        </li>
+                        <li class="list_2">
+                            <span style="font-weight: bold;">Identificar keyboard smashing na língua portuguesa</span> - A posteriori o objetivo é estender todas as funcionalidades de identificação de keyboard smashing anteriores à língua portuguesa.
+                        </li>
+                    </u>
+                </div>
+               </div>
+               
+            </div>
+      </div>
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../js/custom.js"></script>
+      <script src="../js/sidepanel.js"></script>
+   </body>
+</html>

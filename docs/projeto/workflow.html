@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>WorkFlow - is it KBS?</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="../icon/icon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div class="painelLateral">
+         <div id="mySidepanel" class="sidepanel">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
+             <a href="../index.html">Home</a>
+             <a href="#about" onclick="openNav2()">Projeto<span class="options_sidebar">&gt;</span></a>
+             <a href="#team" onclick="openNav3()">Equipe<span class="options_sidebar">&gt;</span></a>
+             <a href="../projeto/conduct_code.html">Código de conduta</a>
+          </div>
+          <div id="projetoSidepanel" class="sidepanel">
+             <div class="panelTitle">
+                <h3>Projeto</h3>
+             </div>
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+             <a href="../projeto/usermap_story.html">Mapeamento da história de usuário</a>
+             <a href="../projeto/workflow.html">WorkFlow</a>
+             <a href="../projeto/roadmap.html">Roadmap</a>
+             <a href="../projeto/contribution_guide.html">Guia de Contribuição</a>
+          </div>
+          <div id="equipeSidepanel" class="sidepanel">
+            <div class="panelTitle">
+               <h3>Equipe</h3>
+            </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+            <a href="metodologia_comunicacao.html">Metodologia e Comunicação</a>
+         </div>
+       </div>
+      
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                     <div class="sea_icon d_none ">
+                        <button class="openbtn" onclick="openNav()"><img src="../images/menu_icon.png" alt="#"/> </button>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="../index.html"><img src="../images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- about section -->
+      <div id="about" class="about" style="padding-top: 150px;">
+         
+            <div class="container">
+               <div class="titlepage">
+                    <h2>WorkFlow</h2>
+                    <p>Workflows — também chamados de fluxos de trabalho — são a maneira como as pessoas realizam o trabalho e podem ser ilustradas como uma série de etapas que precisam ser concluídas sequencialmente em um diagrama ou lista de verificação.
+                    </p>
+               </div>
+               <div class="project">
+                    <div class="usermap_image">
+                        <img src="../images/WorkFlow.png" alt="usermap_story" style="margin-left: auto;">
+                    </div>
+                    <div>
+                        <h3>Coleta de base de dados</h3>
+                        <hr>
+                        <p>
+                            O processo de coleta de dados depende do tipo de projeto que desejamos fazer, se quisermos fazer um projeto de ML que use dados em tempo real, podemos construir um sistema IoT que use dados de sensores diferentes. O conjunto de dados pode ser coletado de várias fontes, como arquivo, banco de dados, sensor e muitas outras fontes. <br>
+                            Em nosso caso utilizamos um conjunto de dados gratuitos que estão presentes na internet no <a href="https://www.kaggle.com">Kaggle</a> um dos sites mais visitados que é usado para praticar algoritmos de aprendizado de máquina.
+                        </p>
+                        <h3>Pré-processamento de dados</h3>
+                        <p>
+                            O pré-processamento de dados é um processo de limpeza dos dados brutos, ou seja, os dados são coletados no mundo real e convertidos em um conjunto de dados limpo. Em outras palavras, sempre que os dados são coletados de diferentes fontes, eles são coletados em formato bruto e esses dados não são viáveis ​​para análise. Portanto, certas etapas são executadas para converter os dados em um pequeno conjunto de dados limpo; essa parte do processo é chamada de pré-processamento de dados. <br>
+                            Para o nosso projeto, a equipe pegou os dados brutos e refinou de maneira que os scripts de feature extraction possam trabalhá-los.
+                        </p>
+                        <h3>Feature Extraction</h3>
+                        <hr>
+                        <p>
+                            A extração de recursos refere-se ao processo de transformação de dados brutos em recursos numéricos que podem ser processados, preservando as informações no conjunto de dados original. Ele produz melhores resultados do que aplicar o aprendizado de máquina diretamente aos dados brutos. <br> A equipe desenvolveu as features extraction para deixá-las prontas para o aprendizado de máquina.
+                        </p>
+                        <h3>Modelo Selecionado</h3>
+                        <hr>
+                        <p>
+                            Na Seleção de um Modelo temos que analisar 3 aspectos antes de aplicarmos os modelos de ML. O primeiro é em relação a estrutura dos dados, que podem ser numéricos, imagens ou texto, e para cada uma dessas estruturas de dados será um tipo abordagem. O segundo é em relação ao paradigma de aprendizado, e aí inclui aprendizado supervisionado e não supervisionado, análise textual ou processamento de imagens. O terceiro aspecto é sobre o tipo de problema, por exemplo, classificação, clusterização, regressão, redução de dimensionalidade, entre outras. Após analisar esses aspectos você pode experimentar os algoritmos, e computar seus resultados. E essa é a forma indicada para se trabalhar com os algoritmos, pois não há uma forma de identificar qual modelo terá melhor desempenho nos seus dados sem essa experimentação. <br>
+                            A equipe decidiu que a Árvore de Decisão é um modelo de aprendizado de máquina supervisionado que é utilizado para classificação e para regressão é o melhor modelo que se encaixa em nosso problema.
+                        </p>
+                        <h3>Treinamento do Modelo</h3>
+                        <hr>
+                        <p>Para treinar um modelo, inicialmente dividimos o modelo em 3 três seções que são ' Dados de treinamento ', ' Dados de validação ' e ' Dados de teste '. Você treina o classificador usando ' conjunto de dados de treinamento ', ajusta os parâmetros usando ' conjunto de validação ' e então testa o desempenho de seu classificador em ' conjunto de dados de teste ' não visto. <span style="font-weight: bold;">Um ponto importante a ser observado é que durante o treinamento do classificador apenas o conjunto de treinamento e/ou validação está disponível. O conjunto de dados de teste não deve ser usado durante o treinamento do classificador. O conjunto de testes só estará disponível durante o teste do classificador.</span>
+                        <br>
+                        Após realizarmos o treinamento adequado ao modelo, precisamos avaliar seus resultados para decidirmos se continuamos com o mesmo modelo ou testamos outros.</p> 
+
+                        <h3>Avaliação dos Resultados do Modelo</h3>
+                        <hr>
+                        <p>A avaliação do modelo é parte integrante do processo de desenvolvimento do modelo. Ajuda a encontrar o melhor modelo que representa nossos dados e quão bem o modelo escolhido funcionará no futuro. Para melhorar o modelo, podemos ajustar os hiperparâmetros do modelo e tentar melhorar a precisão. <br> Ao analisarmos os resultados discutiremos sobre o modelo escolhido, seus resultados e outros modelos que se enquadrem também em nosso problema para testes futuramente.</p>
+                        <h3>Definição das Funções de KeyBoard Smashing</h3>
+                        <hr>
+                        <p>Criação das funções necessárias para detectar KeyBoard Smashing com algoritmos treinados.</p>
+                        <h3>Empacotamento</h3>
+                        <hr>
+                        <p>
+                            Após a definição das funções precisamos empacotar para que outros usuários possam utilizar nosso pacote em outras bases de dados e cumpra seu dever de detectar KeyBoard Smashing de acordo com as funções que o usuário utilizar.
+                        </p>
+                    </div>
+               </div>
+               
+            </div>
+      </div>
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../js/custom.js"></script>
+      <script src="../js/sidepanel.js"></script>
+   </body>
+</html>
