@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>User Story Map - is it KBS?</title>
+      <title>Mapeamento da História de Usuário - is it KBS?</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -41,19 +41,27 @@
          <div id="mySidepanel" class="sidepanel">
              <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
              <a href="../index.html">Home</a>
-             <a href="#about"><button class="openbtn" onclick="openNav2()">Projeto</button> </a>
-             <a href="../index.html">Equipe</a>
+             <a href="#about" onclick="openNav2()">Projeto<span class="options_sidebar">&gt;</span></a>
+             <a href="#team" onclick="openNav3()">Equipe<span class="options_sidebar">&gt;</span></a>
+             <a href="../projeto/conduct_code.html">Código de conduta</a>
           </div>
           <div id="projetoSidepanel" class="sidepanel">
              <div class="panelTitle">
                 <h3>Projeto</h3>
              </div>
              <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
-             <a href="../projeto/usermap_story.html">User Story Map</a>
+             <a href="../projeto/usermap_story.html">Mapeamento da história de usuário</a>
              <a href="../projeto/workflow.html">WorkFlow</a>
              <a href="../projeto/roadmap.html">Roadmap</a>
              <a href="../projeto/contribution_guide.html">Guia de Contribuição</a>
           </div>
+          <div id="equipeSidepanel" class="sidepanel">
+            <div class="panelTitle">
+               <h3>Equipe</h3>
+            </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+            <a href="metodologia_comunicacao.html">Metodologia e Comunicação</a>
+         </div>
        </div>
       
       <!-- header -->
@@ -85,39 +93,44 @@
          
             <div class="container">
                <div class="titlepage">
-                    <h2>User Story Map</h2>
+                    <h2>Mapeamento da História de Usuário</h2>
                     <p>O objetivo do nosso projeto é a elaboração de um pacote python que tenha funções capazes de determinar, por meio de aprendizado de máquina, se entradas de texto são consideradas ou não keyboard smashing, sendo assim, o público alvo seria programadores que fariam a importação da nosso biblioteca para ajudá-los a processar suas bases de dados. Com base na descrição anterior, nosso user story map está estruturado da seguinte maneira:</p>
                     
                </div>
                <div class="project">
                 <div class="usermap_image">
-                    <img src="../images/userstorymap_v1.png" alt="usermap_story" style="margin-left: auto;";">
+                  <iframe width="512" height="729" src="https://miro.com/app/embed/uXjVPAq2MHY=/?pres=1&frameId=3458764540613878239&embedId=375139254843&autoplay=yep" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+                <div class="legenda">
+                  <span style="margin-right: 20px;color: #03cafc">Objetivo final</span>
+                  <span style="margin-right: 20px;color: #fcc10e">Épicos</span>
+                  <span style="margin-right: 20px;color: black">Features</span>
                 </div>
                 <div>
                     <u>
                         <li id="list_1">
-                            <span style="font-weight: bold;">Identificar keyboard smashing</span> - É o objetivo central do projeto e que necessita de várias etapas para ser concluído. 
+                            <span style="font-weight: bold;">Pacote Python para identificar Keyboard Smashing</span> - É o objetivo central do projeto e que necessita de várias etapas para ser concluído. 
                         </li>
                         <li class="list_2" style="color:#fcc10e">
                             <span style="font-weight: bold;">Identificar keyboard smashing na língua inglesa</span>  - Inicialmente o escopo será limitado à língua inglesa.
                         </li>
                         <li class="list_3">
-                            <span style="font-weight: bold;">Instalar o pacote por meio do pip</span>  - É preciso que os usuário consigam fazer a instalação do pacote com o pip para que seja feita a importação para seus códigos.
+                           <span style="font-weight: bold;">Identificar Keyboard Smashing utilizando árvore de decisão</span> - Um algoritmo de árvore de decisão para a identificação de keyboard smashing, a priori esse seria um único modelo disponível para utilização no MVP.
+                       </li>
+                       <li class="list_3">
+                        <span style="font-weight: bold;">Verificar a acurácia de cada método de identificação</span>  - O intuito é que o pacote tenha mais de um algoritmo treinado para a identificação de keyboard smashing e como diferentes algoritmos se saem de maneira distinta a depender da situação em específico, é interessante que o usuário saiba de maneira geral qual a acurácia de determinado algoritmo antes de testá-lo em seu cenário.
                         </li>
                         <li class="list_3">
-                            <span style="font-weight: bold;">Verificar a acurácia de cada método de identificação</span>  - O intuito é que o pacote tenha mais de um algoritmo treinado para a identificação de keyboard smashing e como diferentes algoritmos se saem de maneira distinta a depender da situação em específico, é interessante que o usuário saiba de maneira geral qual a acurácia de determinado algoritmo antes de testá-lo em seu cenário.
+                           <span style="font-weight: bold;">Identificar Keyboard Smashing em palavras isoladas</span> - Uma função simples que dada uma string como parâmetro retorne se ela é keyboard smashing ou não.
+                       </li>
+                        <li class="list_3">
+                            <span style="font-weight: bold;">Empacotar os módulos e pubilicar na Pypi</span>  - É preciso que os usuário consigam fazer a instalação do pacote com o pip para que seja feita a importação para seus códigos.
                         </li>
                         <li class="list_3">
-                            <span style="font-weight: bold;">Identificar keyboard smashing em palavras isoladas</span> - Uma função simples que dada uma string como parâmetro retorne se ela é keyboard smashing ou não.
-                        </li>
+                           <span style="font-weight: bold;">Identificar Keyboard Smashing com Naive Bayes</span> - Naive bayes é um outro modelo de aprendizado de máquina, dito isso, para uma segunda release ele seria uma outra opção de algoritmo a ser utilizado pelo usuário.
+                       </li>
                         <li class="list_3">
                             <span style="font-weight: bold;">Identificar keyboard smashing em frases</span> - Uma função que seja capaz de detectar a presença de keyboard smashing em frases/textos e retornar a resposta ao usuário.
-                        </li>
-                        <li class="list_3">
-                            <span style="font-weight: bold;">Identificar keyboard smashing com árvore de decisão</span> - Um algoritmo de árvore de decisão para a identificação de keyboard smashing, a priori esse seria um único modelo disponível para utilização no MVP.
-                        </li>
-                        <li class="list_3">
-                            <span style="font-weight: bold;">Identificar keyboard smashing com naive bayes</span> - Naive bayes é um outro modelo de aprendizado de máquina, dito isso, para uma segunda release ele seria uma outra opção de algoritmo a ser utilizado pelo usuário.
                         </li>
                         <li class="list_2">
                             <span style="font-weight: bold;">Identificar keyboard smashing na língua portuguesa</span> - A posteriori o objetivo é estender todas as funcionalidades de identificação de keyboard smashing anteriores à língua portuguesa.
@@ -151,18 +164,6 @@
       <!-- sidebar -->
       <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="../js/custom.js"></script>
-      <script>
-         function openNav() {
-           document.getElementById("mySidepanel").style.width = "250px";
-         }
-         
-         function openNav2() {
-           document.getElementById("projetoSidepanel").style.width = "250px";
-         }
-         function closeNav(parent) {
-            var spots = ["mySidePanel", "projetoSidepanel"]
-            document.getElementById(parent.id).style.width = "0";
-         }
-      </script>
+      <script src="../js/sidepanel.js"></script>
    </body>
 </html>

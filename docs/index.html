@@ -40,19 +40,36 @@
          <div id="mySidepanel" class="sidepanel">
              <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
              <a href="index.html">Home</a>
+
+             <a href="#about" onclick="openNav2()">Projeto<span class="options_sidebar">&gt;</span></a>
+             <a href="#team" onclick="openNav3()">Equipe<span class="options_sidebar">&gt;</span></a>
+             <a href="projeto/conduct_code.html">Código de conduta</a>
+
              <a href="#about"><button class="openbtn" onclick="openNav2()">Projeto</button> </a>
-             <a href="#tean">Equipe</a>
+             <a href="index.html">Equipe</a>
+
           </div>
           <div id="projetoSidepanel" class="sidepanel">
              <div class="panelTitle">
                 <h3>Projeto</h3>
              </div>
              <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+
+             <a href="projeto/usermap_story.html">Mapeamento da história de usuário</a>
+
              <a href="projeto/usermap_story.html">User Story Map</a>
+
              <a href="projeto/workflow.html">WorkFlow</a>
              <a href="projeto/roadmap.html">Roadmap</a>
              <a href="projeto/contribution_guide.html">Guia de Contribuição</a>
           </div>
+          <div id="equipeSidepanel" class="sidepanel">
+            <div class="panelTitle">
+               <h3>Equipe</h3>
+            </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
+            <a href="projeto/metodologia_comunicacao.html">Metodologia e Comunicação</a>
+         </div>
        </div>
       <!-- header -->
       <header>
@@ -195,7 +212,7 @@
                   <div class="row">
                      <div class="col-md-4">
                         <div class="team_box">
-                           <figure><img src="images/team_img3.jpg" alt="#"/></figure>
+                           <figure><img src="images/arthur m.jpg" alt="#"/></figure>
                            <div class="social_box">
                               <ul class="social_team">
                                  <li><a href="https://github.com/arthurmlv"><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -553,26 +570,7 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <script>
-         function openNav(parent) {
-           document.getElementById("mySidepanel").style.width = "250px";
-         }
-         
-         function openNav2() {
-           document.getElementById("projetoSidepanel").style.width = "250px";
-         }
-         function closeNav(parent) {
-            document.getElementById(parent.id).style.width = "0";
-         }
-         // function closeNav() {
-         //    var spots = ['mySidePanel', 'projetoSidepanel']
-         //    document.getElementById("mySidePanel").style.width = "0";
-         //    for (var spot in spots){
-         //     document.getElementById(spot).style.width = "0";
-         //    }
-         //    document.getElementById("mySidePanel").style.width = "0";
-         // }
-      </script>
+      <script src="js/sidepanel.js"></script>
       <script>
          // This example adds a marker to indicate the position of Bondi Beach in Sydney,
          // Australia.
