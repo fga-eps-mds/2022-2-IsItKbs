@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+description.md
+setup.py
+isitkbs/__init__.py
+isitkbs/ks.py
+isitkbs.egg-info/PKG-INFO
+isitkbs.egg-info/SOURCES.txt
+isitkbs.egg-info/dependency_links.txt
+isitkbs.egg-info/requires.txt
+isitkbs.egg-info/top_level.txt
+models/__init__.py
+models/randomforest.pkl
+models/tfid_vectorizer.pkl
