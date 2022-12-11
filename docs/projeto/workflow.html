@@ -71,7 +71,7 @@
             <div class="container-fluid">
                <div class="row">
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                     <div class="sea_icon d_none ">
+                     <div class="sea_icon  ">
                         <button class="openbtn" onclick="openNav()"><img src="../images/menu_icon.png" alt="#"/> </button>
                      </div>
                   </div>
@@ -106,23 +106,24 @@
                         <hr>
                         <p>
                             O processo de coleta de dados depende do tipo de projeto que desejamos fazer, se quisermos fazer um projeto de ML que use dados em tempo real, podemos construir um sistema IoT que use dados de sensores diferentes. O conjunto de dados pode ser coletado de várias fontes, como arquivo, banco de dados, sensor e muitas outras fontes. <br>
-                            Em nosso caso utilizamos um conjunto de dados gratuitos que estão presentes na internet no <a href="https://www.kaggle.com">Kaggle</a> um dos sites mais visitados que é usado para praticar algoritmos de aprendizado de máquina.
+                            Em nosso caso utilizamos um conjunto de dados gratuitos que estão presentes na internet no <a href="https://www.kaggle.com">Kaggle</a> um dos sites mais visitados que é usado para praticar algoritmos de aprendizado de máquina. Posteriormente, criamos duas bases de dados distintas por conta própria, uma com keyboard smashings e outra como uma coletânea de diversos textos que pegamos na internet.Posteriormente, criamos duas bases de dados distintas por conta própria, uma com keyboard smashings e outra como uma coletânea de diversos textos que pegamos na internet.
                         </p>
                         <h3>Pré-processamento de dados</h3>
                         <p>
-                            O pré-processamento de dados é um processo de limpeza dos dados brutos, ou seja, os dados são coletados no mundo real e convertidos em um conjunto de dados limpo. Em outras palavras, sempre que os dados são coletados de diferentes fontes, eles são coletados em formato bruto e esses dados não são viáveis ​​para análise. Portanto, certas etapas são executadas para converter os dados em um pequeno conjunto de dados limpo; essa parte do processo é chamada de pré-processamento de dados. <br>
-                            Para o nosso projeto, a equipe pegou os dados brutos e refinou de maneira que os scripts de feature extraction possam trabalhá-los.
+                           O pré-processamento de dados é um processo de limpeza dos dados brutos, ou seja, os dados são coletados no mundo real e convertidos em um conjunto de dados limpo. Em outras palavras, sempre que os dados são coletados de diferentes fontes, eles são coletados em formato bruto e esses dados não são viáveis ​​para análise.
+                           Portanto, certas etapas são executadas para converter os dados em um pequeno conjunto de dados limpo; essa parte do processo é chamada de pré-processamento de dados.
+                           Para o nosso projeto, foram criados scripts que passam por várias etapas do pré-processamento dos dados, como a remoção de espaços em branco, normalização do texto e remoção de caracteres especiais.
                         </p>
                         <h3>Feature Extraction</h3>
                         <hr>
                         <p>
-                            A extração de recursos refere-se ao processo de transformação de dados brutos em recursos numéricos que podem ser processados, preservando as informações no conjunto de dados original. Ele produz melhores resultados do que aplicar o aprendizado de máquina diretamente aos dados brutos. <br> A equipe desenvolveu as features extraction para deixá-las prontas para o aprendizado de máquina.
+                           Essa é, talvez, uma das etapas mais importantes de qualquer projeto de machine learning. A feature engineering envolve, a priori, um processo de pensar quais são os traços mais significativos dos nossos dados para determinar a(s) característica(s) que queremos prever com o nosso algoritmo, durante essa etapa perguntas como “Quais características de uma palavra se interrelacionam para que ela seja considerada um keyboard smashing?” foram muito importantes para o grupo. Após a determinação de quais são essas features, esses dados são passados a um algoritmo vetorizador antes do processo de treinamento começar, de forma que os dados, que podem ser numéricos, textuais ou de imagens, fiquem em um formato que a máquina possa entender durante seu treinamento. No caso do nosso projeto, extraímos como features os bigramas, trigramas e quadrigamas que formam cada palavra, no exemplo da palavra “that” temos os seguintes ngramas: th, ha, at, tha, hat, that. E logo após usamos um vetorizador para transformar essas features textuais em um vetor de valores numéricos, isso foi feito com base na frequência em que um determinado ngrama aparece dentro da nossa base de dados. Dessa maneira, o nosso algoritmo associaria ngramas mais frequentes em keyboard smashing com essa classe de palavras, e ngramas mais comuns na língua inglesa com a classe de palavras comuns.
                         </p>
                         <h3>Modelo Selecionado</h3>
                         <hr>
                         <p>
-                            Na Seleção de um Modelo temos que analisar 3 aspectos antes de aplicarmos os modelos de ML. O primeiro é em relação a estrutura dos dados, que podem ser numéricos, imagens ou texto, e para cada uma dessas estruturas de dados será um tipo abordagem. O segundo é em relação ao paradigma de aprendizado, e aí inclui aprendizado supervisionado e não supervisionado, análise textual ou processamento de imagens. O terceiro aspecto é sobre o tipo de problema, por exemplo, classificação, clusterização, regressão, redução de dimensionalidade, entre outras. Após analisar esses aspectos você pode experimentar os algoritmos, e computar seus resultados. E essa é a forma indicada para se trabalhar com os algoritmos, pois não há uma forma de identificar qual modelo terá melhor desempenho nos seus dados sem essa experimentação. <br>
-                            A equipe decidiu que a Árvore de Decisão é um modelo de aprendizado de máquina supervisionado que é utilizado para classificação e para regressão é o melhor modelo que se encaixa em nosso problema.
+                           Na Seleção de um Modelo temos que analisar 3 aspectos antes de aplicarmos os modelos de ML. O primeiro é em relação a estrutura dos dados, que podem ser numéricos, imagens ou texto, e para cada uma dessas estruturas de dados será um tipo abordagem. O segundo é em relação ao paradigma de aprendizado, e aí inclui aprendizado supervisionado e não supervisionado, análise textual ou processamento de imagens. O terceiro aspecto é sobre o tipo de problema, por exemplo, classificação, clusterização, regressão, redução de dimensionalidade, entre outras. Após analisar esses aspectos você pode experimentar os algoritmos, e computar seus resultados. E essa é a forma indicada para se trabalhar com os algoritmos, pois não há uma forma de identificar qual modelo terá melhor desempenho nos seus dados sem essa experimentação.
+                           A equipe optou pelo modelo de Árvore de Decisão, mais especificamente o Random Forest Classifier, um modelo de aprendizado de máquina supervisionado que tem bom desempenho em problemas de classificação textual. 
                         </p>
                         <h3>Treinamento do Modelo</h3>
                         <hr>
@@ -132,14 +133,22 @@
 
                         <h3>Avaliação dos Resultados do Modelo</h3>
                         <hr>
-                        <p>A avaliação do modelo é parte integrante do processo de desenvolvimento do modelo. Ajuda a encontrar o melhor modelo que representa nossos dados e quão bem o modelo escolhido funcionará no futuro. Para melhorar o modelo, podemos ajustar os hiperparâmetros do modelo e tentar melhorar a precisão. <br> Ao analisarmos os resultados discutiremos sobre o modelo escolhido, seus resultados e outros modelos que se enquadrem também em nosso problema para testes futuramente.</p>
+                        <p>A avaliação do modelo é parte integrante do processo de desenvolvimento do modelo. Ajuda a encontrar o melhor modelo que representa nossos dados e quão bem o modelo escolhido funcionará no futuro. <br>
+                        Para melhorar o modelo, podemos ajustar os hiperparâmetros do modelo e tentar melhorar a precisão.
+                        <br>
+                        Ao analisarmos os resultados discutiremos sobre o modelo escolhido, seus resultados e outros modelos que se enquadrem também em nosso problema para testes futuramente.</p>
                         <h3>Definição das Funções de KeyBoard Smashing</h3>
                         <hr>
-                        <p>Criação das funções necessárias para detectar KeyBoard Smashing com algoritmos treinados.</p>
+                        <p>Criação das funções necessárias para detectar KeyBoard Smashing com algoritmos treinados.
+                        <br>
+                        Para a Release 1, fizemos a definição de uma única função: <br>
+                        <code style="margin-left: 20px;">def is_kbs(input_data, analyzer, model)</code> <br>
+                        É possível ver mais sobre a função do <a href="https://github.com/fga-eps-mds/2022-2-Squad03/blob/main/README.md">README</a> do projeto.
+                        </p>
                         <h3>Empacotamento</h3>
                         <hr>
                         <p>
-                            Após a definição das funções precisamos empacotar para que outros usuários possam utilizar nosso pacote em outras bases de dados e cumpra seu dever de detectar KeyBoard Smashing de acordo com as funções que o usuário utilizar.
+                           Após a definição das funções precisamos empacotar para que outros usuários possam utilizar nosso pacote em outras bases de dados e cumpra seu dever de detectar KeyBoard Smashing de acordo com as funções que o usuário utilizar. Fizemos esse processo por meio da plataforma Pypi e usando o twine, de maneira que qualquer pessoa usando o python 3 consiga instalar nosso pacote usando o pip.
                         </p>
                     </div>
                </div>

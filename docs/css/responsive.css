@@ -140,8 +140,9 @@
     }
     .logo {
         border: inherit;
-        float: left;
+        float: right;
         margin-top: 0px !important;
+        display: none;
     }
     .banner_main {
         padding: 249px 0px 0px 0px;

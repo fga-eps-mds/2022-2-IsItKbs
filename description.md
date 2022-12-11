@@ -35,6 +35,6 @@ Não é keyboard smashing.
 [Sidney Fernando](https://github.com/nando3d3)
 
 
-##  ©Licensa
+##  ©Licença
 
 This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) ©

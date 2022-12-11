@@ -16,15 +16,21 @@
 
 <br>
 
+<h4 align="center"> 
+	🚧 Em construção...  🚧
+</h4>
+
 ##  📑Sumário
-  - [📑 Sumário](#sumário)
-  - [🔎 Visão Geral](#visão-geral)
-  - [📁 Diretórios](#diretórios)
-  - [⚙ Funcionalidades](#funcionalidades)
-  - [📋 Exemplos](#exemplos)
-  - [👨‍💻 Contribuidores](#contribuidores)
-  - [© Licença](#licença)
-  - [📝 Guia de instalação](#guia-de-instalação)
+- [](#)
+  - [📑Sumário](#sumário)
+  - [🔎Visão Geral](#visão-geral)
+  - [📁Diretórios](#diretórios)
+  - [📝 Guia de instalação](#-guia-de-instalação)
+  - [⚙Funcionalidades](#funcionalidades)
+    - [is\_kbs(input\_data, analyzer, model)](#is_kbsinput_data-analyzer-model)
+  - [📋Exemplos](#exemplos)
+  - [👨‍💻Contribuidores](#contribuidores)
+  - [©Licença](#licença)
 
 <br><br>
 ##  🔎Visão Geral
@@ -62,40 +68,50 @@ Ex.:
 <li>Faça a instalação do nosso pacote com o pip no seu terminal python (as demais bibliotecas necessárias são instaladas  automáticamente com o comando abaixo):</li>
 
 ```
-pip install -i https://test.pypi.org/simple/ isitkbs
+pip install isitkbs
 ```
 
 <br>
 
 ##  ⚙Funcionalidades
-<ul>
-<li>Função is_kbs(input_data, analyzer, model):
-<ul>
 
-<li>input_data: dados de entrada representados por uma string</li>
+### is_kbs(input_data, analyzer, model)
 
-<li>analyzer: tipo de análise da função ('word' por padrão)
-<ul>
+```python
+from isitkbs import *
+is_kbs(input_data, analyzer, model)
+```
 
-<li>analyzer='word': análise de uma palavra (retorna positivo(1) ou negativo (0) se é keyboard smashing)</li>
-
-<li>analyzer='phrases': retorna quais palavras são keyboard smashing de uma frase de entrada</li>
-</li>
-</ul>
-
-<li>model: modelo utilizado ('randomForest' por padrão)
-<ul>
-
-<li>model='randomForest': utiliza o algoritmo Random Forest para determinação do keyboard smashing</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+- input_data: dados de entrada representados por uma string
+- analyzer='word': análise de uma palavra (retorna positivo(1) ou negativo (0) se é keyboard smashing)
+- analyzer='phrases': retorna quais palavras são keyboard smashing de uma frase de entrada
+- model: modelo utilizado ('randomForest' por padrão)
 
 <br>
 
+Para novas versões, a ideia é desenvolver features que auxiliam no tratamento de keyboard smashing em textos, banco de dados, entre outros.
+
 ##  📋Exemplos
+
+```python
+is_kbs('yyyyyy')
+1
+```
+```python
+is_kbs('Hello')
+0
+```
+
+```python
+is_kbs('Hello world', analyzer='phrases')
+0
+```
+
+```python
+is_kbs('aspdo asocjn', analyzer='phrases')
+[['audhsuh'], ['hhh'], ['hhu'], ['uhauuh']]
+```
+
 <li>is_kbs('yyyyyy')</li>
 <ul>
 <li>return = 1</li>
