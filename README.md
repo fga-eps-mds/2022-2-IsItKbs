@@ -20,7 +20,7 @@
 	🚧 Em construção...  🚧
 </h4>
 
-##  📑Sumário
+##  📑 Sumário
 - [](#)
   - [📑Sumário](#sumário)
   - [🔎Visão Geral](#visão-geral)
@@ -31,10 +31,11 @@
   - [📋Exemplos](#exemplos)
   - [👨‍💻Contribuidores](#contribuidores)
   - [©Licença](#licença)
+<br>
 
+<br>
 
-<br><br>
-##  🔎Visão Geral
+##  🔎 Visão Geral
 <li>Qual o objetivo desse software?</li>
 O Is it KBS é um pacote python com funções capazes de determinar se entradas de texto são consideradas ou não keyboard smashing, sendo assim, cientistas de dados podem usar a biblioteca para auxiliá-los no processo de limpeza de bases de dados.
 
@@ -49,7 +50,7 @@ Ex.:
 
 <br>
 
-##  📁Diretórios
+##  📁 Diretórios
 <p>/.github <- Templates para issues e pull requests.<p>
 <p>/estudos <- Projetos e scripts pequenos para treino da equipe.<p>
 <p>/data <- Bases de dados utilizadas no treinamento do algoritmo.<p>
@@ -58,13 +59,13 @@ Ex.:
 <p>/isitkbs.egg-info <- Informações de empacotamento.<p> 
 <p>/isitkbs <- Definição das funções que serão utilizadas pelos usuários.<p> 
 <p>/models <- Modelos já treinados.<p>
-<p>/notebooks <- Jupyter notebooks usados para testes de funcionalidades.<-<p>
+<p>/notebooks <- Jupyter notebooks usados para testes de funcionalidades.<p>
 <p>/src <- Scripts para tratamento de dados, feature engineering e treinamento de algoritmos.<p>
 
 
 <br>
 
-## 📝Guia de instalação
+## 📝 Guia de instalação
 <li>Necessário python 3 e pip.</li>
 <li>Faça a instalação do nosso pacote com o pip no seu terminal python (as demais bibliotecas necessárias são instaladas  automáticamente com o comando abaixo):</li>
 
@@ -74,7 +75,7 @@ pip install isitkbs
 
 <br>
 
-##  ⚙Funcionalidades
+##  ⚙ Funcionalidades
 
 ### is_kbs(input_data, analyzer, model)
 
@@ -92,7 +93,7 @@ is_kbs(input_data, analyzer, model)
 
 Para novas versões, a ideia é desenvolver features que auxiliam no tratamento de keyboard smashing em textos, banco de dados, entre outros.
 
-##  📋Exemplos
+##  📋 Exemplos
 
 ```python
 is_kbs('yyyyyy')
@@ -112,35 +113,9 @@ is_kbs('Hello world', analyzer='phrases')
 is_kbs('aspdo asocjn', analyzer='phrases')
 [['audhsuh'], ['hhh'], ['hhu'], ['uhauuh']]
 ```
-
-<li>is_kbs('yyyyyy')</li>
-<ul>
-<li>return = 1</li>
-</ul>
-
-<li>is_kbs('Hello')</li>
-<ul>
-<li>return = 0</li>
-</ul>
-
-<li>is_kbs('Hello world', analyzer='phrases')</li>
-<ul>
-<li>return = 0</li>
-</ul>
-
-<li>is_kbs('Hello asocjn', analyzer='phrases')</li>
-<ul>
-<li>return = ['asocjn']</li>
-</ul>
-
-<li>is_kbs('aspdo asocjn', analyzer='phrases')</li>
-<ul>
-<li>return = ['aspdo','asocjn']</li>
-</ul>
-
 <br>
 
-##  👨‍💻Contribuidores
+##  👨‍💻 Contribuidores
 [Arthur de Melo](https://github.com/arthurmlv)
 
 [Arthur Grandão](https://github.com/arthurgrandao)
