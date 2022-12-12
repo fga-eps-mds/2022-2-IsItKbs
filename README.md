@@ -115,7 +115,7 @@ is_kbs('Hello world', analyzer='phrases')
 
 ```python
 is_kbs('aspdo asocjn', analyzer='phrases')
-[['audhsuh'], ['hhh'], ['hhu'], ['uhauuh']]
+[['aspdo'], ['asocjn']]
 ```
 
 <br>
