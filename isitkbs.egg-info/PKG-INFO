@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: isitkbs
-Version: 0.0.1
+Version: 1.0.0
 Summary: Detect keyboard smashing
 Author: Arthur de Melo, Arthur Grandão, Douglas Alves, Gabriel Campello, Paulo Victor, Rafael Ferreira, Sidney Fernando
 License: MIT License
@@ -45,6 +45,6 @@ Não é keyboard smashing.
 [Sidney Fernando](https://github.com/nando3d3)
 
 
-##  ©Licensa
+##  ©Licença
 
 This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) ©

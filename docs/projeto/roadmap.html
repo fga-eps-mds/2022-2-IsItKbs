@@ -32,61 +32,50 @@
    </head>
    <!-- body -->
    <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
-      </div>
-      <!-- end loader -->
-      <div class="painelLateral">
-         <div id="mySidepanel" class="sidepanel">
-             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
-             <a href="../index.html">Home</a>
-             <a href="#about" onclick="openNav2()">Projeto<span class="options_sidebar">&gt;</span></a>
-             <a href="#team" onclick="openNav3()">Equipe<span class="options_sidebar">&gt;</span></a>
-             <a href="../projeto/conduct_code.html">Código de conduta</a>
-          </div>
-          <div id="projetoSidepanel" class="sidepanel">
-             <div class="panelTitle">
-                <h3>Projeto</h3>
-             </div>
-             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
-             <a href="../projeto/usermap_story.html">Mapeamento da história de usuário</a>
-             <a href="../projeto/workflow.html">WorkFlow</a>
-             <a href="../projeto/roadmap.html">Roadmap</a>
-             <a href="../projeto/contribution_guide.html">Guia de Contribuição</a>
-          </div>
-          <div id="equipeSidepanel" class="sidepanel">
-            <div class="panelTitle">
-               <h3>Equipe</h3>
-            </div>
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
-            <a href="metodologia_comunicacao.html">Metodologia e Comunicação</a>
-         </div>
-       </div>
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                     <div class="sea_icon  ">
-                        <button class="openbtn" onclick="openNav()"><img src="../images/menu_icon.png" alt="#"/> </button>
-                     </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="../index.html"><img src="../images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+      <nav class="navbar navbar-expand-lg navbar-dark shadow p-3 mb-5 rounded" style="background-color: #00a8f0; position: fixed; width: 100%; z-index: 999;">
+         <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo.png" width="40" class="d-inline-block align-top" alt="">
+            isitKBS?
+          </a>
+       
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto">
+             <li class="nav-item">
+               <a class="nav-link" href="../index.html#instalacao">Instalação <span class="sr-only">(current)</span></a>
+             </li>
+             <!-- Projeto -->
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Projeto
+               </a>
+               <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="usermap_story.html">Mapeamento da História de Usuário</a>
+                 <a class="dropdown-item" href="workflow.html">WorkFlow</a>
+                 <a class="dropdown-item active" href="roadmap.html">Roadmap</a>
                </div>
-            </div>
+             </li>
+             <!-- Fim de projeto -->
+             <!-- Equipe -->
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Equipe
+               </a>
+               <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="metodologia_comunicacao.html">Metodologia e Comunicação</a>
+               </div>
+             </li>
+             <!-- Fim de equipe -->
+             <!-- Guia de Contribuição -->
+             <li class="nav-item">
+               <a class="nav-link" href="contribution_guide.html">Guia de Contribuição <span class="sr-only">(current)</span></a>
+             </li>
+             <!-- Código de conduta -->
+             <li class="nav-item">
+               <a class="nav-link" href="conduct_code.html">Código de Conduta <span class="sr-only">(current)</span></a>
+             </li>
+           </ul>
          </div>
-      </header>
+       </nav>
       <!-- about section -->
       <div id="about" class="about" style="padding-top: 150px;">
          

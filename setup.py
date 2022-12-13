@@ -4,7 +4,7 @@ with open("description.md", "r") as arq:
     long_description = arq.read()
 
 setup(name='isitkbs',
-    version='0.0.1',
+    version='1.0.0',
     license='MIT License',
     author='Arthur de Melo, Arthur Grandão, Douglas Alves, Gabriel Campello, Paulo Victor, Rafael Ferreira, Sidney Fernando',
     long_description=long_description,

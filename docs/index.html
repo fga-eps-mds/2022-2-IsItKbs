@@ -22,6 +22,7 @@
       <link rel="icon" href="icon/icon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -31,68 +32,51 @@
    </head>
    <!-- body -->
    <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
-      <!-- end loader -->
-      <div class="painelLateral">
-         <div id="mySidepanel" class="sidepanel">
-             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">×</a>
-             <a href="index.html">Home</a>
-             <a href="#about" onclick="openNav2()">Projeto<span class="options_sidebar">&gt;</span></a>
-             <a href="#team" onclick="openNav3()">Equipe<span class="options_sidebar">&gt;</span></a>
-             <a href="projeto/conduct_code.html">Código de conduta</a>
-          </div>
-          <div id="projetoSidepanel" class="sidepanel">
-             <div class="panelTitle">
-                <h3>Projeto</h3>
-             </div>
-             <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
-
-             <a href="projeto/usermap_story.html">Mapeamento da história de usuário</a>
-
-             <a href="projeto/usermap_story.html">User Story Map</a>
-
-             <a href="projeto/workflow.html">WorkFlow</a>
-             <a href="projeto/roadmap.html">Roadmap</a>
-             <a href="projeto/contribution_guide.html">Guia de Contribuição</a>
-          </div>
-          <div id="equipeSidepanel" class="sidepanel">
-            <div class="panelTitle">
-               <h3>Equipe</h3>
-            </div>
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this.parentNode)">&lt;</a>
-            <a href="projeto/metodologia_comunicacao.html">Metodologia e Comunicação</a>
-         </div>
-       </div>
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                     <div class="sea_icon">
-                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button>
-                     </div>
+         <nav class="navbar navbar-expand-lg navbar-dark shadow p-3 mb-5 rounded" style="background-color: #00a8f0; position: fixed; width: 100%; z-index: 999;">
+            <a class="navbar-brand" href="#">
+               <img src="images/logo.png" width="40" class="d-inline-block align-top" alt="">
+               isitKBS?
+             </a>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#instalacao">Instalação <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- Projeto -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projeto
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="projeto/usermap_story.html">Mapeamento da História de Usuário</a>
+                    <a class="dropdown-item" href="projeto/workflow.html">WorkFlow</a>
+                    <a class="dropdown-item" href="projeto/roadmap.html">Roadmap</a>
                   </div>
-                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
+                </li>
+                <!-- Fim de projeto -->
+                <!-- Equipe -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Equipe
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="projeto/metodologia_comunicacao.html">Metodologia e Comunicação</a>
                   </div>
-               </div>
+                </li>
+                <!-- Fim de equipe -->
+                <!-- Guia de Contribuição -->
+                <li class="nav-item">
+                  <a class="nav-link" href="projeto/contribution_guide.html">Guia de Contribuição <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- Código de conduta -->
+                <li class="nav-item">
+                  <a class="nav-link" href="projeto/conduct_code.html">Código de Conduta <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
             </div>
-         </div>
+          </nav>
       </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- banner -->
       <section class="banner_main">
          <div id="banner1" class="carousel slide" data-ride="carousel"></div>
          <div id="banner1" class="carousel slide" data-ride="carousel">
@@ -106,60 +90,16 @@
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="text-bg">
-                           <h1>is it</h1>
-                           <span>Keyboard Smashing?</span>
-                           <a class="read_more" href="https://github.com/fga-eps-mds/2022-2-Squad03">Repositório Git <i class="fa fa-github" aria-hidden="true"></i></a>
-                           <!-- <ul class="social_team">
-                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                           </ul> -->
+                           <div id="main-title" onload="makeid()">
+                           </div>
+                           <p class="init-text">Encontre e organize digitação aleatório no seu texto utilizando este software open source baseado em Machine Learning</p>
+                           <a class="read_more" href="https://github.com/fga-eps-mds/2022-2-Squad03" target="_blank">Repositório Git <i class="fa fa-github" aria-hidden="true"></i></a>
                         </div>
                      </div>
                   </div>
                </div>
-               <!-- <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1>software</h1>
-                           <span>Maker</span>
-                           <a class="read_more" href="#">About Us</a>
-                           <ul class="social_team">
-                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1>software</h1>
-                           <span>Maker</span>
-                           <a class="read_more" href="#">About Us</a>
-                           <ul class="social_team">
-                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div> -->
+               
             </div>
-            <!-- <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </a>
-            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </a> -->
          </div>
       </section>
       <!-- end banner -->
@@ -172,14 +112,15 @@
                      <div class="col-md-12">
                         <div class="titlepage">
                            <h2>Sobre o projeto</h2>
-                           <p> O <b>keyboard smashing</b> pode ser definido como a entrada ilógica e desordenada de dados, que acaba por comprometer a análise textual por sistemas de software. Dessa maneira, o objetivo do nosso projeto é desenvolver um pacote Python que possa detectar a ocorrência desse fenômeno, de forma automatizada, fazendo o uso de machine learning. Além disso, o pacote oferece features que permite o tratamento do keyboard smashing encontrado em textos, bancos de dados, entre outros.</p>
+                           <p> O <b>keyboard smashing</b> pode ser definido como a entrada ilógica e desordenada de dados, que acaba por comprometer a análise textual por sistemas de software. Dessa maneira, o objetivo do nosso projeto é desenvolver um pacote Python que possa detectar a ocorrência desse fenômeno, de forma automatizada, fazendo o uso de machine learning. Além disso, o pacote oferece features que permite o tratamento do keyboard smashing encontrado em textos, bancos de dados, entre outros. <br>
+                           Atualmente o projeto está na versão 1.0.0</p>
+                           <p style="background-color: #00a8f0; border-radius: 5px;">
+                              Leia sobre a versão na <b><a href="https://github.com/fga-eps-mds/2022-2-IsItKbs/releases/tag/v1.0.0">RELEASE NOTE v1.0.0</a></b>
+                           </p>
+                           <a class="read_more" href="https://github.com/nhn/tui.editor/blob/master/LICENSE" target="_blank">MIT License <img src="images/balance.png"  width=20px alt=""></a>
                         </div>
                      </div>
-                     <div class="col-md-12">
-                        <!-- <div class="about_img">
-                           <figure><img src="images/about_img.png" alt="#"/></figure>
-                        </div> -->
-                     </div>
+                     
                   </div>
                </div>
                <div class="col-md-7">
@@ -191,6 +132,51 @@
             </div>
          </div>
       </div>
+      <hr>
+      <!-- Instalação -->
+      <div id="instalacao" class="instaling">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Instalação</h2>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <p>O pacote pode ser encontrado no <a href="https://pypi.org/project/isitkbs/">Pypi</a>, repositório de software oficial de terceiros para Python.</p>
+               <p>Para instalar a última versão do <span>isitkbs</span>, instale a última versão 64bits do <a href="https://www.python.org">Python</a>. <br>
+               Então rode: <br>
+               <code>pip install isitkbs</code> <br>
+               Para checar sua instalação, você pode rodar: <br>
+               <code>python -m pip show isitkbs  # para ver qual versão está instalada</code> <br>
+               <br>
+               <span style="font-size: 25px;">Exemplos</span><br><br>
+               <span style="font-size: 17px">is_kbs(input_data, analyzer, model)</span><br>
+               <code> from isitkbs import * <br>
+                  is_kbs(input_data, analyzer, model)</code>
+               <u>
+                  <li>input_data: dados de entrada representados por uma string </li>
+                  <li>analyzer='word': análise de uma palavra (retorna positivo(1) ou negativo (0) se é keyboard smashing)</li>
+                  <li>analyzer='phrases': retorna quais palavras são keyboard smashing de uma frase de entrada</li>
+                  <li>model: modelo utilizado ('randomForest' por padrão)</li>
+               </u> <br>
+               <h4 style="margin-left: 20px;">Tente:</h4>
+               <code style="margin: 0px 0 10px 20px;">is_kbs('yyyyyy') <br>
+               <span>return 1</span></code>
+               <code style="margin: 0px 0 10px 20px;">is_kbs('Hello') <br>
+               <span>return 0</span></code>
+               <code style="margin: 0px 0 10px 20px;">is_kbs('Hello world', analyzer='phrases') <br>
+               <span>return 0</span></code>
+               <code style="margin: 0px 0 10px 20px;">is_kbs('aspdo asocjn', analyzer='phrases') <br>
+               <span>return [['aspdo'], ['asocjn']]</span></code>
+
+                  
+               </p>
+            </div>
+         </div>
+      </div>
+      <hr>
       <!-- about section -->
             <!-- Our  team section -->
             <div id="team" class="team">
@@ -293,258 +279,6 @@
                </div>
             </div>
             <!-- end Our  team section -->
-      <!-- software section -->
-      <!-- <div class="software">
-         <div class="container-fluid">
-            <div class="row d_flex">
-               <div class="col-md-6">
-                  <div class="titlepage">
-                     <h2>Software Maker</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-                     <a class="read_more" href="#">Click here</a>
-                  </div>
-               </div>
-               <div class="col-md-6 padding_right2">
-                  <div class="software_img">
-                     <figure><img src="images/software_img.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- software section -->
-      <!-- We Do section -->
-      <!-- <div id="we_Do" class="we_do">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>What We Do</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div id="hover_color" class="we_box">
-                     <span>1</span>
-                     <h3>Software Maker</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div id="hover_color" class="we_box">
-                     <span>1</span>
-                     <h3>Expense Management Maker</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div id="hover_color" class="we_box">
-                     <span>1</span>
-                     <h3>Group Revenue <br> Maker</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
-                  </div>
-               </div>
-               <div class="col-md-12">
-                  <a class="read_more" href="#">Read More</a>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- end We Do section -->
-      <!-- contact section -->
-      <!-- <div id="contact" class="contact">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Request  A  Call  Back</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="con_bg">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-md-6">
-                     <form id="request" class="main_form">
-                        <div class="row">
-                           <div class="col-md-12 ">
-                              <input class="contactus" placeholder="Name" type="type" name="Name"> 
-                           </div>
-                           <div class="col-md-12">
-                              <input class="contactus" placeholder="Email" type="type" name="Email"> 
-                           </div>
-                           <div class="col-md-12">
-                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
-                           </div>
-                           <div class="col-md-12">
-                              <input class="contactusmess" placeholder="Message" type="type" Message="Name">
-                           </div>
-                           <div class="col-md-12">
-                              <button class="send_btn">Send</button>
-                           </div>
-                           <div class="col-md-12">
-                              <ul class="location_form">
-                                 <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                    (+71) 1234567890 (+71) 1234567890
-                                 </li>
-                                 <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>demo@gmail.com</li>
-                              </ul>
-                           </div>
-                           <div class="col-md-12">
-                              <ul class="social_icon">
-                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-                  <div class="col-md-6 padding_right2">
-                     <div class="map_section">
-                        <div id="map">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- end contact section -->
-      <!-- testimonial section -->
-      <!-- <div id="testimonial" class="testimonial">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Testimonials</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container">
-                              <div class="carousel-caption ">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="testimonial_box">
-                                          <figure><img src="images/our.png" alt="#"/></figure>
-                                          <h3>Due markes <br><span class="blu">Rental</span></h3>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-                                          <i><img src="images/test.png" alt="#"/></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="testimonial_box">
-                                          <figure><img src="images/our.png" alt="#"/></figure>
-                                          <h3>Due markes <br><span class="blu">Rental</span></h3>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-                                          <i><img src="images/test.png" alt="#"/></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="full cross_layout">
-                                          <div class="testimonial_box">
-                                             <figure><img src="images/our.png" alt="#"/></figure>
-                                             <h3>Due markes <br><span class="blu">Rental</span></h3>
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-                                             <i><img src="images/test.png" alt="#"/></i>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                     <i class='fa fa-angle-left'></i>
-                     </a>
-                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                     <i class='fa fa-angle-right'></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- end testimonial section -->
-      <!--  footer -->
-      <footer>
-         <div class="footer">
-            <!-- <div class="container">
-               <div class="row">
-                  <div class="col-md-4">
-                     <h3>Useful links</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="fid_box">
-                        <h3>Find us  </h3>
-                        <ul class="location_icon">
-                           <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> It is a long established fact that a <br>reader will be distracted</li>
-                           <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br>
-                              (+71) 1234567890<br> (+71) 1234567890
-                           </li>
-                           <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> demo@gmail.com</li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="fid_box">
-                        <h3>News letter</h3>
-                        <form class="news_form">
-                           <input class="letter_form" placeholder=" Email" type="text" name="Email">
-                           <button class="sumbit">Subscribe</button>
-                        </form>
-                        <ul class="social_icon">
-                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div> -->
             <div class="copyright">
                <div class="container">
                   <div class="row">
@@ -566,29 +300,6 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <script src="js/sidepanel.js"></script>
-      <script>
-         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-         // Australia.
-   //       function initMap() {
-   //         var map = new google.maps.Map(document.getElementById('map'), {
-   //           zoom: 11,
-   //           center: {lat: 40.645037, lng: -73.880224},
-   //           });
-         
-   //       var image = 'images/maps-and-flags.png';
-   //       var beachMarker = new google.maps.Marker({
-   //           position: {lat: 40.645037, lng: -73.880224},
-   //           map: map,
-   //           icon: image
-   //         });
-   //       }
-   //    </script>
-       <!-- google map js -->
-       <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script> -->
-       <!-- end google map js --> 
-       <!-- <script>window.onresize = function(event) {
-         console.log("x: " + window.innerWidth+"      y: " + window.innerHeight);
-      }</script> -->
    </body>
 </html>
 
