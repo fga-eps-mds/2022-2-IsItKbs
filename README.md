@@ -4,33 +4,35 @@
     <img src="https://raw.githubusercontent.com/fga-eps-mds/2022-2-Squad03/main/docs/images/logo.png" width="250"></img>
 </div>
 
-> 2022-2-Squad 03 MDS - UnB
+<br>
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<div align="center">
+    <img src="https://img.shields.io/github/issues-raw/fga-eps-mds/2022-2-IsItKbs?color=00a8f0&style=for-the-badge"></img>
+    <img src="https://img.shields.io/github/issues-pr-raw/fga-eps-mds/2022-2-IsItKbs?color=00a8f0&label=open%20PRs&style=for-the-badge"></img>
+    <img src="https://img.shields.io/pypi/v/isitkbs?color=00a8f0&style=for-the-badge"></img>
+    <img src="https://img.shields.io/github/license/fga-eps-mds/2022-2-IsItKbs?color=00a8f0&style=for-the-badge"></img>
+</div>
 
 <br>
 
 <h4 align="center"> 
-	<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </h4>
 
 ## 📑 Sumário
 
 - [](#)
-  - [📑 Sumário](#sumário)
-  - [🔎 Visão Geral](#visão-geral)
-  - [📁 Diretórios](#diretórios)
+  - [📑 Sumário](#-sumário)
+  - [🔎 Visão Geral](#-visão-geral)
+  - [🛠 Tecnologias utilizadas](#-tecnologias-utilizadas)
   - [📝 Guia de instalação](#-guia-de-instalação)
-  - [⚙ Funcionalidades](#funcionalidades)
+  - [⚙ Funcionalidades](#-funcionalidades)
     - [is_kbs(input_data, analyzer, model)](#is_kbsinput_data-analyzer-model)
-  - [📋 Exemplos](#exemplos)
-  - [👨‍💻 Contribuidores](#contribuidores)
+  - [📋 Exemplos](#-exemplos)
+  - [👨‍🔧 Como contribuir?](https://fga-eps-mds.github.io/2022-2-IsItKbs/projeto/contribution_guide.html)
+  - [📚 Documentação](#-documentação)
+  - [📁 Diretórios](#-diretórios)
+  - [👨‍💻 Contribuidores](#-contribuidores)
   - [©Licença](#licença)
     <br>
 
@@ -52,18 +54,16 @@ Ex.:
 
 <br>
 
-## 📁 Diretórios
+## 🛠 Tecnologias utilizadas
 
-<p>/.github <- Templates para issues e pull requests.<p>
-<p>/estudos <- Projetos e scripts pequenos para treino da equipe.<p>
-<p>/data <- Bases de dados utilizadas no treinamento do algoritmo.<p>
-<p>/dist <- Distribuições do nosso pacote comprimidas.<p> 
-<p>/docs <- Documentações, principalmente da gitpage.<p> 
-<p>/isitkbs.egg-info <- Informações de empacotamento.<p> 
-<p>/isitkbs <- Definição das funções que serão utilizadas pelos usuários.<p> 
-<p>/models <- Modelos já treinados.<p>
-<p>/notebooks <- Jupyter notebooks usados para testes de funcionalidades.<p>
-<p>/src <- Scripts para tratamento de dados, feature engineering e treinamento de algoritmos.<p>
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NLTK](https://img.shields.io/badge/-NLTK-lightgrey?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 <br>
 
@@ -96,6 +96,8 @@ is_kbs(input_data, analyzer, model)
 
 Para novas versões, a ideia é desenvolver features que auxiliam no tratamento de keyboard smashing em textos, banco de dados, entre outros.
 
+<br>
+
 ## 📋 Exemplos
 
 ```python
@@ -117,6 +119,30 @@ is_kbs('Hello world', analyzer='phrases')
 is_kbs('aspdo asocjn', analyzer='phrases')
 [['aspdo'], ['asocjn']]
 ```
+<br>
+
+## 📚 Documentação
+
+[Código de conduta](https://fga-eps-mds.github.io/2022-2-IsItKbs/projeto/conduct_code.html)<br>
+[Metodologia de Comunicação](https://fga-eps-mds.github.io/2022-2-IsItKbs/projeto/metodologia_comunicacao.html)<br>
+[Mapa de histórias de usuário](https://fga-eps-mds.github.io/2022-2-IsItKbs/projeto/usermap_story.html)<br>
+[WorkFlow](https://fga-eps-mds.github.io/2022-2-IsItKbs/projeto/workflow.html)<br>
+[RoadMap](https://fga-eps-mds.github.io/2022-2-IsItKbs/projeto/roadmap.html)
+
+<br>
+
+## 📁 Diretórios
+
+<p>/.github <- Templates para issues e pull requests.<p>
+<p>/estudos <- Projetos e scripts pequenos para treino da equipe.<p>
+<p>/data <- Bases de dados utilizadas no treinamento do algoritmo.<p>
+<p>/dist <- Distribuições do nosso pacote comprimidas.<p> 
+<p>/docs <- Documentações, principalmente da gitpage.<p> 
+<p>/isitkbs.egg-info <- Informações de empacotamento.<p> 
+<p>/isitkbs <- Definição das funções que serão utilizadas pelos usuários.<p> 
+<p>/models <- Modelos já treinados.<p>
+<p>/notebooks <- Jupyter notebooks usados para testes de funcionalidades.<p>
+<p>/src <- Scripts para tratamento de dados, feature engineering e treinamento de algoritmos.<p>
 
 <br>
 
