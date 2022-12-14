@@ -32,13 +32,23 @@
    </head>
    <!-- body -->
    <body class="main-layout">
+         <!-- loader  -->
+         <div class="loader_bg">
+            <div class="loader"><img src="images/capoo-bug-cat.gif" style="border-radius: 200px;" alt="#" /></div>
+         </div>
+         <!-- end loader -->
          <nav class="navbar navbar-expand-lg navbar-dark shadow p-3 mb-5 rounded" style="background-color: #00a8f0; position: fixed; width: 100%; z-index: 999;">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+
             <a class="navbar-brand" href="#">
                <img src="images/logo.png" width="40" class="d-inline-block align-top" alt="">
                isitKBS?
              </a>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="#instalacao">Instalação <span class="sr-only">(current)</span></a>
@@ -114,7 +124,7 @@
                            <h2>Sobre o projeto</h2>
                            <p> O <b>keyboard smashing</b> pode ser definido como a entrada ilógica e desordenada de dados, que acaba por comprometer a análise textual por sistemas de software. Dessa maneira, o objetivo do nosso projeto é desenvolver um pacote Python que possa detectar a ocorrência desse fenômeno, de forma automatizada, fazendo o uso de machine learning. Além disso, o pacote oferece features que permite o tratamento do keyboard smashing encontrado em textos, bancos de dados, entre outros. <br>
                            Atualmente o projeto está na versão 1.0.0</p>
-                           <p style="background-color: #00a8f0; border-radius: 5px;">
+                           <p style="background-color: #00a8f0; border-radius: 5px;padding-top: 5px;padding-bottom: 5px;">
                               Leia sobre a versão na <b><a href="https://github.com/fga-eps-mds/2022-2-IsItKbs/releases/tag/v1.0.0">RELEASE NOTE v1.0.0</a></b>
                            </p>
                            <a class="read_more" href="https://github.com/nhn/tui.editor/blob/master/LICENSE" target="_blank">MIT License <img src="images/balance.png"  width=20px alt=""></a>

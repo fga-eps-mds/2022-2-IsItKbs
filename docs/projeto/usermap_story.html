@@ -33,15 +33,19 @@
    <!-- body -->
    <body class="main-layout">
       <nav class="navbar navbar-expand-lg navbar-dark shadow p-3 mb-5 rounded" style="background-color: #00a8f0; position: fixed; width: 100%; z-index: 999;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
          <a class="navbar-brand" href="../index.html">
             <img src="../images/logo.png" width="40" class="d-inline-block align-top" alt="">
             isitKBS?
           </a>
        
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo03" id="navbarSupportedContent" >
            <ul class="navbar-nav mr-auto">
              <li class="nav-item">
-               <a class="nav-link" href="../index.html/#instalacao">Instalação <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="../index.html#instalacao">Instalação <span class="sr-only">(current)</span></a>
              </li>
              <!-- Projeto -->
              <li class="nav-item dropdown">
@@ -93,11 +97,12 @@
                   <iframe width="512" height="729" src="https://miro.com/app/embed/uXjVPAq2MHY=/?pres=1&frameId=3458764540613878239&embedId=375139254843&autoplay=yep" frameborder="0" scrolling="no" allowfullscreen></iframe>
                 </div>
                 <div class="legenda">
-                  <span style="margin-right: 20px;color: #03cafc">Objetivo final</span>
-                  <span style="margin-right: 20px;color: #fcc10e">Épicos</span>
-                  <span style="margin-right: 20px;color: black">Features</span>
+                  <span style="margin-right: 20px;color: #03cafc">Épico</span>
+                  <span style="margin-right: 20px;color: #fcc10e">Feature</span>
+                  <span style="margin-right: 20px;color: black">História de Usuário</span>
                 </div>
                 <div>
+                  <h3>Release 1</h3>
                     <u>
                         <li id="list_1">
                             <span style="font-weight: bold;">Pacote Python para identificar Keyboard Smashing</span> - É o objetivo central do projeto e que necessita de várias etapas para ser concluído. 
@@ -106,7 +111,7 @@
                             <span style="font-weight: bold;">Identificar keyboard smashing na língua inglesa</span>  - Inicialmente o escopo será limitado à língua inglesa.
                         </li>
                         <li class="list_3">
-                           <span style="font-weight: bold;">Identificar Keyboard Smashing utilizando árvore de decisão</span> - Um algoritmo de árvore de decisão para a identificação de keyboard smashing, a priori esse seria um único modelo disponível para utilização no MVP.
+                           <span style="font-weight: bold;">Identificar Keyboard Smashing utilizando Random Forest</span> - Um algoritmo random forest para a identificação de keyboard smashing, a priori esse seria um único modelo disponível para utilização no MVP.
                        </li>
                        <li class="list_3">
                         <span style="font-weight: bold;">Verificar a acurácia de cada método de identificação</span>  - O intuito é que o pacote tenha mais de um algoritmo treinado para a identificação de keyboard smashing e como diferentes algoritmos se saem de maneira distinta a depender da situação em específico, é interessante que o usuário saiba de maneira geral qual a acurácia de determinado algoritmo antes de testá-lo em seu cenário.
@@ -123,10 +128,9 @@
                         <li class="list_3">
                             <span style="font-weight: bold;">Identificar keyboard smashing em frases</span> - Uma função que seja capaz de detectar a presença de keyboard smashing em frases/textos e retornar a resposta ao usuário.
                         </li>
-                        <li class="list_2">
-                            <span style="font-weight: bold;">Identificar keyboard smashing na língua portuguesa</span> - A posteriori o objetivo é estender todas as funcionalidades de identificação de keyboard smashing anteriores à língua portuguesa.
-                        </li>
                     </u>
+                    <h3>Release 2</h3>
+                    <p>Em desenvolvimento...</p>
                 </div>
                </div>
                
