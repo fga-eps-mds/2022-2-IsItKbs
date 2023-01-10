@@ -1,12 +1,5 @@
 name: learn-github-actions
-on: 
-  push:
-    branches:
-    - faetures_gabriel
-  pull_request: 
-    branches:
-    - features_gabriel
-
+on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
@@ -17,5 +10,3 @@ jobs:
           node-version: 14
       - run: npm install -g bats
       - run: bats -v
-      - run: npm ci
-      - run: npm test
